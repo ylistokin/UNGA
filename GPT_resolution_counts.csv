@@ -1,0 +1,647 @@
+country,year,count
+Afghanistan,1985.0,1
+Afghanistan,1986.0,1
+Afghanistan,1987.0,1
+Afghanistan,1988.0,1
+Afghanistan,1989.0,1
+Afghanistan,1990.0,1
+Afghanistan,1991.0,1
+Afghanistan,1992.0,1
+Afghanistan,1993.0,3
+Afghanistan,1994.0,1
+Afghanistan,1995.0,3
+Afghanistan,1996.0,3
+Afghanistan,1997.0,3
+Afghanistan,1998.0,3
+Afghanistan,1999.0,3
+Afghanistan,2000.0,3
+Afghanistan,2001.0,5
+Afghanistan,2002.0,1
+Afghanistan,2003.0,1
+Afghanistan,2004.0,1
+Afghanistan,2005.0,1
+Afghanistan,2006.0,2
+Afghanistan,2022.0,1
+Angola,1993.0,1
+Angola,1997.0,1
+Angola,2021.0,1
+Angola,2023.0,1
+Argentina,1982.0,1
+Argentina,1984.0,1
+Argentina,1986.0,1
+Armenia,2008.0,1
+Bangladesh,1985.0,1
+Belarus,1995.0,1
+Belarus,1997.0,1
+Belarus,1999.0,1
+Belarus,2001.0,1
+Belarus,2006.0,1
+Belarus,2007.0,1
+Bosnia and Herzegovina,1996.0,1
+Burundi,1993.0,1
+Burundi,1994.0,1
+Burundi,1995.0,2
+Cambodia,1983.0,1
+Cambodia,1988.0,1
+Cambodia,1993.0,1
+Cambodia,1994.0,1
+Cambodia,1995.0,1
+Cambodia,1996.0,1
+Cambodia,1997.0,1
+Cambodia,1998.0,1
+Cambodia,1999.0,1
+Cambodia,2000.0,1
+Cambodia,2001.0,1
+Cambodia,2002.0,1
+Cambodia,2003.0,1
+Central African Republic,1981.0,1
+Central African Republic,2012.0,1
+Central African Republic,2013.0,1
+Central African Republic,2020.0,1
+Central African Republic,2023.0,1
+Chile,1981.0,2
+Chile,1982.0,1
+Chile,1983.0,1
+Chile,1984.0,1
+Chile,1985.0,1
+Chile,1986.0,1
+Chile,1987.0,1
+Chile,1988.0,1
+Chile,1989.0,1
+Colombia,1989.0,1
+Comoros,1996.0,2
+Comoros,2012.0,1
+Comoros,2013.0,1
+Comoros,2014.0,1
+Comoros,2018.0,1
+Comoros,2019.0,1
+Comoros,2020.0,1
+Comoros,2021.0,1
+Comoros,2022.0,1
+Comoros,2023.0,1
+Cote d'Ivoire,2005.0,1
+Cote d'Ivoire,2007.0,1
+Cote d'Ivoire,2009.0,1
+Croatia,1994.0,1
+Cuba,1992.0,2
+Cuba,1993.0,1
+Cuba,1994.0,1
+Cuba,1995.0,1
+Cuba,1996.0,1
+Cuba,1997.0,1
+Democratic People's Republic of Korea,1993.0,1
+Democratic People's Republic of Korea,1994.0,1
+Democratic People's Republic of Korea,1995.0,1
+Democratic People's Republic of Korea,1996.0,1
+Democratic People's Republic of Korea,1997.0,1
+Democratic People's Republic of Korea,1998.0,1
+Democratic People's Republic of Korea,1999.0,1
+Democratic People's Republic of Korea,2001.0,1
+Democratic People's Republic of Korea,2002.0,1
+Democratic People's Republic of Korea,2003.0,1
+Democratic People's Republic of Korea,2005.0,1
+Democratic People's Republic of Korea,2006.0,4
+Democratic People's Republic of Korea,2007.0,3
+Democratic People's Republic of Korea,2008.0,2
+Democratic People's Republic of Korea,2009.0,3
+Democratic People's Republic of Korea,2010.0,3
+Democratic People's Republic of Korea,2011.0,3
+Democratic People's Republic of Korea,2012.0,3
+Democratic People's Republic of Korea,2013.0,4
+Democratic People's Republic of Korea,2014.0,4
+Democratic People's Republic of Korea,2015.0,4
+Democratic People's Republic of Korea,2016.0,4
+Democratic People's Republic of Korea,2017.0,4
+Democratic People's Republic of Korea,2018.0,4
+Democratic People's Republic of Korea,2019.0,4
+Democratic People's Republic of Korea,2020.0,3
+Democratic People's Republic of Korea,2021.0,4
+Democratic People's Republic of Korea,2022.0,3
+Democratic People's Republic of Korea,2023.0,4
+Democratic Republic of the Congo,1997.0,1
+Democratic Republic of the Congo,1998.0,2
+Democratic Republic of the Congo,1999.0,2
+Democratic Republic of the Congo,2000.0,2
+Democratic Republic of the Congo,2001.0,2
+Democratic Republic of the Congo,2002.0,1
+Democratic Republic of the Congo,2003.0,2
+Democratic Republic of the Congo,2004.0,1
+Democratic Republic of the Congo,2005.0,1
+Democratic Republic of the Congo,2006.0,1
+Ecuador,2007.0,1
+El Salvador,1981.0,1
+El Salvador,1982.0,1
+El Salvador,1983.0,1
+El Salvador,1984.0,1
+El Salvador,1985.0,1
+El Salvador,1986.0,1
+El Salvador,1987.0,1
+El Salvador,1988.0,1
+El Salvador,1989.0,1
+El Salvador,1990.0,1
+El Salvador,1992.0,1
+El Salvador,1993.0,1
+Equatorial Guinea,1981.0,1
+Estonia and Latvia,1993.0,1
+Ethiopia,1981.0,1
+Ethiopia,1982.0,1
+Ethiopia,1983.0,1
+Ethiopia,1984.0,1
+Ethiopia,1985.0,2
+Ethiopia,1986.0,1
+Ethiopia,1987.0,1
+Ethiopia,1990.0,1
+Ethiopia,2002.0,1
+Ethiopia,2003.0,1
+Ethiopia,2004.0,1
+Ethiopia,2005.0,1
+France,1981.0,2
+France,1982.0,2
+France,1983.0,2
+France,1984.0,2
+France,1985.0,2
+France,1986.0,3
+France,1987.0,3
+France,1988.0,2
+France,1989.0,2
+France,1990.0,2
+France,1991.0,1
+France,1992.0,2
+France,1993.0,2
+France,1994.0,1
+France,2006.0,1
+France,2008.0,1
+France,2010.0,1
+France,2012.0,1
+France,2013.0,3
+France,2014.0,2
+France,2015.0,2
+France,2016.0,2
+France,2017.0,2
+France,2018.0,2
+France,2019.0,2
+France,2020.0,2
+France,2021.0,2
+France,2022.0,2
+France,2023.0,2
+Georgia,1996.0,1
+Georgia,1999.0,1
+Georgia,2008.0,1
+Georgia,2009.0,1
+Georgia,2010.0,1
+Georgia,2011.0,1
+Georgia,2012.0,1
+Georgia,2013.0,1
+Georgia,2014.0,1
+Georgia,2015.0,1
+Georgia,2016.0,1
+Georgia,2017.0,1
+Georgia,2018.0,1
+Georgia,2019.0,1
+Georgia,2020.0,1
+Georgia,2021.0,1
+Georgia,2022.0,1
+Georgia,2023.0,1
+Guatemala,1982.0,1
+Guatemala,1983.0,1
+Guatemala,1984.0,1
+Guatemala,1985.0,1
+Guatemala,1986.0,1
+Guatemala,1993.0,1
+Guatemala,1995.0,1
+Guatemala,1996.0,1
+Guatemala,2001.0,1
+Guatemala,2002.0,2
+Guatemala,2003.0,2
+Guatemala,2009.0,1
+Guatemala,2010.0,1
+Guatemala,2013.0,1
+Guinea-Bissau,2012.0,1
+Guinea-Bissau,2013.0,1
+Guinea-Bissau,2014.0,1
+Guinea-Bissau,2017.0,1
+Guinea-Bissau,2019.0,1
+Haiti,1984.0,1
+Haiti,1990.0,1
+Haiti,1991.0,2
+Haiti,1992.0,3
+Haiti,1993.0,4
+Haiti,1994.0,3
+Haiti,1995.0,4
+Haiti,1996.0,1
+Haiti,1997.0,3
+Haiti,1998.0,2
+Haiti,1999.0,2
+Haiti,2000.0,1
+Haiti,2010.0,3
+Haiti,2016.0,1
+Haiti,2017.0,1
+Haiti,2021.0,2
+Haiti,2023.0,1
+Honduras,2009.0,1
+India,2003.0,1
+India,2005.0,1
+Indonesia,1981.0,1
+Indonesia,1982.0,1
+Indonesia,1999.0,2
+Indonesia,2000.0,1
+Indonesia,2001.0,1
+Iran,1985.0,1
+Iran,1986.0,1
+Iran,1987.0,1
+Iran,1988.0,1
+Iran,1989.0,1
+Iran,1990.0,1
+Iran,1992.0,1
+Iran,1993.0,1
+Iran,1994.0,1
+Iran,1995.0,1
+Iran,1996.0,1
+Iran,1997.0,1
+Iran,1998.0,1
+Iran,1999.0,1
+Iran,2000.0,1
+Iran,2001.0,1
+Iran,2003.0,1
+Iran,2004.0,1
+Iran,2005.0,1
+Iran,2006.0,1
+Iran,2007.0,1
+Iran,2008.0,1
+Iran,2009.0,1
+Iran,2010.0,1
+Iran,2011.0,2
+Iran,2012.0,1
+Iran,2013.0,1
+Iran,2014.0,1
+Iran,2015.0,1
+Iran,2016.0,1
+Iran,2017.0,1
+Iran,2018.0,1
+Iran,2019.0,1
+Iran,2020.0,1
+Iran,2021.0,1
+Iran,2022.0,1
+Iran,2023.0,1
+Iraq,1989.0,1
+Iraq,1990.0,1
+Iraq,1991.0,4
+Iraq,1992.0,3
+Iraq,1993.0,1
+Iraq,1994.0,1
+Iraq,1995.0,2
+Iraq,1996.0,2
+Iraq,1997.0,2
+Iraq,1998.0,2
+Iraq,1999.0,2
+Iraq,2000.0,1
+Iraq,2001.0,1
+Iraq,2002.0,1
+Iraq,2015.0,1
+Israel,1981.0,25
+Israel,1982.0,27
+Israel,1983.0,27
+Israel,1984.0,24
+Israel,1985.0,24
+Israel,1986.0,21
+Israel,1987.0,22
+Israel,1988.0,22
+Israel,1989.0,22
+Israel,1990.0,22
+Israel,1991.0,23
+Israel,1992.0,22
+Israel,1993.0,17
+Israel,1994.0,13
+Israel,1995.0,13
+Israel,1996.0,15
+Israel,1997.0,20
+Israel,1998.0,16
+Israel,1999.0,16
+Israel,2000.0,18
+Israel,2001.0,18
+Israel,2002.0,20
+Israel,2003.0,21
+Israel,2004.0,20
+Israel,2005.0,20
+Israel,2006.0,22
+Israel,2007.0,20
+Israel,2008.0,18
+Israel,2009.0,19
+Israel,2010.0,19
+Israel,2011.0,19
+Israel,2012.0,19
+Israel,2013.0,18
+Israel,2014.0,19
+Israel,2015.0,19
+Israel,2016.0,19
+Israel,2017.0,20
+Israel,2018.0,21
+Israel,2019.0,17
+Israel,2020.0,15
+Israel,2021.0,14
+Israel,2022.0,16
+Israel,2023.0,14
+Liberia,1982.0,1
+Liberia,1984.0,1
+Liberia,1990.0,2
+Liberia,1991.0,1
+Liberia,1992.0,1
+Liberia,1993.0,1
+Liberia,1994.0,1
+Liberia,1995.0,1
+Liberia,1996.0,2
+Liberia,2000.0,1
+Liberia,2002.0,1
+Liberia,2004.0,1
+Libyan Arab Jamahiriya,2011.0,1
+Mali,1995.0,1
+Mali,1996.0,1
+Mali,1997.0,1
+Morocco,1981.0,1
+Morocco,1982.0,1
+Morocco,1983.0,1
+Morocco,1984.0,1
+Morocco,1985.0,1
+Morocco,1986.0,1
+Morocco,1987.0,1
+Morocco,1988.0,1
+Morocco,1989.0,1
+Morocco,1990.0,1
+Morocco,1991.0,1
+Morocco,1992.0,1
+Morocco,1993.0,1
+Morocco,1994.0,1
+Morocco,1995.0,1
+Morocco,1996.0,1
+Morocco,1997.0,1
+Morocco,1998.0,1
+Morocco,1999.0,1
+Morocco,2000.0,1
+Morocco,2001.0,1
+Morocco,2002.0,1
+Mozambique,1993.0,1
+Myanmar,1991.0,1
+Myanmar,1992.0,1
+Myanmar,1993.0,1
+Myanmar,1994.0,1
+Myanmar,1995.0,1
+Myanmar,1996.0,1
+Myanmar,1997.0,1
+Myanmar,1998.0,1
+Myanmar,1999.0,1
+Myanmar,2000.0,1
+Myanmar,2001.0,1
+Myanmar,2002.0,1
+Myanmar,2003.0,1
+Myanmar,2004.0,1
+Myanmar,2005.0,1
+Myanmar,2006.0,1
+Myanmar,2007.0,1
+Myanmar,2008.0,1
+Myanmar,2009.0,1
+Myanmar,2010.0,1
+Myanmar,2011.0,1
+Myanmar,2012.0,1
+Myanmar,2013.0,1
+Myanmar,2014.0,1
+Myanmar,2015.0,1
+Myanmar,2017.0,1
+Myanmar,2018.0,1
+Myanmar,2019.0,1
+Myanmar,2020.0,1
+Myanmar,2021.0,2
+Myanmar,2022.0,1
+Myanmar,2023.0,1
+New Zealand,1987.0,1
+New Zealand,1988.0,1
+New Zealand,1989.0,1
+New Zealand,1990.0,1
+Nicaragua,1983.0,1
+Nicaragua,1985.0,2
+Nicaragua,1988.0,1
+Nicaragua,1989.0,2
+Nicaragua,1992.0,1
+Nicaragua,1993.0,1
+Nicaragua,1994.0,1
+Nicaragua,1995.0,1
+Nigeria,1995.0,1
+Nigeria,1996.0,1
+Nigeria,1997.0,1
+Pakistan,2003.0,1
+Pakistan,2005.0,1
+Pakistan,2022.0,1
+Palestine,1993.0,1
+Palestine,1994.0,1
+Palestine,2002.0,1
+Palestine,2003.0,1
+Philippines,2006.0,1
+Russia,1993.0,1
+Russia,1995.0,1
+Russia,1997.0,1
+Russia,1999.0,1
+Russia,2001.0,1
+Russia,2014.0,1
+Russia,2016.0,1
+Russia,2017.0,1
+Russia,2018.0,3
+Russia,2019.0,2
+Russia,2020.0,2
+Russia,2021.0,2
+Russia,2022.0,7
+Russia,2023.0,2
+Rwanda,1994.0,2
+Rwanda,1995.0,2
+Rwanda,1996.0,2
+Rwanda,1997.0,1
+Rwanda,1998.0,1
+Rwanda,2004.0,1
+Sao Tome and Principe,2012.0,1
+Sao Tome and Principe,2013.0,1
+Sao Tome and Principe,2014.0,1
+Sao Tome and Principe,2018.0,1
+Sao Tome and Principe,2019.0,1
+Sao Tome and Principe,2020.0,1
+Sao Tome and Principe,2021.0,1
+Sao Tome and Principe,2022.0,1
+Sao Tome and Principe,2023.0,1
+Serbia,1991.0,1
+Serbia,1992.0,4
+Serbia,1993.0,5
+Serbia,1994.0,6
+Serbia,1995.0,4
+Serbia,1996.0,3
+Serbia,1997.0,3
+Serbia,1998.0,2
+Serbia,1999.0,2
+Serbia,2000.0,1
+Serbia,2008.0,1
+Sierra Leone,1985.0,1
+Sierra Leone,1997.0,1
+Somalia,1984.0,1
+Somalia,1989.0,1
+Somalia,1990.0,1
+Somalia,1991.0,1
+Somalia,1992.0,3
+Somalia,1993.0,3
+Somalia,1994.0,2
+Somalia,1995.0,1
+Somalia,1996.0,1
+Somalia,1998.0,1
+Somalia,1999.0,1
+Somalia,2000.0,1
+Somalia,2002.0,1
+Somalia,2003.0,1
+Somalia,2004.0,1
+Somalia,2005.0,1
+Somalia,2011.0,1
+Somalia,2012.0,1
+Somalia,2013.0,1
+Somalia,2014.0,1
+Somalia,2018.0,1
+Somalia,2019.0,1
+Somalia,2020.0,1
+Somalia,2021.0,1
+Somalia,2022.0,1
+Somalia,2023.0,1
+South Africa,1981.0,31
+South Africa,1982.0,29
+South Africa,1983.0,26
+South Africa,1984.0,23
+South Africa,1985.0,25
+South Africa,1986.0,25
+South Africa,1987.0,29
+South Africa,1988.0,33
+South Africa,1989.0,32
+South Africa,1990.0,26
+South Africa,1991.0,18
+South Africa,1992.0,16
+South Africa,1993.0,7
+South Africa,1994.0,1
+Sudan,1981.0,1
+Sudan,1982.0,1
+Sudan,1984.0,1
+Sudan,1985.0,1
+Sudan,1986.0,1
+Sudan,1987.0,1
+Sudan,1988.0,2
+Sudan,1989.0,2
+Sudan,1990.0,2
+Sudan,1991.0,1
+Sudan,1992.0,2
+Sudan,1993.0,2
+Sudan,1994.0,2
+Sudan,1995.0,2
+Sudan,1996.0,2
+Sudan,1997.0,2
+Sudan,1998.0,1
+Sudan,1999.0,2
+Sudan,2000.0,1
+Sudan,2001.0,2
+Sudan,2002.0,1
+Sudan,2021.0,2
+Syria,2011.0,1
+Syria,2012.0,3
+Syria,2013.0,3
+Syria,2014.0,3
+Syria,2015.0,2
+Syria,2016.0,4
+Syria,2017.0,2
+Syria,2018.0,3
+Syria,2019.0,2
+Syria,2020.0,2
+Syria,2021.0,3
+Syria,2022.0,2
+Syria,2023.0,4
+Tajikistan,1996.0,1
+Turkey,1982.0,1
+Turkmenistan,2003.0,1
+Turkmenistan,2004.0,1
+Turkmenistan,2005.0,1
+Uganda,1981.0,1
+Uganda,1982.0,1
+Uganda,1983.0,1
+Ukraine,1995.0,1
+Ukraine,1997.0,1
+Ukraine,1999.0,1
+Ukraine,2000.0,1
+Ukraine,2001.0,1
+United Kingdom,1981.0,1
+United Kingdom,1982.0,2
+United Kingdom,1983.0,1
+United Kingdom,1984.0,4
+United Kingdom,1985.0,6
+United Kingdom,1986.0,6
+United Kingdom,1987.0,6
+United Kingdom,1988.0,6
+United Kingdom,1989.0,6
+United Kingdom,1990.0,6
+United Kingdom,1994.0,1
+United Kingdom,2004.0,2
+United Kingdom,2005.0,1
+United Kingdom,2006.0,2
+United Kingdom,2007.0,1
+United Kingdom,2008.0,2
+United Kingdom,2009.0,2
+United Kingdom,2010.0,1
+United Kingdom,2011.0,1
+United Kingdom,2012.0,1
+United Kingdom,2013.0,1
+United Kingdom,2014.0,1
+United Kingdom,2015.0,1
+United Kingdom,2016.0,1
+United Kingdom,2017.0,9
+United Kingdom,2018.0,8
+United Kingdom,2019.0,9
+United Kingdom,2020.0,8
+United Kingdom,2021.0,8
+United Kingdom,2022.0,8
+United Kingdom,2023.0,8
+United States,1981.0,5
+United States,1982.0,3
+United States,1983.0,4
+United States,1984.0,4
+United States,1985.0,3
+United States,1986.0,7
+United States,1987.0,11
+United States,1988.0,7
+United States,1989.0,5
+United States,1990.0,3
+United States,1991.0,1
+United States,1992.0,2
+United States,1993.0,3
+United States,1994.0,3
+United States,1995.0,2
+United States,1996.0,2
+United States,1997.0,2
+United States,1998.0,2
+United States,1999.0,2
+United States,2000.0,4
+United States,2001.0,3
+United States,2002.0,2
+United States,2003.0,2
+United States,2004.0,2
+United States,2005.0,2
+United States,2006.0,2
+United States,2007.0,3
+United States,2008.0,4
+United States,2009.0,4
+United States,2010.0,3
+United States,2011.0,3
+United States,2012.0,3
+United States,2013.0,3
+United States,2014.0,4
+United States,2015.0,14
+United States,2016.0,5
+United States,2017.0,5
+United States,2018.0,6
+United States,2019.0,5
+United States,2020.0,4
+United States,2021.0,5
+United States,2022.0,5
+United States,2023.0,5
+Uzbekistan,2005.0,1
+Zaire,1981.0,1
+Zaire,1982.0,1
+Zaire,1983.0,1
+Zaire,1985.0,1
+Zimbabwe,1981.0,1
