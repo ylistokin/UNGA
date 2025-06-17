@@ -152,6 +152,7 @@ save counts_and_rights_and_demo, replace
 ************************* Load the Uppsala data (there are two datasets, one for conflicts, the other for battle deaths ****************************** 
 import excel "C:\Users\yjl6\Dropbox (YLS)\Anti Semitism\Israel and the UN\Data\Dyadic_v24_1.xlsx", firstrow clear
 sort conflict_id dyad_id year
+destring intensity_level, replace
 save temp, replace
 
 
@@ -167,6 +168,8 @@ destring year, replace
 
 *Getting rid of old observations
 drop if year<1981
+
+
 
 *Getting the name of each country in the conflict of the basis of the sides variables. 
 gen comma_present_a = strpos(side_a, ",") > 0
@@ -270,7 +273,6 @@ sort country year
 
 
 
-
 merge 1:1 country year using counts_and_rights_and_demo
 
 drop if _merge==1
@@ -285,7 +287,8 @@ replace resurgence=0 if _merge==2
 replace interstate=0 if _merge==2
 replace intrastate=0 if _merge==2
 replace total_conflicts=0 if _merge==2 
-replace battle_fat=0 if battle_fat==.
+replace battle_fat=0 if battle_fat==.&year>=1989
+replace battle_fat=. if year<1989
 
 
 
@@ -333,6 +336,11 @@ replace TerritoryOccupied=1 if country=="Ethiopia"&year>2002 /*See https://www.r
 
 *Fixing up nuclear power outside NPT variable for South Africa, https://www.nti.org/countries/south-africa/
 replace NuclearPowerOutsideNPT=1 if country=="South Africa"&year<1991 
+
+
+*Fixing up nuclear power outside NPT variable for India
+replace NuclearPowerOutsideNPT=0 if country=="India"&year<1998 
+replace NuclearPowerOutsideNPT=1 if country=="India"&year>=1998 
 
 
 sort country year
@@ -530,6 +538,16 @@ gen missing_civpol=0
 replace missing_civpol=1 if civpol_sum==.
 
 
+*Imputing with appropriate regression model on UPCD war intensity for battle fatalities, which are missing before 1989 even though intensity is available 
+regress battle_fat max_intensity total_intensity
+predict fatal_predicted, xb
+
+replace battle_fat=0 if max_intensity==0&total_intensity==0&year<=1989
+replace battle_fat = fatal_predicted if missing(battle_fat)
+
+
+
+
 
 *Imputing with appropriate regression model based on components for other years, using model that has no missing components
 regress human_rights_score physint_sum repression_sum civpol_sum if missing_phys==0&missing_repress==0&missing_civpol==0
@@ -572,6 +590,12 @@ sum human_rights_score, detail
 
 gen log_hum_rights=log(human_rights_score)
 
+
+
+*Creating a variable for each country's share of the total number of critical resolutions in a given year
+
+bysort year: egen total_count = total(count)
+gen share = count / total_count
 save final_data, replace
 
 
