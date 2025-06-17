@@ -18,5 +18,5 @@ The primary input databases for the paper are:
 Figure 1 from the paper is produced by F1_score.ipynb.  
 
 The stata do file 01_make_variables_8123.do combines databases #3 through #9, refines variables, with the output saved as Stata file final_data.dta. The unit of observations in this dataset is CountryxYear
-Summary statistics (Table 1) is produced by 02_sumstat.do. Regression coefficients (Table 2) is produced by 02_regression.do. The Oaxaca decomposition (Table 3) is 
+Summary statistics (Table 1) is produced by 02_sumstat.do. Regression coefficients (Table 2) is produced by 02_regression.do. The Oaxaca decomposition (Table 3) is created by the Python file bootstrap_UN_totaldiff.ipynb, which calculates point estimates and standard errors.  
 
