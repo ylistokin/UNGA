@@ -1,0 +1,16 @@
+Card 20: hurdle model and bootstrap schemes. Run 2026-10-28 13:15
+
+=== Hurdle model, bootstrap (500 rounds, countries) ===
+                             quantity   point  boot_se  ratio  pct2_5  pct97_5  rounds_ok  rounds_failed  rounds_logit_not_converged
+                            explained -0.0367   0.1174  -0.31 -0.4050   0.0027        499              1                           1
+stage 1: probability of any criticism -0.1661   0.2959  -0.56 -0.9340   0.0692        499              1                           1
+         stage 2: share if criticised -0.1302   0.1352  -0.96 -0.3663   0.0313        499              1                           1
+
+=== What is resampled: countries, years, or both (corrected data, variant A) ===
+     row resample  explained  overall  boot_se  ratio  pct2_5  pct97_5  rounds_ok  rounds_failed
+Row 2 FE     both    -0.1018  -0.4058   0.1010  -1.01 -0.3651   0.0073        425             75
+Row 2 FE  country    -0.1018  -0.4058   0.1018  -1.00 -0.3633   0.0079        425             75
+Row 2 FE     year    -0.1018  -0.4058   0.0134  -7.59 -0.1231  -0.0711        500              0
+Row 1 RE     both    -0.0999  -0.4058   0.1021  -0.98 -0.3623   0.0050        475             25
+Row 1 RE  country    -0.0999  -0.4058   0.1027  -0.97 -0.3604   0.0039        475             25
+Row 1 RE     year    -0.0999  -0.4058   0.0140  -7.15 -0.1221  -0.0657        500              0

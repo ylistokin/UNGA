@@ -1,0 +1,53 @@
+country,group,status,size,from,to
+Israel,Ashkenazim (Jewish),SENIOR PARTNER,0.29,1981,1992
+Israel,Israeli Arabs,POWERLESS,0.11,1981,1992
+Israel,Mizrahim (Jewish),JUNIOR PARTNER,0.31,1981,1992
+Israel,Palestinian Arabs,DISCRIMINATED,0.29,1981,1992
+Israel,Ashkenazim (Jewish),SENIOR PARTNER,0.23,1993,2023
+Israel,Israeli Arabs,POWERLESS,0.12,1993,2018
+Israel,Mizrahim (Jewish),SENIOR PARTNER,0.23,1993,2021
+Israel,Palestinian Arabs,DISCRIMINATED,0.31,1993,2023
+Israel,Russians (Jewish),JUNIOR PARTNER,0.1,1997,2009
+Israel,Russians (Jewish),SENIOR PARTNER,0.1,2010,2021
+Israel,Israeli Arabs,DISCRIMINATED,0.12,2019,2021
+Israel,Israeli Arabs,POWERLESS,0.12,2022,2022
+Israel,Mizrahim (Jewish),JUNIOR PARTNER,0.23,2022,2022
+Israel,Russians (Jewish),JUNIOR PARTNER,0.1,2022,2023
+Israel,Israeli Arabs,DISCRIMINATED,0.12,2023,2023
+Israel,Mizrahim (Jewish),SENIOR PARTNER,0.23,2023,2023
+South Africa,Afrikaners,DOMINANT,0.08,1981,1994
+South Africa,Asians,DISCRIMINATED,0.02,1981,1989
+South Africa,Blacks,DISCRIMINATED,0.77,1981,1989
+South Africa,Coloreds,DISCRIMINATED,0.08,1981,1989
+South Africa,English Speakers,POWERLESS,0.045,1981,1994
+South Africa,Asians,POWERLESS,0.02,1990,1994
+South Africa,Blacks,POWERLESS,0.77,1990,1994
+South Africa,Coloreds,POWERLESS,0.08,1990,1994
+South Africa,Afrikaners,JUNIOR PARTNER,0.08,1995,2019
+South Africa,Asians,JUNIOR PARTNER,0.02,1995,2019
+South Africa,Coloreds,JUNIOR PARTNER,0.08,1995,2019
+South Africa,English Speakers,JUNIOR PARTNER,0.045,1995,2019
+South Africa,Ndebele,JUNIOR PARTNER,0.015,1995,2019
+South Africa,Pedi (North Sotho),JUNIOR PARTNER,0.09,1995,2019
+South Africa,San,POWERLESS,0.0002,1995,2023
+South Africa,South Sotho,JUNIOR PARTNER,0.08,1995,2019
+South Africa,Swazi,JUNIOR PARTNER,0.025,1995,2019
+South Africa,Tsonga,JUNIOR PARTNER,0.04,1995,2019
+South Africa,Tswana,JUNIOR PARTNER,0.08,1995,2019
+South Africa,Venda,JUNIOR PARTNER,0.02,1995,2019
+South Africa,Xhosa,SENIOR PARTNER,0.18,1995,2008
+South Africa,Zulu,JUNIOR PARTNER,0.23,1995,2008
+South Africa,Xhosa,JUNIOR PARTNER,0.18,2009,2019
+South Africa,Zulu,SENIOR PARTNER,0.23,2009,2023
+South Africa,Afrikaners,SENIOR PARTNER,0.08,2020,2023
+South Africa,Asians,SENIOR PARTNER,0.02,2020,2023
+South Africa,Coloreds,SENIOR PARTNER,0.08,2020,2023
+South Africa,English Speakers,SENIOR PARTNER,0.045,2020,2023
+South Africa,Ndebele,SENIOR PARTNER,0.015,2020,2023
+South Africa,Pedi (North Sotho),SENIOR PARTNER,0.09,2020,2023
+South Africa,South Sotho,SENIOR PARTNER,0.08,2020,2023
+South Africa,Swazi,SENIOR PARTNER,0.025,2020,2023
+South Africa,Tsonga,SENIOR PARTNER,0.04,2020,2023
+South Africa,Tswana,SENIOR PARTNER,0.08,2020,2023
+South Africa,Venda,SENIOR PARTNER,0.02,2020,2023
+South Africa,Xhosa,SENIOR PARTNER,0.18,2020,2023

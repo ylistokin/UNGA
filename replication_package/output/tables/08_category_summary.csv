@@ -1,0 +1,8 @@
+list,category,other_states,other_country_years,other_mean_share,other_mean_count,israel_in_category,israel_mean_share,israel_mean_count
+contested,genocide / crimes against humanity,4,20,0.041,1.85,no,,
+contested,occupation / annexation,2,38,0.001,0.03,no,,
+contested,use of force,2,2,0.027,1.0,no,,
+core,apartheid,1,14,0.317,22.93,yes,0.41100001335144043,19.44
+core,genocide / crimes against humanity,2,3,0.014,0.67,no,,
+core,occupation / annexation,5,134,0.035,2.44,yes,0.41100001335144043,19.44
+core,use of force,5,33,0.027,1.58,no,,

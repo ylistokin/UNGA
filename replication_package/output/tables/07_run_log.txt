@@ -1,0 +1,251 @@
+V-Dem: data/raw/vdem_v16.RData  sha256 39b412d39a061c18f20c98e4ad4d6355b05a0441df31be4ee9aec420dc3d95ea
+
+Paper country-years: 8071; with V-Dem score: 7120; without: 951 (critical resolutions in those rows: 0)
+                                   min   max  count
+country                                            
+Andorra                           1981  2023     43
+Antigua and Barbuda               1981  2023     43
+Bahamas                           1981  2023     43
+Belarus                           1981  1989      9
+Belize                            1981  2023     43
+Brunei                            1981  2023     43
+Dominica                          1981  2023     43
+Germany                           1990  1990      1
+Grenada                           1981  2023     43
+Kiribati                          1981  2023     43
+Latvia                            1981  1989      9
+Liechtenstein                     1981  2023     43
+Lithuania                         1981  1989      9
+Macedonia                         1981  1990     10
+Marshall Islands                  1981  2023     43
+Micronesia, Federated States of   1981  2023     43
+Moldova                           1981  1989      9
+Monaco                            1981  2023     43
+Nauru                             1981  2023     43
+Palau                             1981  2023     43
+Saint Kitts and Nevis             1981  2023     43
+Saint Lucia                       1981  2023     43
+Saint Vincent and the Grenadines  1981  2023     43
+Samoa                             1981  2023     43
+San Marino                        1981  2023     43
+Tonga                             1981  2023     43
+Tuvalu                            1981  2023     43
+Yemen                             1990  1990      1
+
+=== Israel, V-Dem v16 ===
+ year  v2clsocgrp  v2clsocgrp_ord  v2xpe_exlsocgr  count  share
+ 1981       1.127             3.0           0.300     25  0.329
+ 1982       1.127             3.0           0.300     27  0.360
+ 1983       1.127             3.0           0.300     27  0.391
+ 1984       1.127             3.0           0.300     24  0.358
+ 1985       1.127             3.0           0.300     24  0.324
+ 1986       1.127             3.0           0.300     21  0.296
+ 1987       1.127             3.0           0.300     22  0.278
+ 1988       1.127             3.0           0.300     22  0.275
+ 1989       1.127             3.0           0.300     22  0.275
+ 1990       1.127             3.0           0.300     22  0.306
+ 1991       1.127             3.0           0.300     23  0.411
+ 1992       1.127             3.0           0.300     22  0.333
+ 1993       1.127             3.0           0.300     17  0.274
+ 1994       1.127             3.0           0.300     13  0.283
+ 1995       1.127             3.0           0.300     13  0.265
+ 1996       1.127             3.0           0.300     15  0.319
+ 1997       1.127             3.0           0.300     20  0.400
+ 1998       1.127             3.0           0.300     16  0.432
+ 1999       1.127             3.0           0.300     16  0.372
+ 2000       1.127             3.0           0.300     18  0.462
+ 2001       1.127             3.0           0.300     18  0.439
+ 2002       1.127             3.0           0.300     20  0.571
+ 2003       1.127             3.0           0.300     21  0.568
+ 2004       1.127             3.0           0.300     20  0.606
+ 2005       1.127             3.0           0.300     20  0.571
+ 2006       1.127             3.0           0.300     22  0.579
+ 2007       1.127             3.0           0.300     20  0.625
+ 2008       1.127             3.0           0.300     18  0.562
+ 2009       1.127             3.0           0.300     19  0.559
+ 2010       1.127             3.0           0.300     19  0.559
+ 2011       1.127             3.0           0.300     19  0.576
+ 2012       1.127             3.0           0.300     19  0.500
+ 2013       1.417             3.0           0.289     18  0.439
+ 2014       1.417             3.0           0.289     19  0.463
+ 2015       1.417             3.0           0.289     19  0.413
+ 2016       1.417             3.0           0.289     19  0.487
+ 2017       1.417             3.0           0.289     20  0.417
+ 2018       1.364             3.0           0.288     21  0.396
+ 2019       1.298             3.0           0.300     17  0.354
+ 2020       1.298             3.0           0.301     15  0.349
+ 2021       1.259             3.0           0.287     14  0.280
+ 2022       1.259             3.0           0.298     16  0.314
+ 2023       1.259             3.0           0.295     14  0.292
+
+=== South Africa, V-Dem v16 ===
+ year  v2clsocgrp  v2clsocgrp_ord  v2xpe_exlsocgr  count  share
+ 1981      -2.181             0.0           0.986     31  0.408
+ 1982      -2.181             0.0           0.986     29  0.387
+ 1983      -2.181             0.0           0.986     26  0.377
+ 1984      -2.181             0.0           0.977     23  0.343
+ 1985      -2.181             0.0           0.977     25  0.338
+ 1986      -2.181             0.0           0.977     25  0.352
+ 1987      -2.181             0.0           0.977     29  0.367
+ 1988      -2.181             0.0           0.977     33  0.412
+ 1989      -2.181             0.0           0.977     32  0.400
+ 1990      -1.739             0.0           0.904     26  0.361
+ 1991      -1.739             0.0           0.904     18  0.321
+ 1992      -1.739             0.0           0.904     16  0.242
+ 1993      -1.739             0.0           0.904      7  0.113
+ 1994       0.991             3.0           0.592      1  0.022
+ 1995       1.464             3.0           0.532      0  0.000
+ 1996       1.464             3.0           0.532      0  0.000
+ 1997       1.464             3.0           0.507      0  0.000
+ 1998       1.464             3.0           0.507      0  0.000
+ 1999       1.464             3.0           0.507      0  0.000
+ 2000       1.417             3.0           0.503      0  0.000
+ 2001       1.417             3.0           0.503      0  0.000
+ 2002       1.417             3.0           0.503      0  0.000
+ 2003       1.417             3.0           0.503      0  0.000
+ 2004       1.417             3.0           0.503      0  0.000
+ 2005       1.417             3.0           0.503      0  0.000
+ 2006       1.417             3.0           0.503      0  0.000
+ 2007       1.417             3.0           0.503      0  0.000
+ 2008       1.417             3.0           0.503      0  0.000
+ 2009       1.417             3.0           0.515      0  0.000
+ 2010       1.417             3.0           0.515      0  0.000
+ 2011       1.417             3.0           0.515      0  0.000
+ 2012       1.417             3.0           0.515      0  0.000
+ 2013       1.337             3.0           0.522      0  0.000
+ 2014       1.337             3.0           0.522      0  0.000
+ 2015       1.337             3.0           0.522      0  0.000
+ 2016       1.337             3.0           0.522      0  0.000
+ 2017       1.303             3.0           0.527      0  0.000
+ 2018       0.954             3.0           0.544      0  0.000
+ 2019       1.242             3.0           0.490      0  0.000
+ 2020       1.242             3.0           0.490      0  0.000
+ 2021       1.350             3.0           0.482      0  0.000
+ 2022       1.350             3.0           0.455      0  0.000
+ 2023       0.894             3.0           0.415      0  0.000
+
+V-Dem's separate Palestine units (not in the paper's panel), every 5th year:
+       country_name  year  v2clsocgrp  v2clsocgrp_ord  v2xpe_exlsocgr
+Palestine/West Bank  1981       1.018             3.0           0.715
+Palestine/West Bank  1986       1.018             3.0           0.715
+Palestine/West Bank  1991       1.018             3.0           0.715
+Palestine/West Bank  1996       1.797             4.0           0.611
+Palestine/West Bank  2001       2.340             4.0           0.498
+Palestine/West Bank  2006       2.390             4.0           0.503
+Palestine/West Bank  2011       2.279             4.0           0.406
+Palestine/West Bank  2016       2.281             4.0           0.447
+Palestine/West Bank  2021       1.133             3.0           0.621
+     Palestine/Gaza  2011       1.283             3.0           0.656
+     Palestine/Gaza  2016       0.403             2.0           0.760
+     Palestine/Gaza  2021       1.128             3.0           0.686
+
+=== Criticism of countries other than Israel, by V-Dem answer category ===
+                       country_years  countries  zero_criticism_pct  critical_resolutions  mean_share
+v2clsocgrp_ord                                                                                       
+0 much fewer                     458         25                66.8                   527      0.0193
+1 substantially fewer           1136         57                87.6                   231      0.0043
+2 moderately fewer               817         61                94.5                    85      0.0022
+3 slightly fewer                2911        117                92.9                   396      0.0028
+4 equal                         1755         68                96.9                    93      0.0010
+Israel: category [np.float64(3.0)] in all 43 years; mean share 0.411
+
+=== Country-years in category 0 or worse (Israel excluded) ===
+458 country-years, 25 countries; 306 with zero criticism; mean share 0.0193
+Without South Africa: 445 country-years, 24 countries; mean share 0.0099; highest single year 0.122 (Afghanistan 2001); zero criticism in 69% of years
+                    years  first_year  last_year  years_with_any_criticism  critical_resolutions  mean_share
+country                                                                                                     
+South Africa           13        1981       1993                        13                   320       0.340
+Syria                  43        1981       2023                        13                    34       0.018
+Myanmar                43        1981       2023                        32                    33       0.018
+Sudan                  24        1981       2004                        21                    32       0.024
+Afghanistan            14        1991       2023                        12                    30       0.047
+Somalia                37        1981       2017                        20                    25       0.014
+Iraq                   22        1981       2002                        14                    24       0.022
+Guatemala              43        1981       2023                        14                    16       0.008
+Iran                    8        2016       2023                         8                     8       0.021
+Angola                 19        1981       2002                         2                     2       0.002
+Turkey                 15        1981       1999                         1                     1       0.001
+Haiti                   5        1981       1985                         1                     1       0.003
+Pakistan                7        1981       2023                         1                     1       0.003
+Qatar                   3        2021       2023                         0                     0       0.000
+South Sudan             7        2017       2023                         0                     0       0.000
+Saudi Arabia           42        1981       2023                         0                     0       0.000
+Nicaragua               4        2020       2023                         0                     0       0.000
+Philippines             5        1981       1985                         0                     0       0.000
+Paraguay               12        1981       2022                         0                     0       0.000
+Namibia                 9        1981       1989                         0                     0       0.000
+Mauritania             11        1985       2023                         0                     0       0.000
+Dominican Republic      8        1981       1988                         0                     0       0.000
+China                  11        2013       2023                         0                     0       0.000
+Bahrain                13        2011       2023                         0                     0       0.000
+Yemen                  40        1981       2023                         0                     0       0.000
+
+=== Country-years in category 1 or worse (Israel excluded) ===
+1594 country-years, 64 countries; 1301 with zero criticism; mean share 0.0086
+Without South Africa: 1581 country-years, 63 countries; mean share 0.0059; highest single year 0.130 (Serbia 1994); zero criticism in 82% of years
+                                        years  first_year  last_year  years_with_any_criticism  critical_resolutions  mean_share
+country                                                                                                                         
+South Africa                               13        1981       1993                        13                   320       0.340
+Korea, Democratic People's Republic of     43        1981       2023                        29                    74       0.042
+Iran                                       43        1981       2023                        37                    38       0.020
+Afghanistan                                31        1981       2023                        18                    36       0.024
+Haiti                                      43        1981       2023                        17                    35       0.017
+Syria                                      43        1981       2023                        13                    34       0.018
+Sudan                                      43        1981       2023                        22                    34       0.014
+Myanmar                                    43        1981       2023                        32                    33       0.018
+Somalia                                    43        1981       2023                        26                    31       0.015
+Serbia                                     10        1990       1999                         9                    30       0.060
+Iraq                                       22        1981       2002                        14                    24       0.022
+Guatemala                                  43        1981       2023                        14                    16       0.008
+Cambodia                                   40        1981       2023                        13                    13       0.007
+Chile                                       9        1981       1989                         9                    10       0.015
+Ethiopia                                   10        1981       1990                         8                     9       0.012
+Nicaragua                                  22        1982       2023                         2                     3       0.002
+Pakistan                                   43        1981       2023                         3                     3       0.002
+Turkmenistan                               32        1992       2023                         3                     3       0.003
+Central African Republic                   33        1981       2023                         3                     3       0.002
+Angola                                     22        1981       2002                         2                     2       0.002
+Rwanda                                     14        1981       1994                         1                     2       0.003
+Turkey                                     19        1981       1999                         1                     1       0.001
+Equatorial Guinea                          43        1981       2023                         1                     1       0.000
+Colombia                                   10        1981       1990                         1                     1       0.001
+Sierra Leone                               15        1981       1995                         1                     1       0.001
+Croatia                                     4        1992       1995                         1                     1       0.005
+Thailand                                   43        1981       2023                         0                     0       0.000
+Togo                                       12        1981       1992                         0                     0       0.000
+Saudi Arabia                               43        1981       2023                         0                     0       0.000
+Sri Lanka                                  39        1983       2021                         0                     0       0.000
+Uganda                                      3        2021       2023                         0                     0       0.000
+Romania                                     9        1981       1989                         0                     0       0.000
+Qatar                                      11        1981       2023                         0                     0       0.000
+Philippines                                 5        1981       1985                         0                     0       0.000
+Peru                                       19        1981       1999                         0                     0       0.000
+Paraguay                                   43        1981       2023                         0                     0       0.000
+United Arab Emirates                       20        2004       2023                         0                     0       0.000
+Panama                                     31        1981       2023                         0                     0       0.000
+South Sudan                                13        2011       2023                         0                     0       0.000
+Libya                                      11        2013       2023                         0                     0       0.000
+Nepal                                       9        1981       1989                         0                     0       0.000
+Namibia                                     9        1981       1989                         0                     0       0.000
+Bahrain                                    43        1981       2023                         0                     0       0.000
+Bosnia Herzegovenia                         3        1993       1995                         0                     0       0.000
+Botswana                                   18        1981       1998                         0                     0       0.000
+Bulgaria                                    5        1985       1989                         0                     0       0.000
+Canada                                      2        2022       2023                         0                     0       0.000
+Chad                                       43        1981       2023                         0                     0       0.000
+China                                      43        1981       2023                         0                     0       0.000
+Congo, Republic of                         37        1981       2023                         0                     0       0.000
+Djibouti                                   11        1981       1991                         0                     0       0.000
+Dominican Republic                         43        1981       2023                         0                     0       0.000
+Ecuador                                    17        1981       1997                         0                     0       0.000
+El Salvador                                 2        2022       2023                         0                     0       0.000
+Eritrea                                    31        1993       2023                         0                     0       0.000
+Honduras                                   10        1981       2010                         0                     0       0.000
+India                                       2        2022       2023                         0                     0       0.000
+Indonesia                                   5        2019       2023                         0                     0       0.000
+Kuwait                                     43        1981       2023                         0                     0       0.000
+Laos                                       43        1981       2023                         0                     0       0.000
+Mauritania                                 43        1981       2023                         0                     0       0.000
+Mexico                                     43        1981       2023                         0                     0       0.000
+Mongolia                                    9        1981       1989                         0                     0       0.000
+Yemen                                      42        1981       2023                         0                     0       0.000

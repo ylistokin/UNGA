@@ -1,0 +1,10 @@
+variable,RE,FE
+democracy,-0.00612 (0.00467),-0.00507 (0.00475)
+dem_x_human_rights_score,0.00009 (0.00007),0.00006 (0.00007)
+dem_x_battle_fat,0.00000 (0.00000),0.00000 (0.00000)
+dem_x_TerritoryOccupied,-0.00067 (0.00309),0.00027 (0.00322)
+dem_x_NuclearPowerOutsideNPT,-0.07868 (0.06852),-0.07911 (0.06643)
+human_rights_score,-0.00014** (0.00006),-0.00016** (0.00007)
+battle_fat,0.00000 (0.00000),0.00000 (0.00000)
+TerritoryOccupied,0.00911 (0.00786),0.01197 (0.00979)
+NuclearPowerOutsideNPT,0.11741 (0.09576),0.12109 (0.09582)

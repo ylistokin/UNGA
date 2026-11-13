@@ -1,0 +1,13 @@
+# Python 3.10 to 3.13. Versions pinned to the environment in which cards 19-23
+# were run on 28 October 2026 (pandas 2.3.3, numpy 2.2.6). The three packages
+# without a pin were used by the September scripts (02, 03, 06, 07, 11, 16, 17);
+# the installer picks versions that work with the pinned pandas and numpy, and
+# the run records which versions it used (00_environment.txt).
+pandas==2.3.3
+numpy==2.2.6
+matplotlib==3.10.9
+openpyxl==3.1.5
+python-docx==1.2.0
+linearmodels
+statsmodels
+pyreadr

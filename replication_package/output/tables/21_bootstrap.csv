@@ -1,0 +1,17 @@
+spec,model,explained,overall,explained_pct,boot_se,ratio,pct2_5,pct97_5,rounds_ok,rounds_failed
++ Gründler-Krieger ML democracy (to 2019),FE,-0.1044,-0.4059,25.7,0.0966,-1.08,-0.3527,0.0036,414,86
++ Gründler-Krieger ML democracy (to 2019),RE,-0.1028,-0.4059,25.3,0.0987,-1.04,-0.3567,0.002,469,31
+"+ all four (V-Dem, KOF, DPI, Muslim share)",FE,-0.0952,-0.4057,23.5,0.0992,-0.96,-0.3521,0.0062,419,81
+"+ all four (V-Dem, KOF, DPI, Muslim share)",RE,-0.0959,-0.4057,23.6,0.1017,-0.94,-0.3569,0.0052,477,23
++ democracy + KOF,FE,-0.0944,-0.4056,23.3,0.0894,-1.06,-0.3459,0.008,400,100
++ democracy + KOF,RE,-0.0968,-0.4056,23.9,0.0942,-1.03,-0.3545,0.0039,467,33
++ liberal democracy (V-Dem),FE,-0.0984,-0.4056,24.3,0.0921,-1.07,-0.3508,0.0071,412,88
++ liberal democracy (V-Dem),RE,-0.097,-0.4056,23.9,0.0929,-1.04,-0.3566,0.0039,474,26
+others: OECD members (that year),FE,0.0075,-0.4024,-1.9,0.0213,0.35,-0.0133,0.0613,500,0
+others: OECD members (that year),RE,0.0089,-0.4024,-2.2,0.0049,1.83,-0.0019,0.0181,322,178
+others: democracies (V-Dem regime 2-3),FE,0.0021,-0.4065,-0.5,0.0029,0.7,-0.003,0.0081,313,187
+others: democracies (V-Dem regime 2-3),RE,0.002,-0.4065,-0.5,0.0027,0.74,-0.0016,0.0094,263,237
+others: non-OECD (that year),FE,-0.1018,-0.4066,25.0,0.1074,-0.95,-0.3708,0.0081,416,84
+others: non-OECD (that year),RE,-0.1001,-0.4066,24.6,0.1082,-0.93,-0.3672,0.0028,416,84
+others: non-democracies (V-Dem regime 0-1),FE,-0.0495,-0.4048,12.2,0.0835,-0.59,-0.2298,0.0064,357,143
+others: non-democracies (V-Dem regime 0-1),RE,-0.0527,-0.4048,13.0,0.1084,-0.49,-0.3503,0.0064,413,87

@@ -1,0 +1,8 @@
+case_id,years,topic_resolutions,topic_res_per_year,text_names_violator,gpt_labels,israel_named_per_year_same_years
+ussr_afghanistan,1981-1989,9,1.0,1,None: 9,23.78
+vietnam_cambodia,1981-1989,9,1.0,0,None: 7; Cambodia: 2,23.78
+turkey_ncyprus,1981-1993,4,0.31,0,None: 3; Turkey: 1,22.92
+indonesia_etimor,1981-1993,2,0.15,2,Indonesia: 2,22.92
+iraq_iran,1981-1988,1,0.12,1,"Iran, Iraq: 1",24.0
+morocco_wsahara,1981-1993,14,1.08,13,Morocco: 13; None: 1,22.92
+southafrica_namibia,1981-1990,50,5.0,48,South Africa: 37; None: 11; South Africa and Namibia: 2,23.6

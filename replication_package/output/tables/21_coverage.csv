@@ -1,0 +1,8 @@
+variable,rows_with_value,rows_missing,israel_rows,years,countries_fully_missing,top_missing
+libdem,6860,904,43,1981-2023,17,"Andorra (43), Antigua and Barbuda (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)"
+polyarchy,6881,883,43,1981-2023,17,"Andorra (43), Marshall Islands (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)"
+regime,6881,883,43,1981-2023,17,"Andorra (43), Marshall Islands (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)"
+mldi,6627,1137,39,1981-2019,7,"Nauru (43), Andorra (43), Micronesia, Federated States of (43), Kiribati (43), Marshall Islands (43), Palau (43)"
+kofgi,7510,254,43,1981-2023,3,"Andorra (43), Nauru (43), Tuvalu (43), Liechtenstein (42), San Marino (18), Kosovo (15)"
+exec_left,6730,1034,43,1981-2023,13,"Saint Vincent and the Grenadines (43), Kiribati (43), Marshall Islands (43), Micronesia, Federated States of (43), Nauru (43), Palau (43)"
+muslim_share,7759,5,43,1981-2023,1,South Sudan (5)

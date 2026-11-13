@@ -1,0 +1,31 @@
+group,variable,RE,FE
+democracies,War fatalities (1000s),-0.0001 (0.0002),-0.0002 (0.0002)
+democracies,Occupying country,0.0000 (0.0016),not identified (no change within any country)
+democracies,Human rights score,0.0000 (0.0001),-0.0000 (0.0001)
+democracies,US military ally,-0.0011* (0.0006),-0.0019* (0.0011)
+democracies,Nuclear outside NPT,0.0024* (0.0013),0.0032** (0.0014)
+democracies,GDP per capita (log),-0.0008 (0.0007),-0.0038* (0.0023)
+democracies,Population (log),0.0002 (0.0002),-0.0051 (0.0032)
+democracies,Permanent SC member,0.0537*** (0.0139),absorbed
+democracies,N / countries,3244 / 114,3244
+democracies,mean share,0.0025,
+non-democracies,War fatalities (1000s),0.0003 (0.0002),0.0003 (0.0002)
+non-democracies,Occupying country,0.0121 (0.0110),0.0124 (0.0114)
+non-democracies,Human rights score,-0.0001*** (0.0000),-0.0001*** (0.0000)
+non-democracies,US military ally,-0.0085* (0.0047),-0.0083* (0.0045)
+non-democracies,Nuclear outside NPT,0.0547 (0.0517),0.0513 (0.0487)
+non-democracies,GDP per capita (log),-0.0018 (0.0012),-0.0022* (0.0014)
+non-democracies,Population (log),-0.0010 (0.0015),-0.0035 (0.0040)
+non-democracies,Permanent SC member,0.0039 (0.0086),absorbed
+non-democracies,N / countries,3594 / 132,3594
+non-democracies,mean share,0.0041,
+all others,War fatalities (1000s),0.0003 (0.0002),0.0003 (0.0002)
+all others,Occupying country,0.0091 (0.0076),0.0121 (0.0095)
+all others,Human rights score,-0.0001* (0.0001),-0.0002* (0.0001)
+all others,US military ally,-0.0021 (0.0028),-0.0040 (0.0033)
+all others,Nuclear outside NPT,0.0951 (0.0823),0.0988 (0.0835)
+all others,GDP per capita (log),-0.0006 (0.0010),-0.0024* (0.0012)
+all others,Population (log),-0.0019** (0.0009),-0.0080** (0.0033)
+all others,Permanent SC member,0.0406*** (0.0153),absorbed
+all others,N / countries,6838 / 171,6838
+all others,mean share,0.0033,

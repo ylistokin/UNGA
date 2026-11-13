@@ -1,0 +1,4 @@
+group,gpt_rows,accused,share_accused,gpt_errors,"racial/apartheid, strict","racial/apartheid, broad",occupation,use of force,"crimes, strict","crimes, broad",nuclear,torture/slavery,other only
+Israel,837,714,0.853,1,0 (0%),14 (2%),591 (83%),56 (8%),46 (6%),60 (8%),67 (9%),32 (4%),53 (7%)
+South Africa,331,294,0.888,11,280 (95%),280 (95%),91 (31%),131 (45%),45 (15%),45 (15%),43 (15%),22 (7%),3 (1%)
+Comparison states,514,275,0.535,152,63 (23%),63 (23%),35 (13%),22 (8%),38 (14%),59 (21%),19 (7%),166 (60%),36 (13%)

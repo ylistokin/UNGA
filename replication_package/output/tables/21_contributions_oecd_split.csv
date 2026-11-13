@@ -1,0 +1,9 @@
+spec,model,War fatalities,Occupying country,Human rights score,US military ally,GDP per capita (log),Population (log),Permanent SC member,total,Nuclear outside NPT,Liberal democracy (V-Dem),KOF globalisation
+others: OECD members (that year),RE,0.0003,0.0024,-0.0011,0.0002,-0.0001,0.0007,0.0065,0.0089,,,
+others: OECD members (that year),FE,0.0009,,-0.0021,0.0003,-0.0006,0.009,0.0,0.0075,,,
+others: non-OECD (that year),RE,-0.0003,-0.0106,-0.0014,0.0043,0.0011,0.0007,0.0001,-0.1001,-0.094,,
+others: non-OECD (that year),FE,-0.0003,-0.0125,-0.0015,0.0046,0.0032,0.0024,0.0,-0.1018,-0.0978,,
+"others: OECD, + democracy + KOF",RE,0.0002,-0.0052,-0.0029,0.0,-0.0001,0.0008,0.0066,-0.0007,,0.0028,-0.0029
+"others: OECD, + democracy + KOF",FE,0.0006,,-0.0037,0.0001,-0.0004,0.0028,0.0,-0.0022,,0.0024,-0.004
+"others: non-OECD, + democracy + KOF",RE,-0.0002,-0.0108,-0.0005,0.0035,-0.0024,-0.0002,0.0001,-0.0946,-0.0934,0.0029,0.0064
+"others: non-OECD, + democracy + KOF",FE,-0.0002,-0.0124,-0.0006,0.004,0.0021,-0.001,0.0,-0.0888,-0.0964,0.0042,0.0115

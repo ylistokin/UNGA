@@ -1,0 +1,9 @@
+spec,model,explained,overall,explained_pct,n_other_rows,n_other_countries,dropped_no_variation
+others: OECD members (that year),RE,0.0089,-0.4024,-2.2,1042,32,Nuclear outside NPT
+others: OECD members (that year),FE,0.0075,-0.4024,-1.9,1042,32,"Occupying country, Nuclear outside NPT"
+others: non-OECD (that year),RE,-0.1001,-0.4066,24.6,6679,174,
+others: non-OECD (that year),FE,-0.1018,-0.4066,25.0,6679,174,
+"others: OECD, + democracy + KOF",RE,-0.0007,-0.4024,0.2,1041,32,Nuclear outside NPT
+"others: OECD, + democracy + KOF",FE,-0.0022,-0.4024,0.5,1041,32,"Occupying country, Nuclear outside NPT"
+"others: non-OECD, + democracy + KOF",RE,-0.0946,-0.4062,23.3,5740,151,
+"others: non-OECD, + democracy + KOF",FE,-0.0888,-0.4062,21.9,5740,151,

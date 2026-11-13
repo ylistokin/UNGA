@@ -1,0 +1,68 @@
+Check against CLAUDE.md Table 1:
+  Israel years 43 (expected 43), mean count 19.4 (19.4), mean share 0.411 (0.411)
+
+=== core list ===
+              case_id list     years  n_years  total_critical_res  mean_count_per_year  mean_share  years_zero_criticism  israel_same_years_mean_count  israel_same_years_mean_share
+      rwanda_genocide core 1994-1994        1                   2                 2.00       0.043                     0                         13.00                         0.283
+         sudan_darfur core 2003-2004        2                   0                 0.00       0.000                     2                         20.50                         0.587
+        usa_nicaragua core 1981-1986        6                  26                 4.33       0.060                     0                         24.67                         0.343
+            iraq_iran core 1981-1988        8                   0                 0.00       0.000                     8                         24.00                         0.327
+          iraq_kuwait core 1990-1991        2                   5                 2.50       0.043                     0                         22.50                         0.358
+        eritrea_badme core 1998-1998        1                   0                 0.00       0.000                     1                         16.00                         0.432
+           uganda_drc core 1998-2003        6                   0                 0.00       0.000                     6                         18.17                         0.474
+       russia_ukraine core 2014-2023       10                  21                 2.10       0.043                     1                         17.40                         0.376
+           israel_opt core 1981-2023       43                 836                19.44       0.411                     0                         19.44                         0.411
+      morocco_wsahara core 1981-2023       43                  22                 0.51       0.009                    21                         19.44                         0.411
+       turkey_ncyprus core 1981-2023       43                   1                 0.02       0.000                    42                         19.44                         0.411
+     indonesia_etimor core 1981-1999       19                   4                 0.21       0.004                    16                         20.58                         0.331
+  southafrica_namibia core 1981-1990       10                 279                27.90       0.375                     0                         23.60                         0.319
+     ussr_afghanistan core 1981-1989        9                   0                 0.00       0.000                     9                         23.78                         0.321
+        russia_crimea core 2014-2023       10                  21                 2.10       0.043                     1                         17.40                         0.376
+southafrica_apartheid core 1981-1994       14                 321                22.93       0.317                     0                         22.21                         0.321
+     israel_apartheid core 1981-2023       43                 836                19.44       0.411                     0                         19.44                         0.411
+
+=== contested list ===
+         case_id      list     years  n_years  total_critical_res  mean_count_per_year  mean_share  years_zero_criticism  israel_same_years_mean_count  israel_same_years_mean_share
+      iraq_anfal contested 1987-1988        2                   0                 0.00       0.000                     2                         22.00                         0.277
+  guatemala_maya contested 1981-1983        3                   2                 0.67       0.009                     1                         26.33                         0.360
+ syria_detention contested 2011-2023       13                  34                 2.62       0.059                     0                         17.69                         0.406
+myanmar_rohingya contested 2016-2017        2                   1                 0.50       0.010                     1                         19.50                         0.452
+    usa_iraq2003 contested 2003-2003        1                   2                 2.00       0.054                     0                         21.00                         0.568
+     uk_iraq2003 contested 2003-2003        1                   0                 0.00       0.000                     1                         21.00                         0.568
+armenia_karabakh contested 1992-2020       29                   1                 0.03       0.001                    28                         18.38                         0.454
+vietnam_cambodia contested 1981-1989        9                   0                 0.00       0.000                     9                         23.78                         0.321
+
+=== core list, per state (union of violation years) ===
+                   state                                           cases  n_years  first  last  total_critical_res  mean_count_per_year  mean_share  years_zero_criticism
+                  Israel                    israel_opt; israel_apartheid       43   1981  2023                 836                19.44       0.411                     0
+            South Africa      southafrica_namibia; southafrica_apartheid       14   1981  1994                 321                22.93       0.317                     0
+United States of America                                   usa_nicaragua        6   1981  1986                  26                 4.33       0.060                     0
+                  Rwanda                                 rwanda_genocide        1   1994  1994                   2                 2.00       0.043                     0
+                  Russia russia_ukraine; ussr_afghanistan; russia_crimea       19   1981  2023                  21                 1.11       0.023                    10
+                 Morocco                                 morocco_wsahara       43   1981  2023                  22                 0.51       0.009                    21
+                    Iraq                          iraq_iran; iraq_kuwait       10   1981  1991                   5                 0.50       0.009                     8
+               Indonesia                                indonesia_etimor       19   1981  1999                   4                 0.21       0.004                    16
+                  Uganda                                      uganda_drc        6   1998  2003                   0                 0.00       0.000                     6
+                 Eritrea                                   eritrea_badme        1   1998  1998                   0                 0.00       0.000                     1
+                   Sudan                                    sudan_darfur        2   2003  2004                   0                 0.00       0.000                     2
+                  Turkey                                  turkey_ncyprus       43   1981  2023                   1                 0.02       0.000                    42
+
+=== per category ===
+     list                           category  other_states  other_country_years  other_mean_share  other_mean_count israel_in_category  israel_mean_share  israel_mean_count
+contested genocide / crimes against humanity             4                   20             0.041              1.85                 no                NaN                NaN
+contested            occupation / annexation             2                   38             0.001              0.03                 no                NaN                NaN
+contested                       use of force             2                    2             0.027              1.00                 no                NaN                NaN
+     core                          apartheid             1                   14             0.317             22.93                yes              0.411              19.44
+     core genocide / crimes against humanity             2                    3             0.014              0.67                 no                NaN                NaN
+     core            occupation / annexation             5                  134             0.035              2.44                yes              0.411              19.44
+     core                       use of force             5                   33             0.027              1.58                 no                NaN                NaN
+
+=== part 2: resolutions on the situation, named or not (1981-1993) ===
+            case_id     years  topic_resolutions  topic_res_per_year  text_names_violator                                              gpt_labels  israel_named_per_year_same_years
+   ussr_afghanistan 1981-1989                  9                1.00                    1                                                 None: 9                             23.78
+   vietnam_cambodia 1981-1989                  9                1.00                    0                                    None: 7; Cambodia: 2                             23.78
+     turkey_ncyprus 1981-1993                  4                0.31                    0                                      None: 3; Turkey: 1                             22.92
+   indonesia_etimor 1981-1993                  2                0.15                    2                                            Indonesia: 2                             22.92
+          iraq_iran 1981-1988                  1                0.12                    1                                           Iran, Iraq: 1                             24.00
+    morocco_wsahara 1981-1993                 14                1.08                   13                                    Morocco: 13; None: 1                             22.92
+southafrica_namibia 1981-1990                 50                5.00                   48 South Africa: 37; None: 11; South Africa and Namibia: 2                             23.60

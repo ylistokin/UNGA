@@ -1,0 +1,31 @@
+spec,variant,model,reason,rounds
++ EPR + democracy (1981-2023),as is,fe,no within variation: TerritoryOccupied,59
++ EPR + democracy (1981-2023),as is,fe,no within variation: NuclearPowerOutsideNPT,32
++ EPR + democracy (1981-2023),as is,fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",2
++ EPR + democracy (1981-2023),as is,re_year,no variation: NuclearPowerOutsideNPT,34
++ EPR + democracy (1981-2023),as is,re_year,no variation: TerritoryOccupied,2
++ EPR + democracy (1981-2023),as is,re_year,no variation: PermanentUNSCMember,2
++ EPR + democracy (1981-2023),without South Africa,fe,no within variation: NuclearPowerOutsideNPT,73
++ EPR + democracy (1981-2023),without South Africa,fe,no within variation: TerritoryOccupied,54
++ EPR + democracy (1981-2023),without South Africa,fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",7
++ EPR + democracy (1981-2023),without South Africa,re_year,no variation: NuclearPowerOutsideNPT,80
++ EPR + democracy (1981-2023),without South Africa,re_year,no variation: PermanentUNSCMember,5
++ EPR + democracy (1981-2023),without South Africa,re_year,no variation: TerritoryOccupied,2
+combined: EPR + first use + democracy (1981-2014),as is,fe,no within variation: TerritoryOccupied,59
+combined: EPR + first use + democracy (1981-2014),as is,fe,no within variation: NuclearPowerOutsideNPT,32
+combined: EPR + first use + democracy (1981-2014),as is,fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",2
+combined: EPR + first use + democracy (1981-2014),as is,re_year,no variation: NuclearPowerOutsideNPT,34
+combined: EPR + first use + democracy (1981-2014),as is,re_year,no variation: TerritoryOccupied,2
+combined: EPR + first use + democracy (1981-2014),as is,re_year,no variation: PermanentUNSCMember,2
+combined: EPR + first use + democracy (1981-2014),without South Africa,fe,no within variation: NuclearPowerOutsideNPT,73
+combined: EPR + first use + democracy (1981-2014),without South Africa,fe,no within variation: TerritoryOccupied,54
+combined: EPR + first use + democracy (1981-2014),without South Africa,fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",7
+combined: EPR + first use + democracy (1981-2014),without South Africa,re_year,no variation: NuclearPowerOutsideNPT,80
+combined: EPR + first use + democracy (1981-2014),without South Africa,re_year,no variation: PermanentUNSCMember,5
+combined: EPR + first use + democracy (1981-2014),without South Africa,re_year,no variation: TerritoryOccupied,2
+combined: EPR + first use + democracy (1981-2014),without both,fe,no within variation: TerritoryOccupied,61
+combined: EPR + first use + democracy (1981-2014),without both,re_year,no variation: PermanentUNSCMember,5
+combined: EPR + first use + democracy (1981-2014),without both,re_year,no variation: TerritoryOccupied,2
+combined: EPR + first use + democracy (1981-2014),without nuclear variable,fe,no within variation: TerritoryOccupied,61
+combined: EPR + first use + democracy (1981-2014),without nuclear variable,re_year,no variation: TerritoryOccupied,2
+combined: EPR + first use + democracy (1981-2014),without nuclear variable,re_year,no variation: PermanentUNSCMember,2

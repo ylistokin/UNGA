@@ -1,0 +1,5 @@
+window,truth,resolutions,unwatch_israel,TP,FP,FN,TN,precision,recall,F1
+2015-2024 as in the notebook,UN Watch Country Concerned only (published),2926,158,143,12,15,2756,0.923,0.905,0.914
+2015-2024 as in the notebook,UN Watch Country Concerned AND Condemnatory = Yes,2926,149,136,19,13,2758,0.877,0.913,0.895
+2015-2023 as the paper states,UN Watch Country Concerned only (published),2925,158,143,12,15,2755,0.923,0.905,0.914
+2015-2023 as the paper states,UN Watch Country Concerned AND Condemnatory = Yes,2925,149,136,19,13,2757,0.877,0.913,0.895

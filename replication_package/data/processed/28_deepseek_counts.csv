@@ -1,0 +1,707 @@
+country,year,count_ds
+Afghanistan,1981,1
+Afghanistan,1982,1
+Afghanistan,1983,1
+Afghanistan,1985,1
+Afghanistan,1986,2
+Afghanistan,1987,2
+Afghanistan,1988,1
+Afghanistan,1989,2
+Afghanistan,1990,2
+Afghanistan,1991,1
+Afghanistan,1992,1
+Afghanistan,1993,3
+Afghanistan,1994,2
+Afghanistan,1995,3
+Afghanistan,1996,3
+Afghanistan,1997,3
+Afghanistan,1998,3
+Afghanistan,1999,3
+Afghanistan,2000,3
+Afghanistan,2001,5
+Afghanistan,2002,4
+Afghanistan,2003,1
+Afghanistan,2004,5
+Afghanistan,2005,5
+Afghanistan,2006,2
+Afghanistan,2007,2
+Afghanistan,2008,2
+Afghanistan,2009,1
+Afghanistan,2012,1
+Afghanistan,2013,1
+Afghanistan,2015,1
+Afghanistan,2016,1
+Afghanistan,2017,1
+Afghanistan,2018,1
+Afghanistan,2019,1
+Afghanistan,2020,1
+Afghanistan,2022,1
+Angola,1993,3
+Angola,1996,1
+Angola,1997,1
+Angola,2000,1
+Angola,2001,1
+Armenia,2008,1
+Belarus,2006,1
+Belarus,2007,1
+Benin,1981,1
+Bosnia Herzegovenia,1996,3
+Bosnia Herzegovenia,1999,1
+Bosnia Herzegovenia,2001,1
+Burundi,1993,1
+Burundi,1994,1
+Burundi,1995,2
+Cambodia,1991,1
+Cambodia,1993,4
+Cambodia,1994,1
+Cambodia,1995,2
+Cambodia,1996,1
+Cambodia,1997,1
+Cambodia,1998,1
+Cambodia,1999,1
+Cambodia,2000,1
+Cambodia,2001,1
+Cambodia,2002,2
+Cambodia,2003,2
+Cambodia,2023,1
+Central African Republic,2011,1
+Central African Republic,2017,1
+Chad,1984,1
+Chad,1987,2
+Chad,1988,1
+Chile,1981,2
+Chile,1982,1
+Chile,1983,1
+Chile,1984,1
+Chile,1985,1
+Chile,1986,1
+Chile,1987,1
+Chile,1988,1
+Chile,1989,1
+China,1981,1
+Comoros,1996,1
+Comoros,2011,1
+"Congo, Democratic Republic of",1982,1
+"Congo, Democratic Republic of",1983,1
+"Congo, Democratic Republic of",1985,1
+"Congo, Democratic Republic of",1998,1
+"Congo, Democratic Republic of",1999,1
+"Congo, Democratic Republic of",2000,2
+"Congo, Democratic Republic of",2001,1
+"Congo, Democratic Republic of",2002,2
+"Congo, Democratic Republic of",2003,1
+"Congo, Democratic Republic of",2004,1
+"Congo, Democratic Republic of",2005,1
+Cote d'Ivoire,2009,1
+Croatia,1992,1
+Croatia,1993,2
+Croatia,1994,1
+Croatia,1996,1
+Cuba,1992,1
+Cuba,1993,1
+Cuba,1994,1
+Cuba,1995,1
+Cuba,1996,1
+Cuba,1997,1
+Cyprus,1997,1
+Djibouti,1983,2
+Djibouti,1990,1
+Djibouti,1996,1
+Djibouti,2001,1
+East Timor,1999,1
+El Salvador,1981,1
+El Salvador,1982,1
+El Salvador,1983,1
+El Salvador,1984,1
+El Salvador,1985,1
+El Salvador,1986,1
+El Salvador,1987,1
+El Salvador,1988,1
+El Salvador,1989,1
+El Salvador,1990,1
+El Salvador,1991,1
+El Salvador,1992,1
+El Salvador,1993,2
+El Salvador,1994,1
+El Salvador,2010,1
+Equatorial Guinea,1983,1
+Estonia,1992,1
+Estonia,1993,1
+Ethiopia,1981,1
+Ethiopia,1983,1
+Ethiopia,1984,1
+Ethiopia,1985,2
+Ethiopia,1986,1
+Ethiopia,1987,1
+Ethiopia,1988,1
+Ethiopia,2005,1
+Fiji,2001,1
+France,1981,2
+France,1982,2
+France,1983,2
+France,1984,2
+France,1985,2
+France,1986,3
+France,1987,3
+France,1988,3
+France,1989,3
+France,1990,2
+France,1991,2
+France,1992,2
+France,1993,2
+France,1994,3
+France,1996,1
+France,1997,1
+France,1998,1
+France,1999,1
+France,2000,1
+France,2001,1
+France,2002,1
+France,2003,1
+France,2004,1
+France,2005,1
+France,2006,1
+France,2007,1
+France,2008,1
+France,2009,1
+France,2010,1
+France,2011,1
+France,2012,1
+France,2013,3
+France,2014,2
+France,2015,2
+France,2016,2
+France,2017,2
+France,2018,2
+France,2019,2
+France,2020,2
+France,2021,2
+France,2022,2
+France,2023,2
+Georgia,1993,1
+Georgia,1994,1
+Georgia,1995,1
+Georgia,1996,1
+Georgia,2001,1
+Georgia,2008,1
+Georgia,2009,2
+Georgia,2011,1
+Georgia,2012,1
+Georgia,2013,1
+Georgia,2014,1
+Georgia,2015,1
+Georgia,2016,1
+Georgia,2017,1
+Georgia,2018,1
+Georgia,2019,1
+Georgia,2020,1
+Georgia,2021,1
+Georgia,2022,1
+Georgia,2023,1
+Germany,2022,1
+Guatemala,1982,1
+Guatemala,1983,1
+Guatemala,1984,1
+Guatemala,1985,1
+Guatemala,1986,1
+Guatemala,1993,1
+Guatemala,1994,1
+Guatemala,1995,2
+Guatemala,1996,2
+Guatemala,1997,2
+Guatemala,1999,1
+Guatemala,2000,1
+Guatemala,2001,1
+Guatemala,2002,2
+Guatemala,2003,1
+Guatemala,2009,1
+Guatemala,2010,1
+Guatemala,2013,1
+Guinea,1985,1
+Guinea-Bissau,2011,1
+Haiti,1991,2
+Haiti,1992,4
+Haiti,1993,6
+Haiti,1994,3
+Haiti,1995,5
+Haiti,1996,3
+Haiti,1997,3
+Haiti,1998,2
+Haiti,1999,2
+Haiti,2000,1
+Haiti,2010,1
+Haiti,2016,1
+Haiti,2020,1
+Haiti,2021,1
+Haiti,2023,1
+Honduras,2009,1
+India,1998,3
+India,2003,1
+India,2008,1
+India,2010,1
+India,2015,1
+Indonesia,1981,1
+Indonesia,1982,1
+Indonesia,1999,2
+Indonesia,2000,1
+Indonesia,2001,1
+Iran,1982,1
+Iran,1985,1
+Iran,1986,1
+Iran,1987,2
+Iran,1988,1
+Iran,1989,1
+Iran,1990,1
+Iran,1992,1
+Iran,1993,1
+Iran,1994,1
+Iran,1995,1
+Iran,1996,1
+Iran,1997,1
+Iran,1998,1
+Iran,1999,1
+Iran,2000,1
+Iran,2001,1
+Iran,2003,1
+Iran,2004,1
+Iran,2005,1
+Iran,2006,1
+Iran,2007,1
+Iran,2008,1
+Iran,2009,1
+Iran,2010,1
+Iran,2011,2
+Iran,2012,1
+Iran,2013,1
+Iran,2014,1
+Iran,2015,1
+Iran,2016,1
+Iran,2017,1
+Iran,2018,1
+Iran,2019,1
+Iran,2020,1
+Iran,2021,1
+Iran,2022,1
+Iran,2023,2
+Iraq,1987,1
+Iraq,1990,2
+Iraq,1991,4
+Iraq,1992,4
+Iraq,1993,2
+Iraq,1994,2
+Iraq,1995,3
+Iraq,1996,1
+Iraq,1997,3
+Iraq,1998,2
+Iraq,1999,3
+Iraq,2000,1
+Iraq,2001,3
+Iraq,2002,2
+Iraq,2003,2
+Iraq,2015,1
+Israel,1981,31
+Israel,1982,37
+Israel,1983,31
+Israel,1984,30
+Israel,1985,31
+Israel,1986,27
+Israel,1987,29
+Israel,1988,31
+Israel,1989,31
+Israel,1990,29
+Israel,1991,29
+Israel,1992,25
+Israel,1993,23
+Israel,1994,21
+Israel,1995,21
+Israel,1996,22
+Israel,1997,26
+Israel,1998,25
+Israel,1999,24
+Israel,2000,26
+Israel,2001,26
+Israel,2002,26
+Israel,2003,27
+Israel,2004,24
+Israel,2005,24
+Israel,2006,25
+Israel,2007,22
+Israel,2008,21
+Israel,2009,24
+Israel,2010,24
+Israel,2011,22
+Israel,2012,23
+Israel,2013,22
+Israel,2014,22
+Israel,2015,23
+Israel,2016,23
+Israel,2017,23
+Israel,2018,22
+Israel,2019,20
+Israel,2020,19
+Israel,2021,16
+Israel,2022,18
+Israel,2023,16
+Italy,2006,1
+Italy,2007,1
+Italy,2009,1
+Japan,2016,1
+"Korea, Democratic People's Republic of",1993,1
+"Korea, Democratic People's Republic of",1994,1
+"Korea, Democratic People's Republic of",1995,1
+"Korea, Democratic People's Republic of",1996,1
+"Korea, Democratic People's Republic of",1997,1
+"Korea, Democratic People's Republic of",1998,1
+"Korea, Democratic People's Republic of",1999,1
+"Korea, Democratic People's Republic of",2001,1
+"Korea, Democratic People's Republic of",2002,1
+"Korea, Democratic People's Republic of",2003,1
+"Korea, Democratic People's Republic of",2005,1
+"Korea, Democratic People's Republic of",2006,4
+"Korea, Democratic People's Republic of",2007,4
+"Korea, Democratic People's Republic of",2008,5
+"Korea, Democratic People's Republic of",2009,4
+"Korea, Democratic People's Republic of",2010,4
+"Korea, Democratic People's Republic of",2011,4
+"Korea, Democratic People's Republic of",2012,4
+"Korea, Democratic People's Republic of",2013,5
+"Korea, Democratic People's Republic of",2014,5
+"Korea, Democratic People's Republic of",2015,5
+"Korea, Democratic People's Republic of",2016,5
+"Korea, Democratic People's Republic of",2017,4
+"Korea, Democratic People's Republic of",2018,5
+"Korea, Democratic People's Republic of",2019,4
+"Korea, Democratic People's Republic of",2020,3
+"Korea, Democratic People's Republic of",2021,4
+"Korea, Democratic People's Republic of",2022,3
+"Korea, Democratic People's Republic of",2023,3
+Kosovo,2008,1
+Latvia,1992,1
+Latvia,1993,1
+Lebanon,2020,1
+Liberia,1990,2
+Liberia,1993,3
+Liberia,1994,1
+Liberia,1995,1
+Liberia,1996,1
+Liberia,2000,1
+Liberia,2002,1
+Liberia,2004,1
+Liberia,2011,1
+Liberia,2020,1
+Libya,2004,1
+Libya,2011,4
+Madagascar,1993,1
+Malawi,2003,1
+Mali,1995,1
+Mali,1998,1
+Mali,2020,1
+Mauritania,1985,1
+Mexico,1985,1
+Morocco,1981,1
+Morocco,1982,1
+Morocco,1983,1
+Morocco,1984,1
+Morocco,1985,1
+Morocco,1986,1
+Morocco,1987,1
+Morocco,1988,1
+Morocco,1989,1
+Morocco,1990,1
+Morocco,1991,1
+Morocco,1992,1
+Morocco,1993,2
+Morocco,1994,1
+Morocco,1995,1
+Morocco,1996,1
+Morocco,1997,1
+Morocco,1998,1
+Morocco,1999,1
+Morocco,2000,1
+Morocco,2001,1
+Morocco,2002,1
+Morocco,2003,1
+Morocco,2004,2
+Morocco,2005,1
+Morocco,2006,1
+Morocco,2007,1
+Morocco,2008,1
+Morocco,2009,1
+Morocco,2010,1
+Morocco,2011,1
+Morocco,2012,1
+Morocco,2013,1
+Morocco,2014,1
+Morocco,2015,1
+Morocco,2016,1
+Morocco,2017,1
+Morocco,2018,1
+Morocco,2019,1
+Morocco,2020,1
+Morocco,2021,1
+Morocco,2022,1
+Morocco,2023,1
+Mozambique,1990,1
+Myanmar,1991,1
+Myanmar,1992,1
+Myanmar,1993,1
+Myanmar,1994,1
+Myanmar,1995,1
+Myanmar,1996,1
+Myanmar,1997,1
+Myanmar,1998,1
+Myanmar,1999,1
+Myanmar,2000,1
+Myanmar,2001,1
+Myanmar,2002,1
+Myanmar,2003,1
+Myanmar,2004,1
+Myanmar,2005,1
+Myanmar,2006,1
+Myanmar,2007,1
+Myanmar,2008,1
+Myanmar,2009,1
+Myanmar,2010,1
+Myanmar,2011,1
+Myanmar,2012,1
+Myanmar,2013,1
+Myanmar,2014,1
+Myanmar,2015,1
+Myanmar,2017,1
+Myanmar,2018,1
+Myanmar,2019,1
+Myanmar,2020,1
+Myanmar,2021,2
+Myanmar,2022,1
+Myanmar,2023,1
+New Zealand,1988,1
+New Zealand,1989,1
+New Zealand,1996,1
+New Zealand,2002,1
+New Zealand,2003,1
+New Zealand,2004,1
+New Zealand,2019,1
+Nicaragua,1982,1
+Nicaragua,1983,2
+Nicaragua,1992,1
+Nicaragua,1994,1
+Nicaragua,1996,1
+Nicaragua,1998,2
+Nigeria,1995,1
+Nigeria,1996,1
+Nigeria,1997,1
+Nigeria,1998,1
+Pakistan,1998,2
+Pakistan,2003,1
+Pakistan,2008,1
+Pakistan,2010,1
+Pakistan,2015,1
+Philippines,1991,1
+Romania,1989,1
+Russia,1982,1
+Russia,1984,1
+Russia,1985,1
+Russia,1992,1
+Russia,1993,1
+Russia,2002,1
+Russia,2010,1
+Russia,2014,1
+Russia,2016,1
+Russia,2017,1
+Russia,2018,3
+Russia,2019,2
+Russia,2020,2
+Russia,2021,2
+Russia,2022,8
+Russia,2023,5
+Rwanda,1993,1
+Rwanda,1994,1
+Rwanda,1995,4
+Rwanda,1996,4
+Rwanda,1997,2
+Rwanda,1998,2
+Rwanda,1999,1
+Rwanda,2000,1
+Rwanda,2001,2
+Rwanda,2002,1
+Rwanda,2003,3
+Rwanda,2005,2
+Rwanda,2007,1
+Rwanda,2008,1
+Rwanda,2009,1
+Rwanda,2010,1
+Rwanda,2011,2
+Rwanda,2015,1
+Rwanda,2020,1
+Samoa,2007,1
+Sao Tome and Principe,2011,1
+Senegal,2001,1
+Serbia,1991,1
+Serbia,1992,4
+Serbia,1993,5
+Serbia,1994,5
+Serbia,1995,4
+Serbia,1996,3
+Serbia,1997,4
+Serbia,1998,3
+Serbia,1999,3
+Serbia,2000,2
+Serbia,2001,1
+Serbia,2002,1
+Serbia,2006,1
+Serbia,2010,1
+Sierra Leone,1993,1
+Sierra Leone,1997,1
+Somalia,1984,1
+Somalia,1988,2
+Somalia,1989,1
+Somalia,1990,1
+Somalia,1992,3
+Somalia,1993,2
+Somalia,1994,2
+Somalia,1995,1
+Somalia,1999,1
+Somalia,2000,1
+Somalia,2005,1
+Somalia,2007,1
+Somalia,2008,1
+Somalia,2009,1
+Somalia,2011,2
+Somalia,2012,1
+Somalia,2019,1
+Somalia,2020,1
+South Africa,1981,36
+South Africa,1982,35
+South Africa,1983,31
+South Africa,1984,27
+South Africa,1985,30
+South Africa,1986,32
+South Africa,1987,35
+South Africa,1988,38
+South Africa,1989,38
+South Africa,1990,29
+South Africa,1991,21
+South Africa,1992,21
+South Africa,1993,16
+South Africa,1994,2
+South Africa,1995,2
+South Sudan,2020,1
+South Sudan,2021,1
+South Sudan,2023,2
+Sudan,1981,1
+Sudan,1984,1
+Sudan,1987,1
+Sudan,1988,2
+Sudan,1989,1
+Sudan,1990,2
+Sudan,1991,1
+Sudan,1992,2
+Sudan,1993,2
+Sudan,1994,2
+Sudan,1995,2
+Sudan,1996,2
+Sudan,1997,2
+Sudan,1998,1
+Sudan,1999,2
+Sudan,2000,1
+Sudan,2001,2
+Sudan,2002,1
+Sudan,2009,1
+Sudan,2020,1
+Sudan,2021,2
+Syria,2011,1
+Syria,2012,3
+Syria,2013,4
+Syria,2014,3
+Syria,2015,2
+Syria,2016,5
+Syria,2017,2
+Syria,2018,3
+Syria,2019,2
+Syria,2020,2
+Syria,2021,3
+Syria,2022,2
+Syria,2023,4
+Tajikistan,1997,2
+Tajikistan,1998,1
+Tajikistan,1999,1
+Tajikistan,2000,2
+Tanzania,2020,1
+Turkey,1982,1
+Turkmenistan,2003,1
+Turkmenistan,2004,1
+Turkmenistan,2005,1
+United Kingdom,1981,1
+United Kingdom,1982,5
+United Kingdom,1983,4
+United Kingdom,1984,6
+United Kingdom,1985,5
+United Kingdom,1986,7
+United Kingdom,1987,7
+United Kingdom,1988,6
+United Kingdom,1989,6
+United Kingdom,1990,6
+United Kingdom,2004,1
+United Kingdom,2016,8
+United Kingdom,2017,8
+United Kingdom,2018,8
+United Kingdom,2019,9
+United Kingdom,2020,8
+United Kingdom,2021,8
+United Kingdom,2022,8
+United Kingdom,2023,8
+United States of America,1981,4
+United States of America,1982,5
+United States of America,1983,5
+United States of America,1984,4
+United States of America,1985,5
+United States of America,1986,7
+United States of America,1987,11
+United States of America,1988,8
+United States of America,1989,7
+United States of America,1990,4
+United States of America,1991,1
+United States of America,1992,2
+United States of America,1993,2
+United States of America,1994,12
+United States of America,1995,2
+United States of America,1996,2
+United States of America,1997,2
+United States of America,1998,2
+United States of America,1999,4
+United States of America,2000,2
+United States of America,2001,4
+United States of America,2002,2
+United States of America,2003,3
+United States of America,2004,2
+United States of America,2005,14
+United States of America,2006,2
+United States of America,2007,2
+United States of America,2008,2
+United States of America,2009,3
+United States of America,2010,2
+United States of America,2011,2
+United States of America,2012,3
+United States of America,2013,2
+United States of America,2014,7
+United States of America,2015,14
+United States of America,2016,5
+United States of America,2017,5
+United States of America,2018,6
+United States of America,2019,5
+United States of America,2020,4
+United States of America,2021,5
+United States of America,2022,5
+United States of America,2023,5
+Uzbekistan,2005,1
+Vietnam,1981,1
+Vietnam,1982,1
+Vietnam,1983,1
+Vietnam,1984,1
+Vietnam,1985,1
+Vietnam,1986,1
+Vietnam,1987,1
+Vietnam,1988,1
+Vietnam,1989,1
+Zimbabwe,1981,2
+Zimbabwe,1982,1

@@ -1,0 +1,237 @@
+Card 21: Referee 1 controls, OECD split, democracy test. Run 2026-10-29 12:07
+
+=== Coverage of the new variables on the 7,721-row regression sample ===
+    variable  rows_with_value  rows_missing  israel_rows     years  countries_fully_missing                                                                                                                               top_missing
+      libdem             6860           904           43 1981-2023                       17                  Andorra (43), Antigua and Barbuda (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)
+   polyarchy             6881           883           43 1981-2023                       17                     Andorra (43), Marshall Islands (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)
+      regime             6881           883           43 1981-2023                       17                     Andorra (43), Marshall Islands (43), Tuvalu (43), Samoa (43), Saint Vincent and the Grenadines (43), Saint Lucia (43)
+        mldi             6627          1137           39 1981-2019                        7                          Nauru (43), Andorra (43), Micronesia, Federated States of (43), Kiribati (43), Marshall Islands (43), Palau (43)
+       kofgi             7510           254           43 1981-2023                        3                                                   Andorra (43), Nauru (43), Tuvalu (43), Liechtenstein (42), San Marino (18), Kosovo (15)
+   exec_left             6730          1034           43 1981-2023                       13 Saint Vincent and the Grenadines (43), Kiribati (43), Marshall Islands (43), Micronesia, Federated States of (43), Nauru (43), Palau (43)
+muslim_share             7759             5           43 1981-2023                        1                                                                                                                           South Sudan (5)
+Israel: libdem mean 0.673, regime values [np.float64(2.0), np.float64(3.0)], mldi mean 0.955, kofgi mean 68.5, exec_left 0.14, exec_right 0.86, muslim share 0.167
+Others: libdem mean 0.369, share democracies (regime>=2) 0.460, mldi mean 0.586, kofgi mean 52.3, exec_left 0.30, exec_right 0.21, muslim share 0.240, muslim majority 0.227
+DPI execrlc values on the sample: {'0': 2799, 'Left': 1936, 'Right': 1455, nan: 1034, 'Center': 525, 'nan': 15}
+
+=== Table 2 with Referee 1 controls (RE and FE, year effects, clustered SE) ===
+                                      spec                        variable                 RE                  FE
+                                  baseline          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+                                  baseline               Occupying country    0.0089 (0.0077)     0.0121 (0.0096)
+                                  baseline              Human rights score  -0.0001* (0.0001)   -0.0002* (0.0001)
+                                  baseline                US military ally   -0.0022 (0.0028)    -0.0040 (0.0033)
+                                  baseline             Nuclear outside NPT    0.0949 (0.0824)     0.0988 (0.0836)
+                                  baseline            GDP per capita (log)   -0.0006 (0.0009)  -0.0022** (0.0011)
+                                  baseline                Population (log) -0.0013** (0.0006)  -0.0077** (0.0031)
+                                  baseline             Permanent SC member  0.0389** (0.0152)            absorbed
+                                  baseline                               N               7721                7721
+               + liberal democracy (V-Dem)          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+               + liberal democracy (V-Dem)               Occupying country    0.0087 (0.0075)     0.0116 (0.0094)
+               + liberal democracy (V-Dem)              Human rights score   -0.0001 (0.0000)   -0.0001* (0.0001)
+               + liberal democracy (V-Dem)                US military ally   -0.0020 (0.0028)    -0.0043 (0.0034)
+               + liberal democracy (V-Dem)             Nuclear outside NPT    0.0944 (0.0814)     0.0974 (0.0821)
+               + liberal democracy (V-Dem)            GDP per capita (log)   -0.0002 (0.0012)   -0.0023* (0.0012)
+               + liberal democracy (V-Dem)                Population (log) -0.0017** (0.0007)  -0.0078** (0.0032)
+               + liberal democracy (V-Dem)             Permanent SC member  0.0409** (0.0160)            absorbed
+               + liberal democracy (V-Dem)       Liberal democracy (V-Dem)   -0.0107 (0.0082)    -0.0156 (0.0104)
+               + liberal democracy (V-Dem)                               N               6817                6817
+                       + KOF globalisation          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+                       + KOF globalisation               Occupying country    0.0094 (0.0072)     0.0128 (0.0082)
+                       + KOF globalisation              Human rights score   -0.0001 (0.0001)   -0.0001* (0.0001)
+                       + KOF globalisation                US military ally   -0.0006 (0.0029)    -0.0023 (0.0032)
+                       + KOF globalisation             Nuclear outside NPT    0.0944 (0.0811)     0.0983 (0.0812)
+                       + KOF globalisation            GDP per capita (log)    0.0009 (0.0018)    -0.0014 (0.0014)
+                       + KOF globalisation                Population (log)  -0.0007* (0.0004)  -0.0084** (0.0035)
+                       + KOF globalisation             Permanent SC member 0.0411*** (0.0158)            absorbed
+                       + KOF globalisation               KOF globalisation   -0.0004 (0.0003)   -0.0007* (0.0004)
+                       + KOF globalisation                               N               7467                7467
+                + executive ideology (DPI)          War fatalities (1000s)    0.0004 (0.0002)     0.0003 (0.0002)
+                + executive ideology (DPI)               Occupying country    0.0077 (0.0074)     0.0105 (0.0094)
+                + executive ideology (DPI)              Human rights score   -0.0001 (0.0001)    -0.0001 (0.0001)
+                + executive ideology (DPI)                US military ally   -0.0019 (0.0029)    -0.0036 (0.0033)
+                + executive ideology (DPI)             Nuclear outside NPT    0.0938 (0.0810)     0.0973 (0.0821)
+                + executive ideology (DPI)            GDP per capita (log)   -0.0009 (0.0010)   -0.0023* (0.0013)
+                + executive ideology (DPI)                Population (log) -0.0017** (0.0008)  -0.0073** (0.0031)
+                + executive ideology (DPI)             Permanent SC member 0.0405*** (0.0150)            absorbed
+                + executive ideology (DPI)            Left executive (DPI)   -0.0020 (0.0013)    -0.0020 (0.0014)
+                + executive ideology (DPI)           Right executive (DPI)    0.0017 (0.0020)     0.0014 (0.0019)
+                + executive ideology (DPI)                               N               6687                6687
+                      + Muslim share (WRP)          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+                      + Muslim share (WRP)               Occupying country    0.0091 (0.0077)     0.0120 (0.0097)
+                      + Muslim share (WRP)              Human rights score  -0.0001* (0.0001)   -0.0002* (0.0001)
+                      + Muslim share (WRP)                US military ally   -0.0022 (0.0028)    -0.0040 (0.0033)
+                      + Muslim share (WRP)             Nuclear outside NPT    0.0948 (0.0823)     0.0988 (0.0836)
+                      + Muslim share (WRP)            GDP per capita (log)   -0.0006 (0.0009)  -0.0022** (0.0011)
+                      + Muslim share (WRP)                Population (log) -0.0012** (0.0006)  -0.0075** (0.0032)
+                      + Muslim share (WRP)             Permanent SC member  0.0382** (0.0151)            absorbed
+                      + Muslim share (WRP)              Muslim share (WRP)   -0.0025 (0.0028)     0.0037 (0.0156)
+                      + Muslim share (WRP)                               N               7716                7716
+                   + Muslim majority (WRP)          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+                   + Muslim majority (WRP)               Occupying country    0.0090 (0.0077)     0.0121 (0.0096)
+                   + Muslim majority (WRP)              Human rights score  -0.0001* (0.0001)   -0.0002* (0.0001)
+                   + Muslim majority (WRP)                US military ally   -0.0022 (0.0028)    -0.0040 (0.0033)
+                   + Muslim majority (WRP)             Nuclear outside NPT    0.0949 (0.0824)     0.0988 (0.0836)
+                   + Muslim majority (WRP)            GDP per capita (log)   -0.0006 (0.0009)  -0.0022** (0.0011)
+                   + Muslim majority (WRP)                Population (log) -0.0013** (0.0006)  -0.0077** (0.0031)
+                   + Muslim majority (WRP)             Permanent SC member  0.0386** (0.0152)            absorbed
+                   + Muslim majority (WRP)           Muslim majority (WRP)   -0.0008 (0.0010)     0.0004 (0.0019)
+                   + Muslim majority (WRP)                               N               7716                7716
++ all four (V-Dem, KOF, DPI, Muslim share)          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
++ all four (V-Dem, KOF, DPI, Muslim share)               Occupying country    0.0086 (0.0070)     0.0110 (0.0077)
++ all four (V-Dem, KOF, DPI, Muslim share)              Human rights score   -0.0001 (0.0001)   -0.0001* (0.0001)
++ all four (V-Dem, KOF, DPI, Muslim share)                US military ally   -0.0004 (0.0031)    -0.0027 (0.0035)
++ all four (V-Dem, KOF, DPI, Muslim share)             Nuclear outside NPT    0.0929 (0.0790)     0.0960 (0.0790)
++ all four (V-Dem, KOF, DPI, Muslim share)            GDP per capita (log)    0.0007 (0.0019)    -0.0015 (0.0015)
++ all four (V-Dem, KOF, DPI, Muslim share)                Population (log) -0.0015** (0.0007) -0.0090*** (0.0034)
++ all four (V-Dem, KOF, DPI, Muslim share)             Permanent SC member 0.0429*** (0.0164)            absorbed
++ all four (V-Dem, KOF, DPI, Muslim share)       Liberal democracy (V-Dem)   -0.0073 (0.0073)    -0.0097 (0.0084)
++ all four (V-Dem, KOF, DPI, Muslim share)               KOF globalisation   -0.0004 (0.0003)   -0.0006* (0.0004)
++ all four (V-Dem, KOF, DPI, Muslim share)            Left executive (DPI)   -0.0021 (0.0013)    -0.0021 (0.0014)
++ all four (V-Dem, KOF, DPI, Muslim share)           Right executive (DPI)    0.0019 (0.0021)     0.0015 (0.0019)
++ all four (V-Dem, KOF, DPI, Muslim share)              Muslim share (WRP)   -0.0070 (0.0059)    -0.0138 (0.0114)
++ all four (V-Dem, KOF, DPI, Muslim share)                               N               6400                6400
+                         + democracy + KOF          War fatalities (1000s)    0.0003 (0.0002)     0.0003 (0.0002)
+                         + democracy + KOF               Occupying country    0.0092 (0.0070)     0.0123 (0.0080)
+                         + democracy + KOF              Human rights score   -0.0001 (0.0000)  -0.0001** (0.0001)
+                         + democracy + KOF                US military ally   -0.0007 (0.0030)    -0.0029 (0.0034)
+                         + democracy + KOF             Nuclear outside NPT    0.0943 (0.0806)     0.0975 (0.0804)
+                         + democracy + KOF            GDP per capita (log)    0.0011 (0.0019)    -0.0014 (0.0014)
+                         + democracy + KOF                Population (log) -0.0014** (0.0007)  -0.0093** (0.0038)
+                         + democracy + KOF             Permanent SC member 0.0432*** (0.0164)            absorbed
+                         + democracy + KOF       Liberal democracy (V-Dem)   -0.0061 (0.0063)    -0.0098 (0.0082)
+                         + democracy + KOF               KOF globalisation   -0.0004 (0.0002)   -0.0007* (0.0004)
+                         + democracy + KOF                               N               6781                6781
+ + Gründler-Krieger ML democracy (to 2019)          War fatalities (1000s)  0.0007** (0.0004)   0.0007** (0.0003)
+ + Gründler-Krieger ML democracy (to 2019)               Occupying country  0.0096** (0.0042)   0.0124** (0.0055)
+ + Gründler-Krieger ML democracy (to 2019)              Human rights score   -0.0001 (0.0001)   -0.0001* (0.0001)
+ + Gründler-Krieger ML democracy (to 2019)                US military ally   -0.0025 (0.0029)    -0.0042 (0.0034)
+ + Gründler-Krieger ML democracy (to 2019)             Nuclear outside NPT    0.0973 (0.0831)     0.1002 (0.0837)
+ + Gründler-Krieger ML democracy (to 2019)            GDP per capita (log)   -0.0002 (0.0010)   -0.0019* (0.0011)
+ + Gründler-Krieger ML democracy (to 2019)                Population (log)  -0.0012* (0.0007)  -0.0067** (0.0031)
+ + Gründler-Krieger ML democracy (to 2019)             Permanent SC member  0.0344** (0.0147)            absorbed
+ + Gründler-Krieger ML democracy (to 2019) Democracy (Gründler-Krieger ML)  -0.0035* (0.0019)  -0.0041** (0.0021)
+ + Gründler-Krieger ML democracy (to 2019)                               N               6588                6588
+
+=== Decomposition: decomp_controls ===
+                                      spec model  explained  overall  explained_pct  n_other_rows  n_other_countries dropped_no_variation
+                                  baseline    RE    -0.1002  -0.4060           24.7          7721                192                     
+                                  baseline    FE    -0.1020  -0.4060           25.1          7721                192                     
+               + liberal democracy (V-Dem)    RE    -0.0970  -0.4056           23.9          6817                171                     
+               + liberal democracy (V-Dem)    FE    -0.0984  -0.4056           24.3          6817                171                     
+                       + KOF globalisation    RE    -0.0981  -0.4059           24.2          7467                186                     
+                       + KOF globalisation    FE    -0.0954  -0.4059           23.5          7467                186                     
+                + executive ideology (DPI)    RE    -0.0992  -0.4059           24.4          6687                169                     
+                + executive ideology (DPI)    FE    -0.1032  -0.4059           25.4          6687                169                     
+                      + Muslim share (WRP)    RE    -0.1005  -0.4060           24.8          7716                191                     
+                      + Muslim share (WRP)    FE    -0.1017  -0.4060           25.1          7716                191                     
+                   + Muslim majority (WRP)    RE    -0.1004  -0.4060           24.7          7716                191                     
+                   + Muslim majority (WRP)    FE    -0.1019  -0.4060           25.1          7716                191                     
++ all four (V-Dem, KOF, DPI, Muslim share)    RE    -0.0959  -0.4057           23.6          6400                162                     
++ all four (V-Dem, KOF, DPI, Muslim share)    FE    -0.0952  -0.4057           23.5          6400                162                     
+                         + democracy + KOF    RE    -0.0968  -0.4056           23.9          6781                169                     
+                         + democracy + KOF    FE    -0.0944  -0.4056           23.3          6781                169                     
+ + Gründler-Krieger ML democracy (to 2019)    RE    -0.1028  -0.4059           25.3          6588                182                     
+ + Gründler-Krieger ML democracy (to 2019)    FE    -0.1044  -0.4059           25.7          6588                182                     
+                                      spec model  War fatalities  Occupying country  Human rights score  US military ally  Nuclear outside NPT  GDP per capita (log)  Population (log)  Permanent SC member   total Liberal democracy (V-Dem) KOF globalisation Left executive (DPI) Right executive (DPI) Muslim share (WRP) Muslim majority (WRP) Democracy (Gründler-Krieger ML)
+                                  baseline    RE         -0.0003            -0.0088             -0.0014            0.0019              -0.0941                0.0011            0.0004               0.0010 -0.1002                                                                                                                                                                
+                                  baseline    FE         -0.0003            -0.0118             -0.0018            0.0034              -0.0980                0.0042            0.0022               0.0000 -0.1020                                                                                                                                                                
+               + liberal democracy (V-Dem)    RE         -0.0003            -0.0085             -0.0007            0.0016              -0.0935                0.0004           -0.0004               0.0012 -0.0970                    0.0031                                                                                                                                      
+               + liberal democracy (V-Dem)    FE         -0.0003            -0.0113             -0.0009            0.0035              -0.0966                0.0045           -0.0020               0.0000 -0.0984                    0.0046                                                                                                                                      
+                       + KOF globalisation    RE         -0.0003            -0.0092             -0.0011            0.0005              -0.0936               -0.0018            0.0001               0.0011 -0.0981                                      0.0061                                                                                                                    
+                       + KOF globalisation    FE         -0.0002            -0.0125             -0.0016            0.0019              -0.0975                0.0027            0.0011               0.0000 -0.0954                                      0.0106                                                                                                                    
+                + executive ideology (DPI)    RE         -0.0003            -0.0076             -0.0011            0.0016              -0.0930                0.0017           -0.0003               0.0012 -0.0992                                                          -0.0003               -0.0011                                                                         
+                + executive ideology (DPI)    FE         -0.0003            -0.0103             -0.0013            0.0030              -0.0964                0.0046           -0.0012               0.0000 -0.1032                                                          -0.0003               -0.0009                                                                         
+                      + Muslim share (WRP)    RE         -0.0003            -0.0089             -0.0015            0.0019              -0.0941                0.0012            0.0004               0.0010 -0.1005                                                                                                   -0.0002                                                      
+                      + Muslim share (WRP)    FE         -0.0003            -0.0118             -0.0018            0.0034              -0.0980                0.0042            0.0022               0.0000 -0.1017                                                                                                    0.0003                                                      
+                   + Muslim majority (WRP)    RE         -0.0003            -0.0088             -0.0014            0.0019              -0.0941                0.0011            0.0004               0.0010 -0.1004                                                                                                                         -0.0002                                
+                   + Muslim majority (WRP)    FE         -0.0003            -0.0118             -0.0018            0.0034              -0.0980                0.0042            0.0023               0.0000 -0.1019                                                                                                                          0.0001                                
++ all four (V-Dem, KOF, DPI, Muslim share)    RE         -0.0003            -0.0084             -0.0006            0.0003              -0.0920               -0.0015           -0.0005               0.0014 -0.0959                    0.0022            0.0058              -0.0003               -0.0012            -0.0007                                                      
++ all four (V-Dem, KOF, DPI, Muslim share)    FE         -0.0003            -0.0107             -0.0009            0.0022              -0.0951                0.0030           -0.0029               0.0000 -0.0952                    0.0028            0.0094              -0.0003                -0.001            -0.0014                                                      
+                         + democracy + KOF    RE         -0.0003            -0.0090             -0.0007            0.0006              -0.0934               -0.0023           -0.0004               0.0013 -0.0968                    0.0018            0.0055                                                                                                                    
+                         + democracy + KOF    FE         -0.0002            -0.0120             -0.0010            0.0024              -0.0966                0.0028           -0.0024               0.0000 -0.0944                    0.0029            0.0098                                                                                                                    
+ + Gründler-Krieger ML democracy (to 2019)    RE         -0.0007            -0.0094             -0.0010            0.0021              -0.0965                0.0005            0.0000               0.0010 -0.1028                                                                                                                                                          0.0012
+ + Gründler-Krieger ML democracy (to 2019)    FE         -0.0007            -0.0122             -0.0013            0.0035              -0.0994                0.0039            0.0003               0.0000 -0.1044                                                                                                                                                          0.0015
+
+=== Decomposition: oecd_split ===
+                               spec model  explained  overall  explained_pct  n_other_rows  n_other_countries                   dropped_no_variation
+   others: OECD members (that year)    RE     0.0089  -0.4024           -2.2          1042                 32                    Nuclear outside NPT
+   others: OECD members (that year)    FE     0.0075  -0.4024           -1.9          1042                 32 Occupying country, Nuclear outside NPT
+       others: non-OECD (that year)    RE    -0.1001  -0.4066           24.6          6679                174                                       
+       others: non-OECD (that year)    FE    -0.1018  -0.4066           25.0          6679                174                                       
+    others: OECD, + democracy + KOF    RE    -0.0007  -0.4024            0.2          1041                 32                    Nuclear outside NPT
+    others: OECD, + democracy + KOF    FE    -0.0022  -0.4024            0.5          1041                 32 Occupying country, Nuclear outside NPT
+others: non-OECD, + democracy + KOF    RE    -0.0946  -0.4062           23.3          5740                151                                       
+others: non-OECD, + democracy + KOF    FE    -0.0888  -0.4062           21.9          5740                151                                       
+                               spec model  War fatalities Occupying country  Human rights score  US military ally  GDP per capita (log)  Population (log)  Permanent SC member   total Nuclear outside NPT Liberal democracy (V-Dem) KOF globalisation
+   others: OECD members (that year)    RE          0.0003            0.0024             -0.0011            0.0002               -0.0001            0.0007               0.0065  0.0089                                                                
+   others: OECD members (that year)    FE          0.0009                               -0.0021            0.0003               -0.0006            0.0090               0.0000  0.0075                                                                
+       others: non-OECD (that year)    RE         -0.0003           -0.0106             -0.0014            0.0043                0.0011            0.0007               0.0001 -0.1001              -0.094                                            
+       others: non-OECD (that year)    FE         -0.0003           -0.0125             -0.0015            0.0046                0.0032            0.0024               0.0000 -0.1018             -0.0978                                            
+    others: OECD, + democracy + KOF    RE          0.0002           -0.0052             -0.0029            0.0000               -0.0001            0.0008               0.0066 -0.0007                                        0.0028           -0.0029
+    others: OECD, + democracy + KOF    FE          0.0006                               -0.0037            0.0001               -0.0004            0.0028               0.0000 -0.0022                                        0.0024            -0.004
+others: non-OECD, + democracy + KOF    RE         -0.0002           -0.0108             -0.0005            0.0035               -0.0024           -0.0002               0.0001 -0.0946             -0.0934                    0.0029            0.0064
+others: non-OECD, + democracy + KOF    FE         -0.0002           -0.0124             -0.0006            0.0040                0.0021           -0.0010               0.0000 -0.0888             -0.0964                    0.0042            0.0115
+
+=== Coefficients by regime group (others only) ===
+          group               variable                  RE                                            FE
+    democracies War fatalities (1000s)    -0.0001 (0.0002)                              -0.0002 (0.0002)
+    democracies      Occupying country     0.0000 (0.0016) not identified (no change within any country)
+    democracies     Human rights score     0.0000 (0.0001)                              -0.0000 (0.0001)
+    democracies       US military ally   -0.0011* (0.0006)                             -0.0019* (0.0011)
+    democracies    Nuclear outside NPT    0.0024* (0.0013)                             0.0032** (0.0014)
+    democracies   GDP per capita (log)    -0.0008 (0.0007)                             -0.0038* (0.0023)
+    democracies       Population (log)     0.0002 (0.0002)                              -0.0051 (0.0032)
+    democracies    Permanent SC member  0.0537*** (0.0139)                                      absorbed
+    democracies          N / countries          3244 / 114                                          3244
+    democracies             mean share              0.0025                                              
+non-democracies War fatalities (1000s)     0.0003 (0.0002)                               0.0003 (0.0002)
+non-democracies      Occupying country     0.0121 (0.0110)                               0.0124 (0.0114)
+non-democracies     Human rights score -0.0001*** (0.0000)                           -0.0001*** (0.0000)
+non-democracies       US military ally   -0.0085* (0.0047)                             -0.0083* (0.0045)
+non-democracies    Nuclear outside NPT     0.0547 (0.0517)                               0.0513 (0.0487)
+non-democracies   GDP per capita (log)    -0.0018 (0.0012)                             -0.0022* (0.0014)
+non-democracies       Population (log)    -0.0010 (0.0015)                              -0.0035 (0.0040)
+non-democracies    Permanent SC member     0.0039 (0.0086)                                      absorbed
+non-democracies          N / countries          3594 / 132                                          3594
+non-democracies             mean share              0.0041                                              
+     all others War fatalities (1000s)     0.0003 (0.0002)                               0.0003 (0.0002)
+     all others      Occupying country     0.0091 (0.0076)                               0.0121 (0.0095)
+     all others     Human rights score   -0.0001* (0.0001)                             -0.0002* (0.0001)
+     all others       US military ally    -0.0021 (0.0028)                              -0.0040 (0.0033)
+     all others    Nuclear outside NPT     0.0951 (0.0823)                               0.0988 (0.0835)
+     all others   GDP per capita (log)    -0.0006 (0.0010)                             -0.0024* (0.0012)
+     all others       Population (log)  -0.0019** (0.0009)                            -0.0080** (0.0033)
+     all others    Permanent SC member  0.0406*** (0.0153)                                      absorbed
+     all others          N / countries          6838 / 171                                          6838
+     all others             mean share              0.0033                                              
+
+=== Pooled model with democracy interactions (others only) ===
+                    variable                   RE                   FE
+                   democracy   -0.00612 (0.00467)   -0.00507 (0.00475)
+    dem_x_human_rights_score    0.00009 (0.00007)    0.00006 (0.00007)
+            dem_x_battle_fat    0.00000 (0.00000)    0.00000 (0.00000)
+     dem_x_TerritoryOccupied   -0.00067 (0.00309)    0.00027 (0.00322)
+dem_x_NuclearPowerOutsideNPT   -0.07868 (0.06852)   -0.07911 (0.06643)
+          human_rights_score -0.00014** (0.00006) -0.00016** (0.00007)
+                  battle_fat    0.00000 (0.00000)    0.00000 (0.00000)
+           TerritoryOccupied    0.00911 (0.00786)    0.01197 (0.00979)
+      NuclearPowerOutsideNPT    0.11741 (0.09576)    0.12109 (0.09582)
+
+=== Decomposition: democracy_decomp ===
+                                      spec model  explained  overall  explained_pct  n_other_rows  n_other_countries dropped_no_variation
+    others: democracies (V-Dem regime 2-3)    RE     0.0020  -0.4065           -0.5          3244                114                     
+    others: democracies (V-Dem regime 2-3)    FE     0.0021  -0.4065           -0.5          3244                114    Occupying country
+others: non-democracies (V-Dem regime 0-1)    RE    -0.0527  -0.4048           13.0          3594                132                     
+others: non-democracies (V-Dem regime 0-1)    FE    -0.0495  -0.4048           12.2          3594                132                     
+                others: democracies, + KOF    RE     0.0013  -0.4065           -0.3          3226                113                     
+                others: democracies, + KOF    FE     0.0002  -0.4065           -0.0          3226                113    Occupying country
+            others: non-democracies, + KOF    RE    -0.0494  -0.4049           12.2          3576                129                     
+            others: non-democracies, + KOF    FE    -0.0443  -0.4049           10.9          3576                129                     
+                                      spec model  War fatalities Occupying country  Human rights score  US military ally  Nuclear outside NPT  GDP per capita (log)  Population (log)  Permanent SC member   total KOF globalisation
+    others: democracies (V-Dem regime 2-3)    RE          0.0001              -0.0              0.0005            0.0007              -0.0024                0.0009            0.0000               0.0021  0.0020                  
+    others: democracies (V-Dem regime 2-3)    FE          0.0003                               -0.0001            0.0013              -0.0032                0.0045           -0.0007               0.0000  0.0021                  
+others: non-democracies (V-Dem regime 0-1)    RE         -0.0001           -0.0117              0.0007            0.0080              -0.0541                0.0048           -0.0004               0.0001 -0.0527                  
+others: non-democracies (V-Dem regime 0-1)    FE         -0.0001            -0.012              0.0007            0.0078              -0.0507                0.0061           -0.0012               0.0000 -0.0495                  
+                others: democracies, + KOF    RE          0.0001           -0.0001              0.0005            0.0006              -0.0028                0.0004            0.0000               0.0021  0.0013            0.0004
+                others: democracies, + KOF    FE          0.0003                               -0.0004            0.0010              -0.0049                0.0037           -0.0007               0.0000  0.0002            0.0012
+            others: non-democracies, + KOF    RE         -0.0001           -0.0116              0.0007            0.0077              -0.0542                0.0040           -0.0004               0.0001 -0.0494            0.0044
+            others: non-democracies, + KOF    FE         -0.0001           -0.0119              0.0007            0.0074              -0.0504                0.0057           -0.0016               0.0000 -0.0443            0.0059

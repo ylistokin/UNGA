@@ -1,0 +1,17 @@
+counts,variant,model,explained,overall,explained_pct
+DeepSeek,as is,FE,-0.1034,-0.4174,24.8
+GPT (variant A),as is,FE,-0.102,-0.406,25.1
+DeepSeek,as is,RE,-0.1014,-0.4174,24.3
+GPT (variant A),as is,RE,-0.1002,-0.406,24.7
+DeepSeek,without South Africa,FE,-0.0128,-0.4179,3.1
+GPT (variant A),without South Africa,FE,-0.0077,-0.4066,1.9
+DeepSeek,without South Africa,RE,-0.012,-0.4179,2.9
+GPT (variant A),without South Africa,RE,-0.0072,-0.4066,1.8
+DeepSeek,without both,FE,-0.0076,-0.4179,1.8
+GPT (variant A),without both,FE,-0.0044,-0.4066,1.1
+DeepSeek,without both,RE,-0.0078,-0.4179,1.9
+GPT (variant A),without both,RE,-0.005,-0.4066,1.2
+DeepSeek,without nuclear variable,FE,-0.0112,-0.4174,2.7
+GPT (variant A),without nuclear variable,FE,-0.0079,-0.406,2.0
+DeepSeek,without nuclear variable,RE,-0.0112,-0.4174,2.7
+GPT (variant A),without nuclear variable,RE,-0.0082,-0.406,2.0

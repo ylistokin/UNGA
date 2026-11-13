@@ -1,0 +1,43 @@
+Card 24 part 2: DeepSeek counts in the decomposition. Run 2026-10-29 12:56
+DeepSeek labels: 2659 resolution-country rows; names not in final_data (dropped): 0 rows, 0 names: {}
+
+=== Table 1 lines, GPT (variant A) against DeepSeek ===
+          group  gpt_count  deepseek_count  gpt_share  deepseek_share  rows
+         Israel      19.47           24.67      0.409          0.4202    43
+Other countries       0.16            0.19      0.003          0.0029  7721
+Israel annual share: correlation between the two classifiers 0.911; mean absolute difference 0.040
+
+=== Table 3 rows 1-2 with DeepSeek counts against GPT counts ===
+         counts                  variant model  explained  overall  explained_pct
+       DeepSeek                    as is    FE    -0.1034  -0.4174           24.8
+GPT (variant A)                    as is    FE    -0.1020  -0.4060           25.1
+       DeepSeek                    as is    RE    -0.1014  -0.4174           24.3
+GPT (variant A)                    as is    RE    -0.1002  -0.4060           24.7
+       DeepSeek     without South Africa    FE    -0.0128  -0.4179            3.1
+GPT (variant A)     without South Africa    FE    -0.0077  -0.4066            1.9
+       DeepSeek     without South Africa    RE    -0.0120  -0.4179            2.9
+GPT (variant A)     without South Africa    RE    -0.0072  -0.4066            1.8
+       DeepSeek             without both    FE    -0.0076  -0.4179            1.8
+GPT (variant A)             without both    FE    -0.0044  -0.4066            1.1
+       DeepSeek             without both    RE    -0.0078  -0.4179            1.9
+GPT (variant A)             without both    RE    -0.0050  -0.4066            1.2
+       DeepSeek without nuclear variable    FE    -0.0112  -0.4174            2.7
+GPT (variant A) without nuclear variable    FE    -0.0079  -0.4060            2.0
+       DeepSeek without nuclear variable    RE    -0.0112  -0.4174            2.7
+GPT (variant A) without nuclear variable    RE    -0.0082  -0.4060            2.0
+
+Resolutions where only one classifier names Israel: 224 (DeepSeek only 224, GPT only 0)
+Most common titles among the DeepSeek-only ones:
+title_key
+question of palestine                                                                                                             29
+establishment of a nuclear-weapon-free zone in the region of the middle east                                                      22
+division for palestinian rights of the secretariat                                                                                22
+assistance to the palestinian people                                                                                              21
+special information programme on the question of palestine of the department of public information of the secretariat             19
+offers by member states of grants and scholarships for higher education, including vocational training, for palestine refugees    17
+assistance to palestine refugees                                                                                                  15
+committee on the exercise of the inalienable rights of the palestinian people                                                     13
+assistance to persons displaced as a result of the june  and subsequent hostilities                                                9
+the right of the palestinian people to self-determination                                                                          8
+report of the international atomic energy agency                                                                                   7
+universal realization of the right of peoples to self-determination                                                                5

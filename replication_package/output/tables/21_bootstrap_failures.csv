@@ -1,0 +1,52 @@
+spec,model,reason,rounds
++ Gründler-Krieger ML democracy (to 2019),fe,no within variation: NuclearPowerOutsideNPT,19
++ Gründler-Krieger ML democracy (to 2019),fe,no within variation: TerritoryOccupied,61
++ Gründler-Krieger ML democracy (to 2019),fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",6
++ Gründler-Krieger ML democracy (to 2019),re_year,no variation: NuclearPowerOutsideNPT,25
++ Gründler-Krieger ML democracy (to 2019),re_year,no variation: TerritoryOccupied,2
++ Gründler-Krieger ML democracy (to 2019),re_year,no variation: PermanentUNSCMember,4
+"+ all four (V-Dem, KOF, DPI, Muslim share)",fe,no within variation: TerritoryOccupied,62
+"+ all four (V-Dem, KOF, DPI, Muslim share)",fe,no within variation: NuclearPowerOutsideNPT,17
+"+ all four (V-Dem, KOF, DPI, Muslim share)",fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",2
+"+ all four (V-Dem, KOF, DPI, Muslim share)",re_year,no variation: NuclearPowerOutsideNPT,19
+"+ all four (V-Dem, KOF, DPI, Muslim share)",re_year,no variation: PermanentUNSCMember,3
+"+ all four (V-Dem, KOF, DPI, Muslim share)",re_year,no variation: TerritoryOccupied,1
++ democracy + KOF,fe,no within variation: TerritoryOccupied,71
++ democracy + KOF,fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",5
++ democracy + KOF,fe,no within variation: NuclearPowerOutsideNPT,24
++ democracy + KOF,re_year,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",1
++ democracy + KOF,re_year,no variation: NuclearPowerOutsideNPT,28
++ democracy + KOF,re_year,no variation: TerritoryOccupied,2
++ democracy + KOF,re_year,no variation: PermanentUNSCMember,2
++ liberal democracy (V-Dem),fe,no within variation: TerritoryOccupied,66
++ liberal democracy (V-Dem),fe,no within variation: NuclearPowerOutsideNPT,19
++ liberal democracy (V-Dem),fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
++ liberal democracy (V-Dem),re_year,no variation: NuclearPowerOutsideNPT,22
++ liberal democracy (V-Dem),re_year,no variation: TerritoryOccupied,4
+others: OECD members (that year),re_year,no variation: TerritoryOccupied,156
+others: OECD members (that year),re_year,no variation: PermanentUNSCMember,13
+others: OECD members (that year),re_year,"no variation: TerritoryOccupied,PermanentUNSCMember",9
+others: democracies (V-Dem regime 2-3),fe,no within variation: NuclearPowerOutsideNPT,187
+others: democracies (V-Dem regime 2-3),re_year,no variation: NuclearPowerOutsideNPT,150
+others: democracies (V-Dem regime 2-3),re_year,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",26
+others: democracies (V-Dem regime 2-3),re_year,no variation: TerritoryOccupied,36
+others: democracies (V-Dem regime 2-3),re_year,no variation: PermanentUNSCMember,12
+others: democracies (V-Dem regime 2-3),re_year,"no variation: TerritoryOccupied,PermanentUNSCMember",2
+others: democracies (V-Dem regime 2-3),re_year,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",10
+others: democracies (V-Dem regime 2-3),re_year,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT,PermanentUNSCMember",1
+others: non-OECD (that year),fe,no within variation: TerritoryOccupied,67
+others: non-OECD (that year),fe,no within variation: NuclearPowerOutsideNPT,14
+others: non-OECD (that year),fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
+others: non-OECD (that year),re_year,no variation: PermanentUNSCMember,60
+others: non-OECD (that year),re_year,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",2
+others: non-OECD (that year),re_year,no variation: NuclearPowerOutsideNPT,15
+others: non-OECD (that year),re_year,"no variation: TerritoryOccupied,PermanentUNSCMember",2
+others: non-OECD (that year),re_year,no variation: TerritoryOccupied,5
+others: non-democracies (V-Dem regime 0-1),fe,no within variation: TerritoryOccupied,65
+others: non-democracies (V-Dem regime 0-1),fe,no within variation: NuclearPowerOutsideNPT,67
+others: non-democracies (V-Dem regime 0-1),fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",11
+others: non-democracies (V-Dem regime 0-1),re_year,no variation: PermanentUNSCMember,45
+others: non-democracies (V-Dem regime 0-1),re_year,"no variation: TerritoryOccupied,PermanentUNSCMember",5
+others: non-democracies (V-Dem regime 0-1),re_year,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",4
+others: non-democracies (V-Dem regime 0-1),re_year,no variation: NuclearPowerOutsideNPT,29
+others: non-democracies (V-Dem regime 0-1),re_year,no variation: TerritoryOccupied,4
