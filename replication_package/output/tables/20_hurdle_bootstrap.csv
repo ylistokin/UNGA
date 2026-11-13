@@ -1,0 +1,4 @@
+quantity,point,boot_se,ratio,pct2_5,pct97_5,rounds_ok,rounds_failed,rounds_logit_not_converged
+explained,-0.0367,0.1174,-0.31,-0.405,0.0027,499,1,1
+stage 1: probability of any criticism,-0.1661,0.2959,-0.56,-0.934,0.0692,499,1,1
+stage 2: share if criticised,-0.1302,0.1352,-0.96,-0.3663,0.0313,499,1,1

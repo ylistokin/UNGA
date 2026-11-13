@@ -1,0 +1,5 @@
+group,pairs,agree_accused,claude_Y,deepseek_Y,both_Y,agree_R,agree_C,agree_F,agree_O,agree_N,agree_T,claude_R,deepseek_R,claude_R_strict,deepseek_R_strict,claude_O,deepseek_O,claude_C,deepseek_C,claude_F,deepseek_F
+all,1680,0.864,1281,1383,1263,0.96,0.924,0.963,0.895,0.968,0.993,349,370,335,347,712,682,160,206,207,220
+Israel,837,0.947,714,758,714,1.0,0.94,0.976,0.894,0.979,0.997,14,14,0,0,591,519,60,81,56,71
+South Africa,329,0.884,292,317,287,0.962,1.0,0.934,0.847,0.927,1.0,273,262,273,262,88,122,45,45,130,123
+Comparison states,514,0.714,275,308,262,0.847,0.798,0.958,0.954,0.985,0.973,62,94,62,85,33,41,55,80,21,26

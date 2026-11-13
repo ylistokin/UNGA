@@ -1,0 +1,34 @@
+Pairs with both readings: 1680 of 1682
+                       0       1             2                  3
+group                all  Israel  South Africa  Comparison states
+pairs               1680     837           329                514
+agree_accused      0.864   0.947         0.884              0.714
+claude_Y            1281     714           292                275
+deepseek_Y          1383     758           317                308
+both_Y              1263     714           287                262
+agree_R             0.96     1.0         0.962              0.847
+agree_C            0.924    0.94           1.0              0.798
+agree_F            0.963   0.976         0.934              0.958
+agree_O            0.895   0.894         0.847              0.954
+agree_N            0.968   0.979         0.927              0.985
+agree_T            0.993   0.997           1.0              0.973
+claude_R             349      14           273                 62
+deepseek_R           370      14           262                 94
+claude_R_strict      335       0           273                 62
+deepseek_R_strict    347       0           262                 85
+claude_O             712     591            88                 33
+deepseek_O           682     519           122                 41
+claude_C             160      60            45                 55
+deepseek_C           206      81            45                 80
+claude_F             207      56           130                 21
+deepseek_F           220      71           123                 26
+
+Accused? Claude (rows) against DeepSeek (columns):
+ds_crit    M   N     Y
+crit                  
+M        135   4    96
+N         87  53    24
+Y         18   0  1263
+
+Disagreements (any code): 563 of 1680 -> output/tables/29_disagreements.csv
+Tokens: 3.63M in, 4.78M out (reasoning 4.66M)

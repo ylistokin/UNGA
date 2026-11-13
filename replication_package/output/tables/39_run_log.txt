@@ -1,0 +1,13 @@
+Resolutions with both labels: 14046
+Raw agreement on the exact label (as in card 24): 0.944
+                                      measure  gpt_positive  deepseek_positive  both  deepseek_only  gpt_only  neither  raw_agreement     f1  kappa
+                            Israel criticized           837               1061   837            224         0  12985.0         0.9841 0.8820 0.8736
+                       Any country criticized          2130               2630  2015            615       115  11301.0         0.9480 0.8466 0.8158
+Same country named (resolution-country pairs)          2200               2651  1986            665       214      NaN            NaN 0.8188    NaN
+                      South Africa criticized           331                392   325             67         6  13648.0         0.9948 0.8990 0.8964
+                     United States criticized           171                194   150             44        21  13831.0         0.9954 0.8219 0.8196
+                    United Kingdom criticized           122                119   103             16        19  13908.0         0.9975 0.8548 0.8535
+                       North Korea criticized            74                 81    68             13         6  13959.0         0.9986 0.8774 0.8767
+                            France criticized            55                 73    55             18         0  13973.0         0.9987 0.8594 0.8587
+                       Afghanistan criticized            42                 74    42             32         0  13972.0         0.9977 0.7241 0.7231
+                              Iran criticized            39                 40    39              1         0  14006.0         0.9999 0.9873 0.9873

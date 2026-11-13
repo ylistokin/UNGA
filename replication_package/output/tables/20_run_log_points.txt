@@ -1,0 +1,35 @@
+Card 20: hurdle model and bootstrap schemes. Run 2026-10-28 13:11
+
+=== Hurdle model, point estimates (corrected data, variant A) ===
+overall: -0.4060
+explained: -0.0367
+stage1_prob_others: 0.0718
+stage1_prob_israel: 0.2379
+stage1_actual_others: 0.0718
+stage1_actual_israel: 1.0000
+stage2_pred_others_if_pos: 0.0365
+stage2_pred_israel: 0.1667
+stage2_actual_others_if_pos: 0.0412
+stage2_actual_israel: 0.4090
+fit_check_others: -0.0003
+logit_converged: True
+explained_if_battle_fat_at_others_mean: -0.0360
+explained_if_TerritoryOccupied_at_others_mean: -0.0179
+explained_if_human_rights_score_at_others_mean: -0.0248
+explained_if_western_affiliate_at_others_mean: -0.0265
+explained_if_NuclearPowerOutsideNPT_at_others_mean: 0.0002
+explained_if_log_gdppc_at_others_mean: -0.0478
+explained_if_log_population_at_others_mean: -0.0369
+explained_if_PermanentUNSCMember_at_others_mean: -0.0399
+
+Stage 1 logit coefficients (log-odds of any criticism):
+              variable  logit_coef
+            battle_fat      0.0000
+     TerritoryOccupied      0.8166
+    human_rights_score     -0.0410
+     western_affiliate      0.6060
+NuclearPowerOutsideNPT      0.6822
+             log_gdppc     -0.2030
+        log_population     -0.0001
+   PermanentUNSCMember      3.5993
+                 const      1.0932

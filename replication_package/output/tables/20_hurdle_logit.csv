@@ -1,0 +1,10 @@
+variable,logit_coef
+battle_fat,2.048869808960086e-05
+TerritoryOccupied,0.8166219450497677
+human_rights_score,-0.040968414029009886
+western_affiliate,0.6059774303883112
+NuclearPowerOutsideNPT,0.682195893907062
+log_gdppc,-0.20303579166449878
+log_population,-0.00010796289401253571
+PermanentUNSCMember,3.5993376465327027
+const,1.0932397007622308

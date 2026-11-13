@@ -1,0 +1,187 @@
+EPR 2021: data/raw/EPR-2021.csv  sha256 98e2d56431f55355d5d69deaa28c9063a49e859722bbb6d777a541ee831bcfe0
+EPR 2023: data/raw/EPR-2023.csv  sha256 8b4637484fb0963e6fc72306139deab655145589c9c851f312e8b231ca66cbd7
+
+=== Israel and South Africa in EPR 2021, 1981-2023 ===
+     country               group         status   size  from   to
+      Israel Ashkenazim (Jewish) SENIOR PARTNER 0.2900  1981 1992
+      Israel       Israeli Arabs      POWERLESS 0.1100  1981 1992
+      Israel   Mizrahim (Jewish) JUNIOR PARTNER 0.3100  1981 1992
+      Israel   Palestinian Arabs  DISCRIMINATED 0.2900  1981 1992
+      Israel Ashkenazim (Jewish) SENIOR PARTNER 0.2300  1993 2021
+      Israel       Israeli Arabs      POWERLESS 0.1200  1993 2018
+      Israel   Mizrahim (Jewish) SENIOR PARTNER 0.2300  1993 2021
+      Israel   Palestinian Arabs  DISCRIMINATED 0.3100  1993 2021
+      Israel   Russians (Jewish) JUNIOR PARTNER 0.1000  1997 2009
+      Israel   Russians (Jewish) SENIOR PARTNER 0.1000  2010 2021
+      Israel       Israeli Arabs  DISCRIMINATED 0.1200  2019 2021
+South Africa          Afrikaners       DOMINANT 0.0800  1981 1994
+South Africa              Asians  DISCRIMINATED 0.0200  1981 1989
+South Africa              Blacks  DISCRIMINATED 0.7700  1981 1989
+South Africa            Coloreds  DISCRIMINATED 0.0800  1981 1989
+South Africa    English Speakers      POWERLESS 0.0450  1981 1994
+South Africa              Asians      POWERLESS 0.0200  1990 1994
+South Africa              Blacks      POWERLESS 0.7700  1990 1994
+South Africa            Coloreds      POWERLESS 0.0800  1990 1994
+South Africa          Afrikaners JUNIOR PARTNER 0.0800  1995 2019
+South Africa              Asians JUNIOR PARTNER 0.0200  1995 2019
+South Africa            Coloreds JUNIOR PARTNER 0.0800  1995 2019
+South Africa    English Speakers JUNIOR PARTNER 0.0450  1995 2019
+South Africa             Ndebele JUNIOR PARTNER 0.0150  1995 2019
+South Africa  Pedi (North Sotho) JUNIOR PARTNER 0.0900  1995 2019
+South Africa                 San      POWERLESS 0.0002  1995 2021
+South Africa         South Sotho JUNIOR PARTNER 0.0800  1995 2019
+South Africa               Swazi JUNIOR PARTNER 0.0250  1995 2019
+South Africa              Tsonga JUNIOR PARTNER 0.0400  1995 2019
+South Africa              Tswana JUNIOR PARTNER 0.0800  1995 2019
+South Africa               Venda JUNIOR PARTNER 0.0200  1995 2019
+South Africa               Xhosa SENIOR PARTNER 0.1800  1995 2008
+South Africa                Zulu JUNIOR PARTNER 0.2300  1995 2008
+South Africa               Xhosa JUNIOR PARTNER 0.1800  2009 2019
+South Africa                Zulu SENIOR PARTNER 0.2300  2009 2021
+South Africa          Afrikaners SENIOR PARTNER 0.0800  2020 2021
+South Africa              Asians SENIOR PARTNER 0.0200  2020 2021
+South Africa            Coloreds SENIOR PARTNER 0.0800  2020 2021
+South Africa    English Speakers SENIOR PARTNER 0.0450  2020 2021
+South Africa             Ndebele SENIOR PARTNER 0.0150  2020 2021
+South Africa  Pedi (North Sotho) SENIOR PARTNER 0.0900  2020 2021
+South Africa         South Sotho SENIOR PARTNER 0.0800  2020 2021
+South Africa               Swazi SENIOR PARTNER 0.0250  2020 2021
+South Africa              Tsonga SENIOR PARTNER 0.0400  2020 2021
+South Africa              Tswana SENIOR PARTNER 0.0800  2020 2021
+South Africa               Venda SENIOR PARTNER 0.0200  2020 2021
+South Africa               Xhosa SENIOR PARTNER 0.1800  2020 2021
+
+=== Israel and South Africa in EPR 2023, 1981-2023 ===
+     country               group         status   size  from   to
+      Israel Ashkenazim (Jewish) SENIOR PARTNER 0.2900  1981 1992
+      Israel       Israeli Arabs      POWERLESS 0.1100  1981 1992
+      Israel   Mizrahim (Jewish) JUNIOR PARTNER 0.3100  1981 1992
+      Israel   Palestinian Arabs  DISCRIMINATED 0.2900  1981 1992
+      Israel Ashkenazim (Jewish) SENIOR PARTNER 0.2300  1993 2023
+      Israel       Israeli Arabs      POWERLESS 0.1200  1993 2018
+      Israel   Mizrahim (Jewish) SENIOR PARTNER 0.2300  1993 2021
+      Israel   Palestinian Arabs  DISCRIMINATED 0.3100  1993 2023
+      Israel   Russians (Jewish) JUNIOR PARTNER 0.1000  1997 2009
+      Israel   Russians (Jewish) SENIOR PARTNER 0.1000  2010 2021
+      Israel       Israeli Arabs  DISCRIMINATED 0.1200  2019 2021
+      Israel       Israeli Arabs      POWERLESS 0.1200  2022 2022
+      Israel   Mizrahim (Jewish) JUNIOR PARTNER 0.2300  2022 2022
+      Israel   Russians (Jewish) JUNIOR PARTNER 0.1000  2022 2023
+      Israel       Israeli Arabs  DISCRIMINATED 0.1200  2023 2023
+      Israel   Mizrahim (Jewish) SENIOR PARTNER 0.2300  2023 2023
+South Africa          Afrikaners       DOMINANT 0.0800  1981 1994
+South Africa              Asians  DISCRIMINATED 0.0200  1981 1989
+South Africa              Blacks  DISCRIMINATED 0.7700  1981 1989
+South Africa            Coloreds  DISCRIMINATED 0.0800  1981 1989
+South Africa    English Speakers      POWERLESS 0.0450  1981 1994
+South Africa              Asians      POWERLESS 0.0200  1990 1994
+South Africa              Blacks      POWERLESS 0.7700  1990 1994
+South Africa            Coloreds      POWERLESS 0.0800  1990 1994
+South Africa          Afrikaners JUNIOR PARTNER 0.0800  1995 2019
+South Africa              Asians JUNIOR PARTNER 0.0200  1995 2019
+South Africa            Coloreds JUNIOR PARTNER 0.0800  1995 2019
+South Africa    English Speakers JUNIOR PARTNER 0.0450  1995 2019
+South Africa             Ndebele JUNIOR PARTNER 0.0150  1995 2019
+South Africa  Pedi (North Sotho) JUNIOR PARTNER 0.0900  1995 2019
+South Africa                 San      POWERLESS 0.0002  1995 2023
+South Africa         South Sotho JUNIOR PARTNER 0.0800  1995 2019
+South Africa               Swazi JUNIOR PARTNER 0.0250  1995 2019
+South Africa              Tsonga JUNIOR PARTNER 0.0400  1995 2019
+South Africa              Tswana JUNIOR PARTNER 0.0800  1995 2019
+South Africa               Venda JUNIOR PARTNER 0.0200  1995 2019
+South Africa               Xhosa SENIOR PARTNER 0.1800  1995 2008
+South Africa                Zulu JUNIOR PARTNER 0.2300  1995 2008
+South Africa               Xhosa JUNIOR PARTNER 0.1800  2009 2019
+South Africa                Zulu SENIOR PARTNER 0.2300  2009 2023
+South Africa          Afrikaners SENIOR PARTNER 0.0800  2020 2023
+South Africa              Asians SENIOR PARTNER 0.0200  2020 2023
+South Africa            Coloreds SENIOR PARTNER 0.0800  2020 2023
+South Africa    English Speakers SENIOR PARTNER 0.0450  2020 2023
+South Africa             Ndebele SENIOR PARTNER 0.0150  2020 2023
+South Africa  Pedi (North Sotho) SENIOR PARTNER 0.0900  2020 2023
+South Africa         South Sotho SENIOR PARTNER 0.0800  2020 2023
+South Africa               Swazi SENIOR PARTNER 0.0250  2020 2023
+South Africa              Tsonga SENIOR PARTNER 0.0400  2020 2023
+South Africa              Tswana SENIOR PARTNER 0.0800  2020 2023
+South Africa               Venda SENIOR PARTNER 0.0200  2020 2023
+South Africa               Xhosa SENIOR PARTNER 0.1800  2020 2023
+
+Paper countries with no EPR rows at all (21): Andorra, Antigua and Barbuda, Dominica, Grenada, Kiribati, Liechtenstein, Marshall Islands, Micronesia, Federated States of, Monaco, Nauru, Palau, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Seychelles, Tonga, Tuvalu, Vanuatu
+EPR states not in the paper's panel: ['German Democratic Republic', 'Taiwan', "Yemen, People's Republic of"]
+
+Country-years 1981-2021 where the two versions disagree on 'any discriminated group': 30
+          min   max  count
+country                   
+Brazil   2019  2021      3
+Jordan   1995  2021     27
+
+=== Using EPR 2023, 1981-2023 ===
+Country-years in both the paper's panel and EPR: 7105
+Country-years with at least one discriminated group: 1786 (Israel 43, others 1743)
+Countries other than Israel with a discriminated group in at least one year: 72
+Of the 1743 other discriminating country-years, 1469 (84%) had zero critical resolutions
+
+Number of discriminating countries by year (every 5th year shown; full list in CSV):
+      n_countries  n_discriminating
+year                               
+1981          147              46.0
+1986          148              48.0
+1991          154              43.0
+1996          169              38.0
+2001          169              40.0
+2006          171              39.0
+2011          173              40.0
+2016          173              40.0
+2021          173              42.0
+
+All critical resolutions against countries other than Israel (in EPR countries): 1323
+  of which against a country in a year it was coded as discriminating: 612 (46%)
+
+Other discriminating countries, ranked by critical resolutions in their discriminating years (top 25):
+                               first_year  last_year  years_discriminating  years_with_any_criticism  critical_resolutions  mean_share  mean_disc_popshare
+country                                                                                                                                                   
+South Africa                         1981       1989                     9                         9                   253       0.376               0.870
+France                               1981       2023                    43                        29                    55       0.024               0.006
+Iran                                 1981       2023                    43                        37                    38       0.020               0.154
+Myanmar                              1981       2023                    43                        32                    33       0.018               0.071
+Serbia                               1987       2023                    31                        10                    31       0.020               0.068
+Russia                               1981       2023                    43                        14                    26       0.013               0.009
+Iraq                                 1981       2003                    23                        14                    24       0.021               0.713
+Morocco                              1981       2023                    43                        22                    22       0.009               0.016
+Afghanistan                          1997       2023                     7                         6                    18       0.061               0.469
+Cambodia                             1981       2023                    43                        13                    13       0.007               0.008
+Ethiopia                             1981       2023                    42                        12                    13       0.006               0.216
+El Salvador                          1981       1994                    14                        12                    12       0.012               0.100
+Chile                                1981       2022                    14                         9                    10       0.010               0.082
+Congo, Democratic Republic of        1991       2023                    29                         6                    10       0.009               0.020
+Rwanda                               1981       2000                    20                         5                     8       0.009               0.357
+Guatemala                            1981       1995                    15                         7                     7       0.007               0.515
+Indonesia                            1981       2004                    24                         5                     6       0.005               0.020
+Ukraine                              1992       2014                    23                         5                     5       0.005               0.005
+Liberia                              1981       2003                    16                         4                     4       0.005               0.125
+Nigeria                              1992       2007                    16                         3                     3       0.004               0.102
+Pakistan                             1981       2023                    43                         3                     3       0.002               0.041
+Uganda                               1981       2023                    43                         3                     3       0.001               0.200
+Sudan                                2003       2023                    21                         1                     2       0.002               0.084
+Angola                               1981       2002                    22                         2                     2       0.002               0.470
+Belarus                              2006       2023                    18                         2                     2       0.003               0.031
+
+Israel: discriminating in 43 of 43 years; critical resolutions 836; mean share 0.411; mean discriminated population share 0.32
+Other discriminating country-years: mean share 0.0061; median share 0.0000
+
+Illustration only: other country-years whose discriminated groups make up at least 0.29 of the population (Israel's lowest EPR figure in the period): 195 country-years, 13 countries, 142 with zero critical resolutions
+               years  first  last  critical_resolutions  mean_share  disc_popshare
+country                                                                           
+South Africa       9   1981  1989                   253       0.376          0.870
+Iraq              23   1981  2003                    24       0.021          0.713
+Afghanistan        7   1997  2023                    18       0.061          0.469
+Ethiopia          11   1981  1991                     9       0.011          0.504
+Guatemala         15   1981  1995                     7       0.007          0.515
+Rwanda             6   1995  2000                     6       0.022          0.840
+Uganda             6   1981  1986                     3       0.007          0.539
+Angola            22   1981  2002                     2       0.002          0.470
+Bahrain           43   1981  2023                     0       0.000          0.350
+Burundi            8   1981  1988                     0       0.000          0.850
+Cote d'Ivoire      9   1994  2002                     0       0.000          0.407
+Jordan            14   1981  1994                     0       0.000          0.500
+Kenya             22   1981  2002                     0       0.000          0.410

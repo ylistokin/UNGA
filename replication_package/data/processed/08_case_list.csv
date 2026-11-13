@@ -1,0 +1,26 @@
+case_id,list,category,state,cow,start,end,basis
+rwanda_genocide,core,genocide / crimes against humanity,Rwanda,517,1994,1994,ICTR judgments
+sudan_darfur,core,genocide / crimes against humanity,Sudan,625,2003,2004,"ICC verdict, Abd-Al-Rahman, Oct 2025 (crimes against humanity)"
+usa_nicaragua,core,use of force,United States of America,2,1981,1986,"ICJ Nicaragua v. US, 1986"
+iraq_iran,core,use of force,Iraq,645,1981,1988,literature (war began 1980)
+iraq_kuwait,core,use of force,Iraq,645,1990,1991,literature
+eritrea_badme,core,use of force,Eritrea,531,1998,1998,"Eritrea-Ethiopia Claims Commission, 2005"
+uganda_drc,core,use of force,Uganda,500,1998,2003,"ICJ Armed Activities, 2005"
+russia_ukraine,core,use of force,Russia,365,2014,2023,ECtHR 2024 and 2025; literature on the force question
+israel_opt,core,occupation / annexation,Israel,666,1981,2023,ICJ advisory opinions 2004 and 2024
+morocco_wsahara,core,occupation / annexation,Morocco,600,1981,2023,ICJ advisory opinion 1975; CJEU 2024
+turkey_ncyprus,core,occupation / annexation,Turkey,640,1981,2023,"ECtHR Loizidou 1996, Cyprus v. Turkey 2001"
+indonesia_etimor,core,occupation / annexation,Indonesia,850,1981,1999,literature; ICJ East Timor 1995
+southafrica_namibia,core,occupation / annexation,South Africa,560,1981,1990,ICJ Namibia advisory opinion 1971
+ussr_afghanistan,core,occupation / annexation,Russia,365,1981,1989,"literature (Soviet Union, recorded under Russia)"
+russia_crimea,core,occupation / annexation,Russia,365,2014,2023,"ECtHR Ukraine v. Russia (re Crimea), 2024"
+southafrica_apartheid,core,apartheid,South Africa,560,1981,1994,universal
+israel_apartheid,core,apartheid,Israel,666,1981,2023,Matanel's decision (strict coding); ICJ 2024 CERD art. 3
+iraq_anfal,contested,genocide / crimes against humanity,Iraq,645,1987,1988,national court only; needs a named scholarly source
+guatemala_maya,contested,genocide / crimes against humanity,Guatemala,90,1981,1983,truth commission only; needs a named scholarly source
+syria_detention,contested,genocide / crimes against humanity,Syria,652,2011,2023,national court only; needs a named scholarly source
+myanmar_rohingya,contested,genocide / crimes against humanity,Myanmar,775,2016,2017,ICJ judgment pending
+usa_iraq2003,contested,use of force,United States of America,2,2003,2003,scholarly opinion divided
+uk_iraq2003,contested,use of force,United Kingdom,200,2003,2003,scholarly opinion divided
+armenia_karabakh,contested,occupation / annexation,Armenia,371,1992,2020,ECtHR Chiragov 2015; framing disputed
+vietnam_cambodia,contested,occupation / annexation,Vietnam,816,1981,1989,scholarly opinion divided

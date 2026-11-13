@@ -1,0 +1,68 @@
+data,spec,reason,rounds
+corrected_A,cor_fe,no within variation: TerritoryOccupied,63
+corrected_A,cor_fe,no within variation: NuclearPowerOutsideNPT,18
+corrected_A,cor_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
+corrected_A,cor_re,no variation: NuclearPowerOutsideNPT,19
+corrected_A,cor_re,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",1
+corrected_A,cor_re,no variation: TerritoryOccupied,3
+corrected_A,cor_re,no variation: PermanentUNSCMember,3
+corrected_A,cor_re,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",1
+corrected_A,cor_row3_fe,no within variation: western_affiliate,36
+corrected_A,cor_row3_fe,no within variation: TerritoryOccupied,34
+corrected_A,cor_row3_fe,"no within variation: western_affiliate,NuclearPowerOutsideNPT",21
+corrected_A,cor_row3_fe,no within variation: NuclearPowerOutsideNPT,133
+corrected_A,cor_row3_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",21
+corrected_A,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate",3
+corrected_A,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate,NuclearPowerOutsideNPT",3
+corrected_A,cor_row3_re,no variation: NuclearPowerOutsideNPT,30
+corrected_A,cor_row3_re,no variation: PermanentUNSCMember,6
+corrected_A,cor_row3_re,no variation: TerritoryOccupied,3
+corrected_B,cor_fe,no within variation: TerritoryOccupied,63
+corrected_B,cor_fe,no within variation: NuclearPowerOutsideNPT,18
+corrected_B,cor_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
+corrected_B,cor_re,no variation: NuclearPowerOutsideNPT,19
+corrected_B,cor_re,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",1
+corrected_B,cor_re,no variation: TerritoryOccupied,3
+corrected_B,cor_re,no variation: PermanentUNSCMember,3
+corrected_B,cor_re,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",1
+corrected_B,cor_row3_fe,no within variation: TerritoryOccupied,40
+corrected_B,cor_row3_fe,no within variation: western_affiliate,37
+corrected_B,cor_row3_fe,"no within variation: western_affiliate,NuclearPowerOutsideNPT",21
+corrected_B,cor_row3_fe,no within variation: NuclearPowerOutsideNPT,147
+corrected_B,cor_row3_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",25
+corrected_B,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate,NuclearPowerOutsideNPT",3
+corrected_B,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate",2
+corrected_B,cor_row3_re,no variation: TerritoryOccupied,6
+corrected_B,cor_row3_re,no variation: NuclearPowerOutsideNPT,28
+corrected_B,cor_row3_re,no variation: PermanentUNSCMember,8
+published,cor_fe,no within variation: TerritoryOccupied,63
+published,cor_fe,no within variation: NuclearPowerOutsideNPT,18
+published,cor_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
+published,cor_re,no variation: NuclearPowerOutsideNPT,19
+published,cor_re,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",1
+published,cor_re,no variation: TerritoryOccupied,3
+published,cor_re,no variation: PermanentUNSCMember,3
+published,cor_re,"no variation: NuclearPowerOutsideNPT,PermanentUNSCMember",1
+published,cor_row3_fe,no within variation: TerritoryOccupied,40
+published,cor_row3_fe,no within variation: western_affiliate,37
+published,cor_row3_fe,"no within variation: western_affiliate,NuclearPowerOutsideNPT",21
+published,cor_row3_fe,no within variation: NuclearPowerOutsideNPT,147
+published,cor_row3_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",25
+published,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate,NuclearPowerOutsideNPT",3
+published,cor_row3_fe,"no within variation: TerritoryOccupied,western_affiliate",2
+published,cor_row3_re,no variation: TerritoryOccupied,6
+published,cor_row3_re,no variation: NuclearPowerOutsideNPT,28
+published,cor_row3_re,no variation: PermanentUNSCMember,8
+published,pub_fe,no within variation: TerritoryOccupied,63
+published,pub_fe,no within variation: NuclearPowerOutsideNPT,18
+published,pub_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",3
+published,pub_re,no variation: NuclearPowerOutsideNPT,20
+published,pub_re,"no variation: TerritoryOccupied,NuclearPowerOutsideNPT",1
+published,pub_re,no variation: TerritoryOccupied,3
+published,pub_row3_fe,no within variation: NuclearPowerOutsideNPT,146
+published,pub_row3_fe,no within variation: TerritoryOccupied,45
+published,pub_row3_fe,"no within variation: TerritoryOccupied,western_affiliate,NuclearPowerOutsideNPT",2
+published,pub_row3_fe,no within variation: western_affiliate,41
+published,pub_row3_fe,"no within variation: TerritoryOccupied,NuclearPowerOutsideNPT",18
+published,pub_row3_fe,"no within variation: western_affiliate,NuclearPowerOutsideNPT",15
+published,pub_row3_fe,"no within variation: TerritoryOccupied,western_affiliate",2

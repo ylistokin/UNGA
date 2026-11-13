@@ -1,0 +1,209 @@
+Card 19: corrected Tables 1-3. Run 2026-10-28 12:58
+Check: rebuilt published counts differ from GPT_resolution_counts.csv in 0 country-years (should be 0).
+C2: session-48 resolutions counted in both corpora: 2 rows (R/48/27B Haiti, R/48/258B South Africa). The 1994 copies are dropped.
+C1: multi-country answers in 1981-1993: 14 resolutions. Country-years whose count changes under A: 27, under B: 19.
+       country  year  count_published  count_A  count_B
+         Haiti  1994                3        2        2
+        Israel  1984               24       25       25
+  South Africa  1981               31       32       32
+  South Africa  1982               29       31       31
+  South Africa  1983               26       27       27
+  South Africa  1984               23       24       24
+  South Africa  1985               25       27       27
+  South Africa  1986               25       26       26
+  South Africa  1987               29       30       30
+  South Africa  1988               33       34       34
+  South Africa  1994                1        0        0
+United Kingdom  1983                1        2        2
+United Kingdom  1987                6        7        7
+ United States  1982                3        4        4
+ United States  1984                4        5        5
+     Argentina  1983                0        1        1
+     Argentina  1987                0        1        1
+          Iran  1982                0        1        1
+          Iraq  1982                0        1        1
+       Namibia  1981                0        1        0
+       Namibia  1982                0        1        0
+       Namibia  1983                0        1        0
+       Namibia  1984                0        1        0
+       Namibia  1985                0        2        0
+       Namibia  1986                0        1        0
+       Namibia  1987                0        1        0
+       Namibia  1988                0        1        0
+published: Israel mean count 19.44, mean share 0.4108; others mean share 0.0032
+corrected_A: Israel mean count 19.47, mean share 0.4090; others mean share 0.0032
+corrected_B: Israel mean count 19.47, mean share 0.4099; others mean share 0.0032
+
+=== Table 1 (published) ===
+                            Israel mean  Israel sd  Other countries mean  Other countries sd
+Critical UNGA resolutions        19.442      3.404                 0.157               1.194
+Share of UNGA criticism           0.411      0.112                 0.003               0.018
+War intensity                     2.163      1.233                 0.332               0.952
+War fatalities                 1304.142   3573.598               402.173            3781.675
+Occupying country                 1.000      0.000                 0.019               0.138
+Human rights score               44.007      6.800                55.216              21.556
+Nuclear outside treaty            1.000      0.000                 0.008               0.089
+OECD member                       0.326      0.474                 0.135               0.342
+US military ally                  1.000      0.000                 0.168               0.374
+Population (1000s)             6569.302   1776.250             33858.035          128801.250
+GDP per capita (current $)    24674.494  13603.510             10303.476           19434.338
+Observations                     43.000        NaN              7721.000                 NaN
+
+=== Table 1 (corrected_A) ===
+                            Israel mean  Israel sd  Other countries mean  Other countries sd
+Critical UNGA resolutions        19.465      3.439                 0.160               1.226
+Share of UNGA criticism           0.409      0.113                 0.003               0.018
+War intensity                     2.163      1.233                 0.332               0.952
+War fatalities                 1304.142   3573.598               402.173            3781.675
+Occupying country                 1.000      0.000                 0.019               0.138
+Human rights score               44.007      6.800                55.216              21.556
+Nuclear outside treaty            1.000      0.000                 0.008               0.089
+OECD member                       0.326      0.474                 0.135               0.342
+US military ally                  1.000      0.000                 0.168               0.374
+Population (1000s)             6569.302   1776.250             33858.035          128801.250
+GDP per capita (current $)    24674.494  13603.510             10303.476           19434.338
+Observations                     43.000        NaN              7721.000                 NaN
+
+=== Table 1 (corrected_B) ===
+                            Israel mean  Israel sd  Other countries mean  Other countries sd
+Critical UNGA resolutions        19.465      3.439                 0.159               1.226
+Share of UNGA criticism           0.410      0.112                 0.003               0.019
+War intensity                     2.163      1.233                 0.332               0.952
+War fatalities                 1304.142   3573.598               402.173            3781.675
+Occupying country                 1.000      0.000                 0.019               0.138
+Human rights score               44.007      6.800                55.216              21.556
+Nuclear outside treaty            1.000      0.000                 0.008               0.089
+OECD member                       0.326      0.474                 0.135               0.342
+US military ally                  1.000      0.000                 0.168               0.374
+Population (1000s)             6569.302   1776.250             33858.035          128801.250
+GDP per capita (current $)    24674.494  13603.510             10303.476           19434.338
+Observations                     43.000        NaN              7721.000                 NaN
+
+=== Table 2 (published) ===
+                           variable RE (ex. Israel) FE (ex. Israel) BE (ex. Israel) RE (positive share) Israel only
+                       battle_fat_k          0.0003          0.0003          0.0008           0.0006***  -0.0049***
+                                           (0.0002)        (0.0002)        (0.0005)            (0.0002)    (0.0017)
+                  TerritoryOccupied          0.0089          0.0120         -0.0025              0.0019            
+                                           (0.0078)        (0.0098)        (0.0054)            (0.0098)            
+                 human_rights_score        -0.0001*        -0.0002*         -0.0000             -0.0002  -0.0085***
+                                           (0.0001)        (0.0001)        (0.0001)            (0.0002)    (0.0021)
+                  western_affiliate         -0.0022         -0.0040          0.0007             -0.0180            
+                                           (0.0028)        (0.0033)        (0.0029)            (0.0286)            
+             NuclearPowerOutsideNPT          0.0944          0.0982        0.0260**            0.1713**            
+                                           (0.0819)        (0.0831)        (0.0110)            (0.0666)            
+                PermanentUNSCMember        0.0388**                       0.0305***             0.0525*            
+                                           (0.0151)                        (0.0046)            (0.0309)            
+                     log_population       -0.0012**       -0.0075**          0.0002             -0.0054            
+                                           (0.0006)        (0.0031)        (0.0005)            (0.0037)            
+                          log_gdppc         -0.0006       -0.0023**          0.0004              0.0020            
+                                           (0.0009)        (0.0011)        (0.0007)            (0.0041)            
+                       Observations            7721            7721             192                 543          43
+R-squared (FE within / BE / Israel)                           0.192           0.279                                
+
+=== Table 2 (corrected_A) ===
+                           variable RE (ex. Israel) FE (ex. Israel) BE (ex. Israel) RE (positive share) Israel only
+                       battle_fat_k          0.0003          0.0003          0.0008           0.0006***  -0.0052***
+                                           (0.0002)        (0.0002)        (0.0005)            (0.0001)    (0.0019)
+                  TerritoryOccupied          0.0089          0.0121         -0.0025              0.0025            
+                                           (0.0077)        (0.0096)        (0.0054)            (0.0086)            
+                 human_rights_score        -0.0001*        -0.0002*         -0.0000             -0.0001  -0.0087***
+                                           (0.0001)        (0.0001)        (0.0001)            (0.0001)    (0.0021)
+                  western_affiliate         -0.0022         -0.0040          0.0007             -0.0183            
+                                           (0.0028)        (0.0033)        (0.0029)            (0.0251)            
+             NuclearPowerOutsideNPT          0.0949          0.0988        0.0259**            0.1490**            
+                                           (0.0824)        (0.0836)        (0.0110)            (0.0613)            
+                PermanentUNSCMember        0.0389**                       0.0305***              0.0473            
+                                           (0.0152)                        (0.0046)            (0.0289)            
+                     log_population       -0.0013**       -0.0077**          0.0002             -0.0035            
+                                           (0.0006)        (0.0031)        (0.0005)            (0.0032)            
+                          log_gdppc         -0.0006       -0.0022**          0.0004              0.0013            
+                                           (0.0009)        (0.0011)        (0.0007)            (0.0039)            
+                       Observations            7721            7721             192                 554          43
+R-squared (FE within / BE / Israel)                           0.194           0.279                                
+
+=== Table 2 (corrected_B) ===
+                           variable RE (ex. Israel) FE (ex. Israel) BE (ex. Israel) RE (positive share) Israel only
+                       battle_fat_k          0.0003          0.0003          0.0008           0.0006***  -0.0051***
+                                           (0.0002)        (0.0002)        (0.0005)            (0.0001)    (0.0018)
+                  TerritoryOccupied          0.0089          0.0120         -0.0025              0.0027            
+                                           (0.0077)        (0.0097)        (0.0054)            (0.0088)            
+                 human_rights_score        -0.0001*        -0.0002*         -0.0000             -0.0001  -0.0086***
+                                           (0.0001)        (0.0001)        (0.0001)            (0.0001)    (0.0021)
+                  western_affiliate         -0.0023         -0.0041          0.0007             -0.0184            
+                                           (0.0028)        (0.0033)        (0.0029)            (0.0250)            
+             NuclearPowerOutsideNPT          0.0961          0.1001        0.0262**            0.1515**            
+                                           (0.0834)        (0.0847)        (0.0111)            (0.0613)            
+                PermanentUNSCMember        0.0389**                       0.0306***             0.0485*            
+                                           (0.0152)                        (0.0046)            (0.0291)            
+                     log_population       -0.0013**       -0.0075**          0.0002             -0.0040            
+                                           (0.0006)        (0.0031)        (0.0005)            (0.0034)            
+                          log_gdppc         -0.0006       -0.0022**          0.0004              0.0013            
+                                           (0.0009)        (0.0011)        (0.0007)            (0.0040)            
+                       Observations            7721            7721             192                 546          43
+R-squared (FE within / BE / Israel)                           0.194           0.278                                
+
+=== Table 3 point estimates (all data versions and specifications) ===
+       data        spec                                                                            label  explained  overall  explained_pct
+  published      pub_re                             Row 1 as published: RE, no year effects, 7 variables    -0.0998  -0.4076           24.5
+  published      pub_fe                            Row 2 as published: FE with year effects, 7 variables    -0.1011  -0.4076           24.8
+  published pub_row3_fe              Row 3 as published (computed with FE, notebook sample), 7 variables    -0.1980  -0.3679           53.8
+  published      cor_re                         Row 1 corrected: RE with year effects + Security Council    -0.0993  -0.4076           24.4
+  published      cor_fe                Row 2 corrected: FE with year effects (Security Council absorbed)    -0.1011  -0.4076           24.8
+  published cor_row3_re Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample)    -0.1487  -0.3685           40.4
+  published cor_row3_fe                    Row 3 corrected: FE with year effects (Table 2 col. 4 sample)    -0.1975  -0.3685           53.6
+corrected_A      pub_re                             Row 1 as published: RE, no year effects, 7 variables    -0.1004  -0.4058           24.7
+corrected_A      pub_fe                            Row 2 as published: FE with year effects, 7 variables    -0.1018  -0.4058           25.1
+corrected_A pub_row3_fe              Row 3 as published (computed with FE, notebook sample), 7 variables    -0.1498  -0.3665           40.9
+corrected_A      cor_re                         Row 1 corrected: RE with year effects + Security Council    -0.0999  -0.4058           24.6
+corrected_A      cor_fe                Row 2 corrected: FE with year effects (Security Council absorbed)    -0.1018  -0.4058           25.1
+corrected_A cor_row3_re Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample)    -0.1255  -0.3670           34.2
+corrected_A cor_row3_fe                    Row 3 corrected: FE with year effects (Table 2 col. 4 sample)    -0.1492  -0.3670           40.6
+corrected_B      pub_re                             Row 1 as published: RE, no year effects, 7 variables    -0.1015  -0.4067           25.0
+corrected_B      pub_fe                            Row 2 as published: FE with year effects, 7 variables    -0.1029  -0.4067           25.3
+corrected_B pub_row3_fe              Row 3 as published (computed with FE, notebook sample), 7 variables    -0.1545  -0.3668           42.1
+corrected_B      cor_re                         Row 1 corrected: RE with year effects + Security Council    -0.1010  -0.4067           24.8
+corrected_B      cor_fe                Row 2 corrected: FE with year effects (Security Council absorbed)    -0.1029  -0.4067           25.3
+corrected_B cor_row3_re Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample)    -0.1282  -0.3674           34.9
+corrected_B cor_row3_fe                    Row 3 corrected: FE with year effects (Table 2 col. 4 sample)    -0.1538  -0.3674           41.9
+
+=== Explained part split by variable ===
+       data        spec  War fatalities  Occupying country  Human rights score  US military ally  Nuclear outside NPT  GDP per capita (log)  Population (log)   total Permanent SC member
+  published      pub_re         -0.0003            -0.0090             -0.0012            0.0018              -0.0931                0.0018            0.0002 -0.0998                    
+  published      pub_fe         -0.0003            -0.0117             -0.0016            0.0033              -0.0973                0.0043            0.0021 -0.1011                    
+  published pub_row3_fe          0.0003            -0.0031              0.0014            0.0190              -0.1870                0.0128           -0.0415 -0.1980                    
+  published      cor_re         -0.0003            -0.0087             -0.0013            0.0018              -0.0934                0.0012            0.0003 -0.0993               0.001
+  published      cor_fe         -0.0003            -0.0117             -0.0016            0.0033              -0.0973                0.0043            0.0021 -0.1011                 0.0
+  published cor_row3_re          0.0003            -0.0018              0.0015            0.0148              -0.1619               -0.0051           -0.0068 -0.1487              0.0102
+  published cor_row3_fe          0.0003            -0.0031              0.0013            0.0190              -0.1873                0.0129           -0.0407 -0.1975                 0.0
+corrected_A      pub_re         -0.0003            -0.0091             -0.0012            0.0018              -0.0936                0.0018            0.0002 -0.1004                    
+corrected_A      pub_fe         -0.0003            -0.0118             -0.0017            0.0034              -0.0978                0.0042            0.0021 -0.1018                    
+corrected_A pub_row3_fe          0.0003            -0.0037              0.0006            0.0191              -0.1398                0.0139           -0.0401 -0.1498                    
+corrected_A      cor_re         -0.0003            -0.0088             -0.0013            0.0019              -0.0939                0.0011            0.0004 -0.0999               0.001
+corrected_A      cor_fe         -0.0003            -0.0118             -0.0017            0.0034              -0.0978                0.0042            0.0021 -0.1018                 0.0
+corrected_A cor_row3_re          0.0003            -0.0024              0.0009            0.0150              -0.1409               -0.0033           -0.0043 -0.1255              0.0091
+corrected_A cor_row3_fe          0.0003            -0.0037              0.0006            0.0191              -0.1400                0.0140           -0.0394 -0.1492                 0.0
+corrected_B      pub_re         -0.0003            -0.0091             -0.0012            0.0018              -0.0948                0.0018            0.0002 -0.1015                    
+corrected_B      pub_fe         -0.0003            -0.0118             -0.0016            0.0034              -0.0991                0.0043            0.0021 -0.1029                    
+corrected_B pub_row3_fe          0.0003            -0.0038              0.0007            0.0190              -0.1435                0.0139           -0.0411 -0.1545                    
+corrected_B      cor_re         -0.0003            -0.0087             -0.0013            0.0019              -0.0951                0.0011            0.0003 -0.1010               0.001
+corrected_B      cor_fe         -0.0003            -0.0118             -0.0016            0.0034              -0.0991                0.0043            0.0021 -0.1029                 0.0
+corrected_B cor_row3_re          0.0003            -0.0026              0.0009            0.0151              -0.1431               -0.0033           -0.0050 -0.1282              0.0095
+corrected_B cor_row3_fe          0.0003            -0.0038              0.0007            0.0191              -0.1438                0.0139           -0.0403 -0.1538                 0.0
+
+=== F1 against UN Watch ===
+                       window                                             truth  resolutions  unwatch_israel  TP  FP  FN   TN  precision  recall    F1
+ 2015-2024 as in the notebook       UN Watch Country Concerned only (published)         2926             158 143  12  15 2756      0.923   0.905 0.914
+ 2015-2024 as in the notebook UN Watch Country Concerned AND Condemnatory = Yes         2926             149 136  19  13 2758      0.877   0.913 0.895
+2015-2023 as the paper states       UN Watch Country Concerned only (published)         2925             158 143  12  15 2755      0.923   0.905 0.914
+2015-2023 as the paper states UN Watch Country Concerned AND Condemnatory = Yes         2925             149 136  19  13 2757      0.877   0.913 0.895
+UN Watch rows with Country Concerned = Israel but Condemnatory not 'Yes': 9; GPT says Israel in 7 of them.
+   unres  year country Condemnatory
+R/78/121  2023  Israel           No
+ R/77/30  2022  Israel           No
+R/76/126  2021    None           No
+R/75/126  2020    None           No
+R/74/117  2019  Israel           No
+R/73/256  2018  Israel           No
+R/72/134  2017  Israel           No
+R/71/126  2016  Israel           No
+R/70/108  2015  Israel           No

@@ -1,0 +1,28 @@
+country,year,count_published,count_A,count_B
+Haiti,1994,3,2,2
+Israel,1984,24,25,25
+South Africa,1981,31,32,32
+South Africa,1982,29,31,31
+South Africa,1983,26,27,27
+South Africa,1984,23,24,24
+South Africa,1985,25,27,27
+South Africa,1986,25,26,26
+South Africa,1987,29,30,30
+South Africa,1988,33,34,34
+South Africa,1994,1,0,0
+United Kingdom,1983,1,2,2
+United Kingdom,1987,6,7,7
+United States,1982,3,4,4
+United States,1984,4,5,5
+Argentina,1983,0,1,1
+Argentina,1987,0,1,1
+Iran,1982,0,1,1
+Iraq,1982,0,1,1
+Namibia,1981,0,1,0
+Namibia,1982,0,1,0
+Namibia,1983,0,1,0
+Namibia,1984,0,1,0
+Namibia,1985,0,2,0
+Namibia,1986,0,1,0
+Namibia,1987,0,1,0
+Namibia,1988,0,1,0

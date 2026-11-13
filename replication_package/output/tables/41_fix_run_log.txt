@@ -1,0 +1,26 @@
+Card 41 fixes. Source JLEA_revision_full_tracked_v2.docx sha256 35a56d7763877c5d28c31a7aab81d7f499449bdb5d1df2e9883025fa75c744e0
+OK   intro: year of Israel's lowest share (1987 0.2651, 1995 0.2653): '27% in 1995' -> '27% in 1987 and 1995'
+OK   classifier: the 46 answers name two to five countries: 'two countries' -> 'more than one country'
+OK   UN Watch: condemnatory resolutions 2015-2023 in UN Watch's file: '248' -> '226'
+OK   Figure 1 text: UN Watch total (fixed merge): '149 UNGA resolutions UN Watch' -> '153 UNGA resolutions in the Voelsen et al database that UN Watch'
+OK   Figure 1 text: true positives: '136' -> '139'
+OK   Figure 1 text: false positives: '19' -> '16'
+OK   Figure 1 text: false negatives: '13' -> '14'
+OK   multiclass weighted F1 (fixed merge, Condemnatory = Yes): '.94' -> '.95'
+OK   Israel's share above 50 percent in 2002-2011: '2003-2013' -> '2002-2011'
+OK   South Africa's share 1981-1989: '30% to 40%' -> '34% to 42%'
+OK   South Africa 1981-1989 mean 0.378 against Israel 0.311: 'just slightly higher' -> 'higher'
+OK   GDP per capita is WDI current US$ (Table 1 label): '2022 dollars' -> 'current dollars'
+OK   Table 2 col. 1 significance: 'only the human rights score is statistically significant at the 95% level.' -> 'none of the three is statistically significant at the 95% level (the human rights score is significant at the 90% level).'
+OK   Table 2: US military ally never significant: 'only statistically significant for the fixed effects regression' -> 'not statistically significant in any specification'
+OK   Israel's human rights score ranges 33.0 to 56.2: '20 points' -> '23 points'
+OK   bootstrap paragraph: F2 is a separate run from Table 3: 'Resampling countries and years jointly gives virtually identical standard errors (0.102 against 0.103 for the random effects specification), while resampling years alone understates them' -> 'In a separate set of 500 replications, resampling countries and years jointly gives virtually the same standard error as resampling countries alone (0.102 against 0.103 for the random effects specification), while resampling years alone understates it'
+OK   bootstrap paragraph: reasons for failed replications (19_table3_bootstrap_failures.csv): 'the sample contains no country with nuclear weapons outside the NPT, or no country whose occupation status changes,' -> 'a regressor does not vary in the drawn sample, most often because it contains no country with nuclear weapons outside the NPT (random effects) or no country whose occupation status changes (fixed effects),'
+OK   Table 4 note: largest RE/FE difference 1.2 points (+ EPR, as estimated): 'one percentage point' -> '1.2 percentage points'
+OK   Table 2 col. 4 discussion, sentence 1: 'Specifically, a country’s human rights score becomes a statistically and substantively more important predictor or UNGA criticism.' -> 'In particular, war fatalities become a statistically significant predictor of criticism, while the human rights score is no longer statistically significant.'
+OK   Table 2 col. 4 discussion, sentence 2 (2.5 points): deleted ' A country in the 25th percentile of human rights score shou'...
+OK   Appendix Table F2 note: appended ' These replications are drawn separately from those of Table 3, so the rows that resample countries differ slightly from Table 3 (for example, a standard error of 0.103 against 0.108 for random effects).'
+OK   Appendix Table E2 note: appended ' The share here divides by the number of resolutions classified as critical; the share in the text, Table 1 and the regressions divides by the sum of all countries’ counts, in which a resolution criticizing more than one country counts for each, so the two can differ slightly.'
+OK   Table 2 R-squared, Israel only: '0.317' -> '0.328'
+OK   Figure 1 replaced (old image rId9 tracked as deleted, new image rId941 inserted)
+written JLEA_revision_full_tracked_v3.docx; date of the new changes 2026-11-08T13:08:44Z; skipped: none

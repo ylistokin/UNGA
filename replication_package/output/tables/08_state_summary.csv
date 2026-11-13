@@ -1,0 +1,13 @@
+state,cases,n_years,first,last,total_critical_res,mean_count_per_year,mean_share,years_zero_criticism
+Israel,israel_opt; israel_apartheid,43,1981,2023,836,19.44,0.411,0
+South Africa,southafrica_namibia; southafrica_apartheid,14,1981,1994,321,22.93,0.317,0
+United States of America,usa_nicaragua,6,1981,1986,26,4.33,0.06,0
+Rwanda,rwanda_genocide,1,1994,1994,2,2.0,0.043,0
+Russia,russia_ukraine; ussr_afghanistan; russia_crimea,19,1981,2023,21,1.11,0.023,10
+Morocco,morocco_wsahara,43,1981,2023,22,0.51,0.009,21
+Iraq,iraq_iran; iraq_kuwait,10,1981,1991,5,0.5,0.009,8
+Indonesia,indonesia_etimor,19,1981,1999,4,0.21,0.004,16
+Uganda,uganda_drc,6,1998,2003,0,0.0,0.0,6
+Eritrea,eritrea_badme,1,1998,1998,0,0.0,0.0,1
+Sudan,sudan_darfur,2,2003,2004,0,0.0,0.0,2
+Turkey,turkey_ncyprus,43,1981,2023,1,0.02,0.0,42

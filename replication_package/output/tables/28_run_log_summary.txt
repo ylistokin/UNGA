@@ -1,0 +1,7 @@
+Card 24 part 2: DeepSeek counts in the decomposition. Run 2026-10-29 12:58
+DeepSeek labels: 2659 resolution-country rows; names not in final_data (dropped): 0 rows, 0 names: {}
+
+=== Bootstrap with DeepSeek counts (500 rounds, countries, Israel fixed) ===
+spec variant  explained  overall  explained_pct  boot_se  ratio  rounds_ok  rounds_failed
+  FE   as is    -0.1034  -0.4174           24.8   0.0971  -1.06        422             78
+  RE   as is    -0.1014  -0.4174           24.3   0.0989  -1.03        468             32

@@ -1,0 +1,9 @@
+spec,model,explained,overall,explained_pct,n_other_rows,n_other_countries,dropped_no_variation
+others: democracies (V-Dem regime 2-3),RE,0.002,-0.4065,-0.5,3244,114,
+others: democracies (V-Dem regime 2-3),FE,0.0021,-0.4065,-0.5,3244,114,Occupying country
+others: non-democracies (V-Dem regime 0-1),RE,-0.0527,-0.4048,13.0,3594,132,
+others: non-democracies (V-Dem regime 0-1),FE,-0.0495,-0.4048,12.2,3594,132,
+"others: democracies, + KOF",RE,0.0013,-0.4065,-0.3,3226,113,
+"others: democracies, + KOF",FE,0.0002,-0.4065,-0.0,3226,113,Occupying country
+"others: non-democracies, + KOF",RE,-0.0494,-0.4049,12.2,3576,129,
+"others: non-democracies, + KOF",FE,-0.0443,-0.4049,10.9,3576,129,

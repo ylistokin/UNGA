@@ -1,0 +1,86 @@
+Resolutions with both labels: 14046 (of 14,095 in the corpus)
+Exact agreement on the label: 0.944
+Both say no country criticised: 0.805; both name a country: 0.143; GPT names a country and DeepSeek does not: 0.008; the reverse: 0.044
+Among resolutions where both name a country, same country: 0.974
+Israel: GPT 837, DeepSeek 1061, both 837, DeepSeek only 224, GPT only 0; F1 of DeepSeek against GPT as reference 0.882
+
+Israel's share of critical resolutions by year, GPT vs DeepSeek:
+      gpt_crit  ds_crit  gpt_israel  ds_israel  gpt_israel_share  ds_israel_share
+year                                                                             
+1981        77       87          25         31             0.325            0.356
+1982        78       95          27         37             0.346            0.389
+1983        71       86          27         31             0.380            0.360
+1984        69       79          25         30             0.362            0.380
+1985        76       87          24         31             0.316            0.356
+1986        72       85          21         27             0.292            0.318
+1987        81       97          22         29             0.272            0.299
+1988        81       99          22         31             0.272            0.313
+1989        80       95          22         31             0.275            0.326
+1990        72       85          22         29             0.306            0.341
+1991        56       68          23         29             0.411            0.426
+1992        66       77          22         25             0.333            0.325
+1993        63       91          17         23             0.270            0.253
+1994        47       70          13         21             0.277            0.300
+1995        46       61          13         21             0.283            0.344
+1996        42       59          15         22             0.357            0.373
+1997        47       59          20         26             0.426            0.441
+1998        36       55          16         25             0.444            0.455
+1999        40       55          16         24             0.400            0.436
+2000        39       51          18         26             0.462            0.510
+2001        39       57          18         26             0.462            0.456
+2002        36       48          20         26             0.556            0.542
+2003        35       47          21         27             0.600            0.574
+2004        33       42          20         24             0.606            0.571
+2005        33       55          20         24             0.606            0.436
+2006        38       40          22         25             0.579            0.625
+2007        31       39          20         22             0.645            0.564
+2008        30       38          18         21             0.600            0.553
+2009        32       45          19         24             0.594            0.533
+2010        33       39          19         24             0.576            0.615
+2011        32       43          19         22             0.594            0.512
+2012        33       40          19         23             0.576            0.575
+2013        36       42          18         22             0.500            0.524
+2014        37       44          19         22             0.514            0.500
+2015        45       52          19         23             0.422            0.442
+2016        39       55          19         23             0.487            0.418
+2017        48       51          20         23             0.417            0.451
+2018        51       54          21         22             0.412            0.407
+2019        46       51          17         20             0.370            0.392
+2020        41       54          15         19             0.366            0.352
+2021        48       49          14         16             0.292            0.327
+2022        49       52          16         18             0.327            0.346
+2023        46       52          14         16             0.304            0.308
+2024         0        0           0          0               NaN              NaN
+
+Mean Israel share 1981-2023: GPT 0.424, DeepSeek 0.426
+
+Top 25 countries by number of critical resolutions, GPT vs DeepSeek:
+                                  gpt  deepseek  diff
+Israel                            837      1059   222
+South Africa                      331       392    61
+United States                     171       194    23
+United Kingdom                    122       119    -3
+North Korea                        74        81     7
+France                             55        73    18
+Afghanistan                        42        74    32
+Iran                               39        40     1
+Haiti                              35        37     2
+Sudan                              34        32    -2
+Syria                              34        36     2
+Myanmar                            33        33     0
+Serbia                             32        31    -1
+Somalia                            31        23    -8
+Iraq                               26        30     4
+Russia                             26        29     3
+Morocco                            22        45    23
+Georgia                            18        21     3
+Guatemala                          16        22     6
+Democratic Republic of the Congo   15        10    -5
+Liberia                            14        13    -1
+Ethiopia                           13         9    -4
+Cambodia                           13        19     6
+El Salvador                        12        16     4
+Comoros                            11         1   -10
+
+Disagreements saved: 783 rows -> output/tables/24_disagreements.csv
+Tokens: 23.3M in, 0.02M out; cost between $15.4 (off-peak) and $30.8 (peak)

@@ -1,0 +1,22 @@
+data,spec,label,explained,overall,explained_pct
+published,pub_re,"Row 1 as published: RE, no year effects, 7 variables",-0.0998,-0.4076,24.5
+published,pub_fe,"Row 2 as published: FE with year effects, 7 variables",-0.1011,-0.4076,24.8
+published,pub_row3_fe,"Row 3 as published (computed with FE, notebook sample), 7 variables",-0.198,-0.3679,53.8
+published,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.0993,-0.4076,24.4
+published,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1011,-0.4076,24.8
+published,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1487,-0.3685,40.4
+published,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1975,-0.3685,53.6
+corrected_A,pub_re,"Row 1 as published: RE, no year effects, 7 variables",-0.1004,-0.4058,24.7
+corrected_A,pub_fe,"Row 2 as published: FE with year effects, 7 variables",-0.1018,-0.4058,25.1
+corrected_A,pub_row3_fe,"Row 3 as published (computed with FE, notebook sample), 7 variables",-0.1498,-0.3665,40.9
+corrected_A,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.0999,-0.4058,24.6
+corrected_A,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1018,-0.4058,25.1
+corrected_A,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1255,-0.367,34.2
+corrected_A,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1492,-0.367,40.6
+corrected_B,pub_re,"Row 1 as published: RE, no year effects, 7 variables",-0.1015,-0.4067,25.0
+corrected_B,pub_fe,"Row 2 as published: FE with year effects, 7 variables",-0.1029,-0.4067,25.3
+corrected_B,pub_row3_fe,"Row 3 as published (computed with FE, notebook sample), 7 variables",-0.1545,-0.3668,42.1
+corrected_B,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.101,-0.4067,24.8
+corrected_B,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1029,-0.4067,25.3
+corrected_B,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1282,-0.3674,34.9
+corrected_B,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1538,-0.3674,41.9

@@ -1,0 +1,16 @@
+data,spec,label,explained,overall,boot_se,ratio_to_se,pct2_5,pct97_5,rounds_ok,rounds_failed
+corrected_A,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1018,-0.4058,0.1093,-0.93,-0.3643,0.0083,416,84
+corrected_A,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.0999,-0.4058,0.1085,-0.92,-0.3623,0.0047,473,27
+corrected_A,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1492,-0.367,0.0258,-5.77,-0.1971,-0.0932,249,251
+corrected_A,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1255,-0.367,0.1292,-0.97,-0.3653,0.0317,461,39
+corrected_B,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1029,-0.4067,0.1107,-0.93,-0.3694,0.0087,416,84
+corrected_B,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.101,-0.4067,0.1099,-0.92,-0.3666,0.0049,473,27
+corrected_B,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1538,-0.3674,0.0276,-5.58,-0.207,-0.0971,225,275
+corrected_B,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1282,-0.3674,0.1341,-0.96,-0.3577,0.0328,458,42
+published,cor_fe,Row 2 corrected: FE with year effects (Security Council absorbed),-0.1011,-0.4076,0.1088,-0.93,-0.3628,0.0088,416,84
+published,cor_re,Row 1 corrected: RE with year effects + Security Council,-0.0993,-0.4076,0.1079,-0.92,-0.3603,0.005,473,27
+published,cor_row3_fe,Row 3 corrected: FE with year effects (Table 2 col. 4 sample),-0.1975,-0.3685,0.0296,-6.66,-0.2561,-0.1367,225,275
+published,cor_row3_re,Row 3 corrected: RE with year effects + Security Council (Table 2 col. 4 sample),-0.1487,-0.3685,0.1314,-1.13,-0.3517,0.033,458,42
+published,pub_fe,"Row 2 as published: FE with year effects, 7 variables",-0.1011,-0.4076,0.1088,-0.93,-0.3628,0.0088,416,84
+published,pub_re,"Row 1 as published: RE, no year effects, 7 variables",-0.0998,-0.4076,0.1068,-0.93,-0.363,0.0026,476,24
+published,pub_row3_fe,"Row 3 as published (computed with FE, notebook sample), 7 variables",-0.198,-0.3679,0.0308,-6.42,-0.2559,-0.1278,231,269

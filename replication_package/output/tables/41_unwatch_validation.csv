@@ -1,0 +1,7 @@
+task,truth,unwatch_condemning,TP,FP,FN,TN,F1
+Israel,"as in the manuscript (merged columns, Condemnatory = Yes, exact 'Israel')",149.0,136.0,19.0,13.0,2757.0,0.8947
+Israel,"fixed merge, Condemnatory = Yes, exact 'Israel'",152.0,138.0,17.0,14.0,2756.0,0.899
+Israel,"fixed merge, Condemnatory = Yes, names Israel (incl. 'Israel, United States')",153.0,139.0,16.0,14.0,2756.0,0.9026
+all countries (weighted F1),"multiclass, as in the manuscript's data with Condemnatory = Yes",,,,,,0.9459
+all countries (weighted F1),"multiclass, merged columns, no Condemnatory flag (the published .94)",,,,,,0.9428
+all countries (weighted F1),"multiclass, fixed merge, Condemnatory = Yes",,,,,,0.948

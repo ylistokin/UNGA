@@ -1,0 +1,26 @@
+case_id,list,category,state,years,n_years,total_critical_res,mean_count_per_year,mean_share,years_zero_criticism,israel_same_years_mean_count,israel_same_years_mean_share,basis
+rwanda_genocide,core,genocide / crimes against humanity,Rwanda,1994-1994,1,2,2.0,0.045,0,13.0,0.295,ICTR judgments
+sudan_darfur,core,genocide / crimes against humanity,Sudan,2003-2004,2,0,0.0,0.0,2,20.5,0.587,"ICC verdict, Abd-Al-Rahman, Oct 2025 (crimes against humanity)"
+iraq_anfal,core,genocide / crimes against humanity,Iraq,1988-1988,1,0,0.0,0.0,1,22.0,0.268,Trahan 2009 (moved from contested; year corrected to 1988)
+guatemala_maya,core,genocide / crimes against humanity,Guatemala,1981-1983,3,2,0.67,0.009,1,26.33,0.346,Brett 2016 (moved from contested)
+usa_nicaragua,core,use of force,United States of America,1981-1985,5,21,4.2,0.056,0,25.6,0.34,"ICJ Nicaragua v. US, 1986 (fact window 1981-1985)"
+iraq_kuwait,core,use of force,Iraq,1990-1991,2,5,2.5,0.043,0,22.5,0.358,O'Connell 1991
+eritrea_badme,core,use of force,Eritrea,1998-1998,1,0,0.0,0.0,1,16.0,0.432,"Eritrea-Ethiopia Claims Commission, 2005"
+uganda_drc,core,use of force,Uganda,1998-2003,6,0,0.0,0.0,6,18.17,0.474,"ICJ Armed Activities, 2005"
+russia_ukraine,core,use of force,Russia,2014-2023,10,21,2.1,0.043,1,17.4,0.376,ECtHR 2024 and 2025; literature on the force question
+israel_opt,core,occupation / annexation,Israel,1981-2023,43,837,19.47,0.409,0,19.47,0.409,ICJ advisory opinions 2004 and 2024
+morocco_wsahara,core,occupation / annexation,Morocco,1981-2023,43,22,0.51,0.009,21,19.47,0.409,ICJ advisory opinion 1975; CJEU 2024
+turkey_ncyprus,core,occupation / annexation,Turkey,1981-2023,43,1,0.02,0.0,42,19.47,0.409,"ECtHR Loizidou 1996, Cyprus v. Turkey 2001"
+indonesia_etimor,core,occupation / annexation,Indonesia,1981-1999,19,4,0.21,0.004,16,20.63,0.327,Clark 1980; ICJ East Timor 1995
+southafrica_namibia,core,occupation / annexation,South Africa,1981-1990,10,289,28.9,0.376,0,23.7,0.31,ICJ Namibia advisory opinion 1971
+ussr_afghanistan,core,occupation / annexation,Russia,1981-1989,9,0,0.0,0.0,9,23.89,0.311,"Terry 2011 (Soviet Union, recorded under Russia)"
+russia_crimea,core,occupation / annexation,Russia,2014-2023,10,21,2.1,0.043,1,17.4,0.376,"ECtHR Ukraine v. Russia (re Crimea), 2024"
+southafrica_apartheid,core,apartheid,South Africa,1981-1994,14,330,23.57,0.317,1,22.29,0.315,Dubow 2014; universal
+israel_apartheid,core,apartheid,Israel,1981-2023,43,837,19.47,0.409,0,19.47,0.409,Matanel's decision (strict coding); ICJ 2024 CERD art. 3
+iraq_iran,contested,use of force,Iraq,1981-1988,8,1,0.12,0.002,7,24.12,0.315,no scholarly source found (moved from core)
+syria_detention,contested,genocide / crimes against humanity,Syria,2011-2023,13,34,2.62,0.059,0,17.69,0.406,national court only
+myanmar_rohingya,contested,genocide / crimes against humanity,Myanmar,2016-2017,2,1,0.5,0.01,1,19.5,0.452,ICJ judgment pending
+usa_iraq2003,contested,use of force,United States of America,2003-2003,1,2,2.0,0.054,0,21.0,0.568,Murphy 2004: scholarly opinion divided
+uk_iraq2003,contested,use of force,United Kingdom,2003-2003,1,0,0.0,0.0,1,21.0,0.568,scholarly opinion divided
+armenia_karabakh,contested,occupation / annexation,Armenia,1992-2020,29,1,0.03,0.001,28,18.38,0.455,ECtHR Chiragov 2015; framing disputed
+vietnam_cambodia,contested,occupation / annexation,Vietnam,1981-1989,9,0,0.0,0.0,9,23.89,0.311,scholarly opinion divided

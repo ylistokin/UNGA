@@ -1,0 +1,13 @@
+variable,RE,FE
+War fatalities,0.0006* (0.0003),0.0006* (0.0003)
+Occupying country,0.0062** (0.0026),0.0095** (0.0040)
+Human rights score,-0.0001** (0.0000),-0.0001* (0.0000)
+US military ally,-0.0017 (0.0029),-0.0034 (0.0035)
+Nuclear outside NPT,0.1002 (0.0823),0.1010 (0.0815)
+GDP per capita (log),0.0003 (0.0012),-0.0015 (0.0011)
+Population (log),-0.0012 (0.0008),-0.0058 (0.0040)
+Permanent SC member,0.0268** (0.0134),absorbed
+EPR discrimination (yes/no),0.0040 (0.0027),0.0045 (0.0031)
+First use of force (yes/no),0.0031* (0.0018),0.0030* (0.0018)
+Liberal democracy (V-Dem),-0.0125 (0.0092),-0.0188 (0.0123)
+N,5199,5199

@@ -1,0 +1,150 @@
+Card 22: Referee 2 package. Run 2026-10-29 12:07
+
+=== Part A. Combined model, point estimates ===
+                                             spec                  variant model  explained  overall  explained_pct  n_other_rows
+                               baseline 1981-2023                    as is    RE    -0.1002  -0.4060           24.7          7721
+                               baseline 1981-2023                    as is    FE    -0.1020  -0.4060           25.1          7721
+                               baseline 1981-2023     without South Africa    RE    -0.0072  -0.4066            1.8          7678
+                               baseline 1981-2023     without South Africa    FE    -0.0077  -0.4066            1.9          7678
+                               baseline 1981-2023 without nuclear variable    RE    -0.0082  -0.4060            2.0          7721
+                               baseline 1981-2023 without nuclear variable    FE    -0.0079  -0.4060            2.0          7721
+                               baseline 1981-2023             without both    RE    -0.0050  -0.4066            1.2          7678
+                               baseline 1981-2023             without both    FE    -0.0044  -0.4066            1.1          7678
+                             + EPR discrimination                    as is    RE    -0.1021  -0.4057           25.2          6826
+                             + EPR discrimination                    as is    FE    -0.1071  -0.4057           26.4          6826
+                             + EPR discrimination     without South Africa    RE    -0.0074  -0.4063            1.8          6783
+                             + EPR discrimination     without South Africa    FE    -0.0101  -0.4063            2.5          6783
+                             + EPR discrimination without nuclear variable    RE    -0.0111  -0.4057            2.7          6826
+                             + EPR discrimination without nuclear variable    FE    -0.0146  -0.4057            3.6          6826
+                             + EPR discrimination             without both    RE    -0.0050  -0.4063            1.2          6783
+                             + EPR discrimination             without both    FE    -0.0068  -0.4063            1.7          6783
+                              + liberal democracy                    as is    RE    -0.0970  -0.4056           23.9          6817
+                              + liberal democracy                    as is    FE    -0.0984  -0.4056           24.3          6817
+                              + liberal democracy     without South Africa    RE    -0.0068  -0.4063            1.7          6774
+                              + liberal democracy     without South Africa    FE    -0.0083  -0.4063            2.0          6774
+                              + liberal democracy without nuclear variable    RE    -0.0043  -0.4056            1.1          6817
+                              + liberal democracy without nuclear variable    FE    -0.0030  -0.4056            0.7          6817
+                              + liberal democracy             without both    RE    -0.0044  -0.4063            1.1          6774
+                              + liberal democracy             without both    FE    -0.0050  -0.4063            1.2          6774
+                    + EPR + democracy (1981-2023)                    as is    RE    -0.0985  -0.4056           24.3          6677
+                    + EPR + democracy (1981-2023)                    as is    FE    -0.1007  -0.4056           24.8          6677
+                    + EPR + democracy (1981-2023)     without South Africa    RE    -0.0070  -0.4063            1.7          6634
+                    + EPR + democracy (1981-2023)     without South Africa    FE    -0.0091  -0.4063            2.2          6634
+                    + EPR + democracy (1981-2023) without nuclear variable    RE    -0.0072  -0.4056            1.8          6677
+                    + EPR + democracy (1981-2023) without nuclear variable    FE    -0.0073  -0.4056            1.8          6677
+                    + EPR + democracy (1981-2023)             without both    RE    -0.0046  -0.4063            1.1          6634
+                    + EPR + democracy (1981-2023)             without both    FE    -0.0058  -0.4063            1.4          6634
+                               baseline 1981-2014                    as is    RE    -0.1075  -0.4172           25.8          6032
+                               baseline 1981-2014                    as is    FE    -0.1082  -0.4172           25.9          6032
+                               baseline 1981-2014     without South Africa    RE    -0.0058  -0.4179            1.4          5998
+                               baseline 1981-2014     without South Africa    FE    -0.0061  -0.4179            1.5          5998
+                               baseline 1981-2014 without nuclear variable    RE    -0.0093  -0.4172            2.2          6032
+                               baseline 1981-2014 without nuclear variable    FE    -0.0105  -0.4172            2.5          6032
+                               baseline 1981-2014             without both    RE    -0.0031  -0.4179            0.7          5998
+                               baseline 1981-2014             without both    FE    -0.0027  -0.4179            0.6          5998
+                 + first use of force (1981-2014)                    as is    RE    -0.1079  -0.4172           25.9          6032
+                 + first use of force (1981-2014)                    as is    FE    -0.1086  -0.4172           26.0          6032
+                 + first use of force (1981-2014)     without South Africa    RE    -0.0060  -0.4179            1.4          5998
+                 + first use of force (1981-2014)     without South Africa    FE    -0.0063  -0.4179            1.5          5998
+                 + first use of force (1981-2014) without nuclear variable    RE    -0.0100  -0.4172            2.4          6032
+                 + first use of force (1981-2014) without nuclear variable    FE    -0.0112  -0.4172            2.7          6032
+                 + first use of force (1981-2014)             without both    RE    -0.0033  -0.4179            0.8          5998
+                 + first use of force (1981-2014)             without both    FE    -0.0028  -0.4179            0.7          5998
+combined: EPR + first use + democracy (1981-2014)                    as is    RE    -0.1057  -0.4167           25.4          5199
+combined: EPR + first use + democracy (1981-2014)                    as is    FE    -0.1057  -0.4167           25.4          5199
+combined: EPR + first use + democracy (1981-2014)     without South Africa    RE    -0.0056  -0.4175            1.3          5165
+combined: EPR + first use + democracy (1981-2014)     without South Africa    FE    -0.0061  -0.4175            1.5          5165
+combined: EPR + first use + democracy (1981-2014) without nuclear variable    RE    -0.0087  -0.4167            2.1          5199
+combined: EPR + first use + democracy (1981-2014) without nuclear variable    FE    -0.0087  -0.4167            2.1          5199
+combined: EPR + first use + democracy (1981-2014)             without both    RE    -0.0028  -0.4175            0.7          5165
+combined: EPR + first use + democracy (1981-2014)             without both    FE    -0.0026  -0.4175            0.6          5165
+
+Coefficients, combined model 1981-2014 (others only):
+                   variable                 RE                FE
+             War fatalities   0.0006* (0.0003)  0.0006* (0.0003)
+          Occupying country  0.0062** (0.0026) 0.0095** (0.0040)
+         Human rights score -0.0001** (0.0000) -0.0001* (0.0000)
+           US military ally   -0.0017 (0.0029)  -0.0034 (0.0035)
+        Nuclear outside NPT    0.1002 (0.0823)   0.1010 (0.0815)
+       GDP per capita (log)    0.0003 (0.0012)  -0.0015 (0.0011)
+           Population (log)   -0.0012 (0.0008)  -0.0058 (0.0040)
+        Permanent SC member  0.0268** (0.0134)          absorbed
+EPR discrimination (yes/no)    0.0040 (0.0027)   0.0045 (0.0031)
+First use of force (yes/no)   0.0031* (0.0018)  0.0030* (0.0018)
+  Liberal democracy (V-Dem)   -0.0125 (0.0092)  -0.0188 (0.0123)
+                          N               5199              5199
+                   variable  israel  others
+EPR discrimination (yes/no)   1.000   0.246
+First use of force (yes/no)   0.559   0.104
+  Liberal democracy (V-Dem)   0.683   0.370
+        Nuclear outside NPT   1.000   0.008
+          Occupying country   1.000   0.020
+
+=== Part B. Israel and South Africa, 1981-1993 ===
+country                                              Israel South Africa
+years                                             1981-1993    1981-1993
+critical resolutions per year (corrected counts)       23.0         25.4
+mean share                                            0.317        0.341
+resolutions read per year (memo 14)                    23.0         25.4
+accusing the state, per year                           21.9         22.6
+racial discrimination or apartheid, strict              0.0         21.5
+racial discrimination or apartheid, broad               0.0         21.5
+occupation, annexation, self-determination             18.9          7.0
+use of force against another state                      4.2         10.1
+international crimes, strict                            1.0          3.5
+international crimes, broad                             1.0          3.5
+nuclear                                                 2.7          3.3
+torture, slavery                                        0.9          1.7
+human rights score (mean)                         48.799999         29.9
+war fatalities (mean)                                1834.0       2675.0
+Figure saved: output/figures/22_israel_southafrica_shares.png. Peak shares: Israel 0.625 (2007), South Africa 0.416 (1981). South Africa 1981-1993 mean share 0.341, Israel same years 0.317; South Africa 1994-2023 mean 0.0000.
+
+=== Part C. Case list (corrected dates, corrected counts) ===
+              case_id      list                    state     years  n_years  total_critical_res  mean_count_per_year  mean_share  years_zero_criticism  israel_same_years_mean_count  israel_same_years_mean_share
+      rwanda_genocide      core                   Rwanda 1994-1994        1                   2                 2.00       0.045                     0                         13.00                         0.295
+         sudan_darfur      core                    Sudan 2003-2004        2                   0                 0.00       0.000                     2                         20.50                         0.587
+           iraq_anfal      core                     Iraq 1988-1988        1                   0                 0.00       0.000                     1                         22.00                         0.268
+       guatemala_maya      core                Guatemala 1981-1983        3                   2                 0.67       0.009                     1                         26.33                         0.346
+        usa_nicaragua      core United States of America 1981-1985        5                  21                 4.20       0.056                     0                         25.60                         0.340
+          iraq_kuwait      core                     Iraq 1990-1991        2                   5                 2.50       0.043                     0                         22.50                         0.358
+        eritrea_badme      core                  Eritrea 1998-1998        1                   0                 0.00       0.000                     1                         16.00                         0.432
+           uganda_drc      core                   Uganda 1998-2003        6                   0                 0.00       0.000                     6                         18.17                         0.474
+       russia_ukraine      core                   Russia 2014-2023       10                  21                 2.10       0.043                     1                         17.40                         0.376
+           israel_opt      core                   Israel 1981-2023       43                 837                19.47       0.409                     0                         19.47                         0.409
+      morocco_wsahara      core                  Morocco 1981-2023       43                  22                 0.51       0.009                    21                         19.47                         0.409
+       turkey_ncyprus      core                   Turkey 1981-2023       43                   1                 0.02       0.000                    42                         19.47                         0.409
+     indonesia_etimor      core                Indonesia 1981-1999       19                   4                 0.21       0.004                    16                         20.63                         0.327
+  southafrica_namibia      core             South Africa 1981-1990       10                 289                28.90       0.376                     0                         23.70                         0.310
+     ussr_afghanistan      core                   Russia 1981-1989        9                   0                 0.00       0.000                     9                         23.89                         0.311
+        russia_crimea      core                   Russia 2014-2023       10                  21                 2.10       0.043                     1                         17.40                         0.376
+southafrica_apartheid      core             South Africa 1981-1994       14                 330                23.57       0.317                     1                         22.29                         0.315
+     israel_apartheid      core                   Israel 1981-2023       43                 837                19.47       0.409                     0                         19.47                         0.409
+            iraq_iran contested                     Iraq 1981-1988        8                   1                 0.12       0.002                     7                         24.12                         0.315
+      syria_detention contested                    Syria 2011-2023       13                  34                 2.62       0.059                     0                         17.69                         0.406
+     myanmar_rohingya contested                  Myanmar 2016-2017        2                   1                 0.50       0.010                     1                         19.50                         0.452
+         usa_iraq2003 contested United States of America 2003-2003        1                   2                 2.00       0.054                     0                         21.00                         0.568
+          uk_iraq2003 contested           United Kingdom 2003-2003        1                   0                 0.00       0.000                     1                         21.00                         0.568
+     armenia_karabakh contested                  Armenia 1992-2020       29                   1                 0.03       0.001                    28                         18.38                         0.455
+     vietnam_cambodia contested                  Vietnam 1981-1989        9                   0                 0.00       0.000                     9                         23.89                         0.311
+
+=== Part D. What the accusations are about (share of accusing resolutions) ===
+                   gpt_rows  accused  share_accused  gpt_errors racial/apartheid, strict racial/apartheid, broad occupation use of force crimes, strict crimes, broad   nuclear torture/slavery other only
+group                                                                                                                                                                                                     
+Israel                  837      714          0.853           1                   0 (0%)                 14 (2%)  591 (83%)      56 (8%)        46 (6%)       60 (8%)   67 (9%)         32 (4%)    53 (7%)
+South Africa            331      294          0.888          11                280 (95%)               280 (95%)   91 (31%)    131 (45%)       45 (15%)      45 (15%)  43 (15%)         22 (7%)     3 (1%)
+Comparison states       514      275          0.535         152                 63 (23%)                63 (23%)   35 (13%)      22 (8%)       38 (14%)      59 (21%)   19 (7%)       166 (60%)   36 (13%)
+Israel rows counted as racial/apartheid under the broad reading: 14, years [np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022), np.int64(2023)]
+
+=== Part E. Criticism without naming the violator, 1981-1993 (memo 08 topic check) ===
+            case_id     years  topic_resolutions  topic_res_per_year  text_names_violator                                              gpt_labels  israel_named_per_year_same_years
+   ussr_afghanistan 1981-1989                  9                1.00                    1                                                 None: 9                             23.78
+   vietnam_cambodia 1981-1989                  9                1.00                    0                                    None: 7; Cambodia: 2                             23.78
+     turkey_ncyprus 1981-1993                  4                0.31                    0                                      None: 3; Turkey: 1                             22.92
+   indonesia_etimor 1981-1993                  2                0.15                    2                                            Indonesia: 2                             22.92
+          iraq_iran 1981-1988                  1                0.12                    1                                           Iran, Iraq: 1                             24.00
+    morocco_wsahara 1981-1993                 14                1.08                   13                                    Morocco: 13; None: 1                             22.92
+southafrica_namibia 1981-1990                 50                5.00                   48 South Africa: 37; None: 11; South Africa and Namibia: 2                             23.60
+  named critical resolutions per year 1981-1993, Afghanistan (USSR): 0.08
+  named critical resolutions per year 1981-1993, Vietnam: 0.00
+  named critical resolutions per year 1981-1993, Turkey: 0.08
+  named critical resolutions per year 1981-1993, Israel: 23.00
